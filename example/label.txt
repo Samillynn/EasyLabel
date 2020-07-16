@@ -1,0 +1,20 @@
+~~~~~~~ video_name.mp4 ~~~~~~~~~~
+(VIEW)3
+(TIME) 
+
+What is the color of the car? d
+red
++green
+purple
+
+
+What is the type of that car? d
+@2
++a
+
+
+~~~~~~~ another.mp4 ~~~~~~~~~~
+(VIEW) 3
+(TIME) 3,5
+#1
++c

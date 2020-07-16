@@ -1,0 +1,17 @@
+@1
+red
+green
+blue
+yellow
+
+@2
+samill is drunk
+
+@3
+lynn is drunk
+
+@4
+bad whether condition
+driving too fast
+
+
