@@ -6,26 +6,31 @@ def expand(videoinfo_dict, option_lst, question_lst):
         q_lst = video_info['questions']
         for q in q_lst:
             
-            ### expand the type
-            q_type = q['type']
-            if (q_type == '1' or q_type == 'd' or q_type == 'D'):
-                q['type'] = 'Descriptive'
-            elif (q_type == '2' or q_type == 'e' or q_type == 'E'):
-                q['type'] = 'Explanatory'
-            elif (q_type == '3' or q_type == 'p' or q_type == 'P'):
-                q['type'] = 'Predictive'
-            elif (q_type == '4' or q_type == 'r' or q_type == 'R'):
-                q['type'] = 'Reverse Inference'
-            elif (q_type == '5' or q_type == 'c' or q_type == 'C'):
-                q['type'] = 'Counterfactual'
-            elif (q_type == '6' or q_type == 'i' or q_type == 'I'):
-                q['type'] = 'Introspection'
-                
-            ### expand the question
+             ### expand the question
             q_question = q['question']
             if (q_question[0] == '#'):
-                q['question'] = question_lst[int(q_question[1:])-1]
-            
+                question = question_lst[int(q_question[1:])-1]
+                q_type = question[-1]
+                q['question'] = question[0:-1]
+            else:
+                q_type = q_question[-1]
+                q['question'] = q['question'][0:-1]
+                
+            ### expand the type
+            if (q_type == '1' or q_type == 'd' or q_type == 'D'):
+                q_type = 'Descriptive'
+            elif (q_type == '2' or q_type == 'e' or q_type == 'E'):
+                q_type = 'Explanatory'
+            elif (q_type == '3' or q_type == 'p' or q_type == 'P'):
+                q_type = 'Predictive'
+            elif (q_type == '4' or q_type == 'r' or q_type == 'R'):
+                q_type = 'Reverse Inference'
+            elif (q_type == '5' or q_type == 'c' or q_type == 'C'):
+                q_type = 'Counterfactual'
+            elif (q_type == '6' or q_type == 'i' or q_type == 'I'):
+                q_type = 'Introspection'
+            q['type'] = q_type
+                
             ### expand the option
             q_option = q['options']
             q_options = []
@@ -37,13 +42,14 @@ def expand(videoinfo_dict, option_lst, question_lst):
             q['options'] = q_options
     return videoinfo_dict
 
-def write_outfile(expand_dict, outfile_path):
+def write_outfile(expand_dict, outfile_path, json_out):
     outfile = open(outfile_path, 'w')
+    outjson = open(json_out, 'w')
     for video in expand_dict:
         video_name = expand_dict[video]
         time = video_name['time']
         view = video_name['view']
-        out = f'~~~~~~{video}~~~~~~ (TIME):{time} (VIEW):{view}  '
+        out = f'~~~~~~{video}~~~~~~ (TIME): {time} (VIEW): {view}  '
         out = out.replace(' ','\n')
         outfile.write(out)
         
@@ -51,13 +57,10 @@ def write_outfile(expand_dict, outfile_path):
         for q in questions:
             q_type = q['type']
             q_question = q['question']
-            out = f'Type:{q_type} '
+            out = f'Type: {q_type} '
             out = out.replace(' ','\n')
             outfile.write(out)
-            out = f'Ques:{q_question} '
-            outfile.write(out)
-            out = ' '
-            out = out.replace(' ','\n')
+            out = f'Ques: {q_question}\n'
             outfile.write(out)
             
             q_options = q['options']
@@ -72,16 +75,17 @@ def write_outfile(expand_dict, outfile_path):
             out = f'{q_answer}  '
             out = out.replace(' ','\n')
             outfile.write(out)
+    outjson.write(json.dumps(expand_dict, indent = 4, separators = (', ',': ')))
        
     
 
-q1 = {'question':'is lynn drunk','options':['Yes','@3'],'answer':'A','type':'d'}
-q2 = {'question':'is samill drunk','options':['@1','@3'],'answer':'C','type':'E'}
+q1 = {'question':'is lynn drunk?d','options':['Yes','@3'],'answer':'A'}
+q2 = {'question':'is samill drunk?e','options':['@1','@3'],'answer':'C','type':'E'}
 q3 = {'question':'#1','options':['@2','purple'],'answer':'A','type':'6'}
 videoinfo_dict = {'BV90882938':{'time':'','view':'3','questions':[q1,q2]},
                   'BVsjdheoej':{'time':'','view':'1','questions':[q3]}}
 option_lst = [['Yes'],['grey','blue','red'],['no','No']]
-question_lst = ['what is the color']
+question_lst = ['what is the color?d']
 
 expand_dict = expand(videoinfo_dict, option_lst, question_lst)
-write_outfile(expand_dict, '/Users/linyutian/Desktop/write_out.txt')
+write_outfile(expand_dict, '/Users/linyutian/Desktop/write_out.txt', '/Users/linyutian/Desktop/out_json.json')
