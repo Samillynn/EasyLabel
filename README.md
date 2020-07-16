@@ -1,1 +1,1 @@
-# EasyLable
+# EasyLabel
