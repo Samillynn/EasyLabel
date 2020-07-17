@@ -1,6 +1,8 @@
 from typing import List
 import re
 
+from line import Line
+
 # helper function
 
 def search_list(pattern, lst):
@@ -24,7 +26,10 @@ def divide_lines(lines: List[str], pattern: str) -> List[List[str]]:
 def parse(infile: str) -> dict:
     """ parse original information from a label file """
     res_dict = {}
+    #lines = Line.fromlabelfile(infile)
     lines = [line.strip() for line in open(infile) if line.strip()]
+#    for line in lines:
+#        print(line)
 
     # divide lines to blocks by different videos
     video_blocks = divide_lines(lines, '~')
@@ -36,8 +41,14 @@ def parse(infile: str) -> dict:
         video_name = video_block[0].strip('~ \n\t')
 
         # parse trimpoint and viewpoint
-        trimpoint = search_list('\(TIME\)\s*(.*)', video_block[1:]).group(1)
-        viewpoint = search_list('\(VIEW\)\s*(.*)', video_block[1:]).group(1)
+        try:
+            trimpoint = search_list('\(TIME\)\s*(.*)', video_block[1:]).group(1)
+        except AttributeError:
+            raise Exception(f'No trimpoint is found in {video_name}')
+        try:
+            viewpoint = search_list('\(VIEW\)\s*(.*)', video_block[1:]).group(1)
+        except AttributeError:
+            raise Exception(f'No viewpoint is found in {video_name}')
 
         # divide each video block into some question blocks
         ques_blocks = divide_lines(video_block, '\?|^#')
@@ -81,17 +92,21 @@ def parse_single_ques(lines: List[str]) -> dict:
         options = lines[1:]
         answers = [chr(ord('A') + answer_no) for answer_no in answer_nos]
 
-    return {'questions': ques, 'options': options, 'answers': answers}
+    return {'question': ques, 'options': options, 'answers': answers}
 
 
 # parse other sheets
 
 def parse_option_sheet(infile):
+    if infile is None:
+        return
     lines = [line.strip() for line in open(infile) if line.strip()]
     option_blocks = divide_lines(lines, '^@')
     return [option_block[1:] for option_block in option_blocks]
 
 def parse_question_sheet(infile):
+    if infile is None:
+        return
     lines = [line.strip() for line in open(infile) if line.strip()]
     ques_blocks = divide_lines(lines, '^#')
     return [ques_block[1] for ques_block in ques_blocks]
