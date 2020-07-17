@@ -3,7 +3,7 @@ import os
 KNOWN_EXTS = ('.mp4')
 
 def template(folder, outfile='label.txt'):
-    lst = os.listdir(folder)
+    lst = sort(os.listdir(folder))
     name, ext = os.path.splitext(outfile)
     suffix = 1
     while outfile in lst:
