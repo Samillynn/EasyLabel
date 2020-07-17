@@ -73,7 +73,7 @@ the drive fall in sleep
 +waiting for the traffic light
 +waiting for pedistrians to pass
 
-What is the color of the car in front?
+What is the color of the car in front? d
 white
 +black
 orange
