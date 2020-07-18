@@ -1,20 +1,43 @@
-~~~~~~~ video_name.mp4 ~~~~~~~~~~
-(VIEW)3
-(TIME) 
+~~~~~~~~~~ video_name.mp4 ~~~~~~~~~~
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
-What is the color of the car? d
+-----------------d
+<Q-sub>: {{ None }}
+<A-sub>: {{ None }}
+<ANS>: {{ + }}
+What the colour of the truck?
 red
++black
+white
+pink
+grey
+
+-----------------p
+<Q-sub>: {{ 2 }}
+<A-sub>: {{ 3 }}
+<ANS>: {{ + }}
 +green
-purple
 
+-----------------r
+<Q-sub>: {{ 3 }}
+<A-sub>: {{ 5 }}
+<ANS>: {{ A }}
+green
 
-What is the type of that car? d
-@2
-+a
+!-----------------d  // skipped question
+<Q-sub>: {{ None }}
+<A-sub>: {{ None }}
+<ANS>: {{ + }}
+What the colour of the truck?
+red
++black
+white
+pink
+grey
 
-
-~~~~~~~ another.mp4 ~~~~~~~~~~
-(VIEW) 3
-(TIME) 3,5
-#1
-+c
+~~~~~~~~~~ another_video.mp4 ~~~~~~~~~~
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
