@@ -27,6 +27,8 @@ def main():
         counter += 1
 
         if counter == 1:
+            # clear sub list
+            sub_list = []
             # append to sub list
             sub_list.append(video)
 
@@ -65,6 +67,14 @@ def main():
         else:
             print("unexpected: something is wrong")
             return
+
+    out_json_fp: Path = dst_folder_path / "video_metadata_lst.json"
+    with out_json_fp.open(mode="w") as f:
+        print(">>>")
+        print(dst_folder_name)
+        print(len(sub_list))
+        f.write(json.dumps(sub_list))
+        print(f"Generated: {out_json_fp}")
 
 
 if __name__ == "__main__":
