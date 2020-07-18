@@ -61,7 +61,7 @@ def main():
                 print(">>>")
                 print(dst_folder_name)
                 print(len(sub_list))
-                f.write(json.dumps(sub_list))
+                f.write(json.dumps(sub_list, indent=4))
                 print(f"Generated: {out_json_fp}")
 
         else:
@@ -73,7 +73,7 @@ def main():
         print(">>>")
         print(dst_folder_name)
         print(len(sub_list))
-        f.write(json.dumps(sub_list))
+        f.write(json.dumps(sub_list, indent=4))
         print(f"Generated: {out_json_fp}")
 
 
