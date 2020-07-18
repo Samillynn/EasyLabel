@@ -55,6 +55,8 @@ def main():
             counter = 0
             # folder_count next
             folder_count += 1
+            # sort sub list
+            sub_list = sorted(vid_lst, key=lambda x: x["filename"])
 
             out_json_fp: Path = dst_folder_path / "video_metadata_lst.json"
             with out_json_fp.open(mode="w") as f:
@@ -67,7 +69,8 @@ def main():
         else:
             print("unexpected: something is wrong")
             return
-
+    # sort sub list
+    sub_list = sorted(vid_lst, key=lambda x: x["filename"])
     out_json_fp: Path = dst_folder_path / "video_metadata_lst.json"
     with out_json_fp.open(mode="w") as f:
         print(">>>")
