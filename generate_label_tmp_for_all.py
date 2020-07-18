@@ -19,7 +19,7 @@ def main():
 
         for video in os.listdir(folder_path):
             if video not in name_list:
-                print("{video} not in list")
+                print(f"{video} not in list")
 
 
 if __name__ == "__main__":
