@@ -18,8 +18,8 @@ def main():
             name_list = [f'{video["filename"]+video["ext"]}' for video in vid_lst]
 
         for video in os.listdir(folder_path):
-            assert video in name_list
-            print("True")
+            if video not in name_list:
+                print("{video} not in list")
 
 
 if __name__ == "__main__":
