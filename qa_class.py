@@ -56,11 +56,14 @@ class QASetPool:
 
 
 class QASet:
-    def __init__(self, id: int, type: str, qn: str, options: Iterable[str]):
+    def __init__(
+        self, id: int, type: str, sub_type: str, qn: str, options: Iterable[str]
+    ):
         # id should be immutable
         self.id: int = id
-        # type should be immutable
+        # type and sub_type should be immutable
         self.type: str = type
+        self.sub_type: str = sub_type
         # create empty _qns list
         self._qns: List = []
         # each QASet should have at least one qn in the self._qns list
