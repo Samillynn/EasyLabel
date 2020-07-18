@@ -6,8 +6,11 @@ from pathlib import Path
 
 def main():
     to_folder_base = Path("/home/UROP/shared_drive/Video_Folders/Trimmed_All_Videos")
+    # json_filepath = Path(
+    #     "/home/UROP/shared_drive/Video_Folders/bilibili/video_metadata_lst.json"
+    # )
     json_filepath = Path(
-        "/home/UROP/shared_drive/Video_Folders/bilibili/video_metadata_lst.json"
+        "/home/UROP/data_urop/youtube_trimmed_all/video_metadata_lst_y.json"
     )
     assert json_filepath.is_file()
 
@@ -18,8 +21,8 @@ def main():
 
     counter = 0
     folder_count = 1
-    folder_prefix = "bilibili_"
-    # folder_prefix = "youtube_"
+    # folder_prefix = "bilibili_"
+    folder_prefix = "youtube_"
     sub_list = []
     dst_folder_path = Path("")
 
