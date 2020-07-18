@@ -5,10 +5,10 @@ from typing import List, Dict
 
 
 qa_section = """
---------------------
+--------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
 <Q-sub>: {{ None }}
 <A-sub>: {{ None }}
-<ANS>: {{ + }}
+<ANS>: {{ + }}             // use + as default or [A|B|C|D]
 
 """
 
@@ -19,9 +19,9 @@ def template_video_section(filename: str, duration: str, dimension: str) -> str:
     vid_section = f"~~~~~~~~~~~~~~~~~~~~ {filename} ~~~~~~~~~~~~~~~~~~~~\n"
     vid_section += f"<LENGTH={duration}>\n"
     vid_section += f"<DIM={dimension}>\n"
-    vid_section += "<PERSPECTIVE>: {{  }}\n"
-    vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}\n"
-    vid_section += "<CRITICAL_POINT>: {{ TS }}\n"
+    vid_section += "<PERSPECTIVE>: {{  }}              // use [1/3]\n"
+    vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000\n"
+    vid_section += "<CRITICAL_POINT>: {{ TS }}         // 00:00.000\n"
     vid_section += qa_section * 5
 
     return vid_section
@@ -37,7 +37,7 @@ def generate_qa_template_from_json(json_fp: str):
     if ext != ".json":
         raise Exception(f"ERR: `{json_fp}` is not a json file")
 
-    export_fp = Path(os.path.join(head, "qa_label.txt"))
+    export_fp = Path(os.path.join(head, "qa_label_template.txt"))
 
     with json_fp.open() as f:
         vid_lst: List[Dict] = json.load(f)
