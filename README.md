@@ -187,7 +187,7 @@
     3. If the question and its options are totally off, which does not suit the video at all.
         - you can either leave it with the exclamation mark `!` as it is, or remove it from the file.
     4. If all five pre-populated questions can be used, keep them all.
-    5. After removing the unfit questions, you should make sure there are at least two basic questions for every video. 
+    5. After removing the unfit questions, you should make sure there are at least two basic questions for every video.
 
 ### About QASet substitution
 
@@ -246,3 +246,7 @@ yes
 no
 
 ```
+
+### Label `.txt` Validation and Error Finding after completion
+
+TODO
