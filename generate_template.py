@@ -5,7 +5,7 @@ from typing import List, Dict
 
 
 qa_section = """
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 

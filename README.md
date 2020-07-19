@@ -113,27 +113,27 @@ For instance, 02:30.5 would be 2 minutes, 30 seconds, and a half a second.
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }}
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }}
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }}
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }}
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }}
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 ```
@@ -148,14 +148,14 @@ For instance, 02:30.5 would be 2 minutes, 30 seconds, and a half a second.
 <RE_TRIM>: {{ 00:02, 00:15 }}
 <CRITICAL_POINT>: {{ 00:12 }}
 
---------------------{{ d }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{ d }}
 <QASet_ID>: {{ None }}
 <ANS>: {{ a }}
 Did a person cross the road in the video?
 yes
 no
 
---------------------{{ d }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{ d }}
 <QASet_ID>: {{ None }}
 <ANS>: {{ d }}
 How many cars were involved in the accident?
@@ -165,7 +165,7 @@ three to five
 more than five
 
 
---------------------{{ d }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{ d }}
 <QASet_ID>: {{ None }}
 <ANS>: {{ c }}
 What's the colour of the traffic light when the car pass under?
@@ -174,7 +174,7 @@ yellow
 red
 no traffic light
 
---------------------{{ e }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{ e }}
 <QASet_ID>: {{ None }}
 <ANS>: {{ a }}
 What kind of accident happened in the video?
@@ -183,7 +183,7 @@ side-collision
 road-departure
 head-on
 
---------------------{{ p }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{ p }}
 <QASet_ID>: {{ None }}
 <ANS>: {{ b }}
 is the car on the right going to change lane?
