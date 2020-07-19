@@ -1,11 +1,34 @@
 import json
 import logging
+import colorlog
 from pathlib import Path
 from typing import List, Dict
 
-logging.basicConfig(format="%(levelname)s - %(message)s",)
-_logger = logging.getLogger()
-_logger.setLevel(logging.ERROR)
+# logging.basicConfig(format="%(levelname)s - %(message)s",)
+# _logger = logging.getLogger()
+# _logger.setLevel(logging.ERROR)
+
+handler = colorlog.StreamHandler()
+handler.setFormatter(
+    colorlog.ColoredFormatter(
+        "%(log_color)s%(levelname)-8s%(reset)s %(log_color)s%(message)s",
+        datefmt=None,
+        reset=True,
+        log_colors={
+            "DEBUG": "green",
+            "INFO": "green",
+            "WARNING": "yellow",
+            "ERROR": "red",
+            "CRITICAL": "red,bg_white",
+        },
+        secondary_log_colors={},
+        style="%",
+    )
+)
+
+_logger = colorlog.getLogger()
+_logger.addHandler(handler)
+_logger.setLevel("DEBUG")
 
 
 def get_value(line: str) -> str:
@@ -34,31 +57,29 @@ def qa_section_parser(qa_section: List) -> Dict:
             break
         elif line.startswith("---------"):
             q_type = get_value(line)
-        elif line.startswith("<Q-sub>"):
-            q_sub = get_value(line)
-            if q_sub == "None":
-                q_sub = None
-            else:
-                # TODO: Get substitution
-                sub = ""
-                qn = sub
-        elif line.startswith("<A-sub>"):
-            a_sub = get_value(line)
-            if a_sub == "None":
-                a_sub = None
-            else:
-                # TODO: Get substitution
-                sub = []
-                option_lst += sub
+        elif line.startswith("<QASet_ID>"):
+            pass
+        #     q_sub = get_value(line)
+        #     if q_sub == "None":
+        #         q_sub = None
+        #     else:
+        #         # TODO: Get substitution
+        #         sub = ""
+        #         qn = sub
+        # elif line.startswith("<A-sub>"):
+        #     a_sub = get_value(line)
+        #     if a_sub == "None":
+        #         a_sub = None
+        #     else:
+        #         # TODO: Get substitution
+        #         sub = []
+        #         option_lst += sub
         elif line.startswith("<ANS>"):
             ans = get_value(line)
-            if ans == "+":
-                pass
-            else:
-                ans_map = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6}
-                for char in ans.upper():
-                    if char in ans_map:
-                        correct_ans.append(ans_map[char])
+            ans_map = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6}
+            for char in ans.upper():
+                if char in ans_map:
+                    correct_ans.append(ans_map[char])
         else:
             if not q_sub and "?" in line:
                 qn = line.strip()
