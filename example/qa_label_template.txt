@@ -1,3798 +1,3298 @@
-~~~~~~~~~~~~~~~~~~~~ 127411s7T7_clip_039 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.74s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 127411s7T7_clip_039 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.74s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 14a4y147uG_clip_045 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 14a4y147uG_clip_045 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 14t411K7Bb_clip_022 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 14t411K7Bb_clip_022 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 14t411K7Bb_clip_034 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.96s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 14t411K7Bb_clip_034 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 154411v7Jh_clip_020 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1440 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 154411v7Jh_clip_020 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1440 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1764y1M7zr_clip_017 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.97s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1764y1M7zr_clip_017 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.97s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 18b411F7hq_clip_004 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 18b411F7hq_clip_004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 19t411B7A4_clip_015 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 19t411B7A4_clip_015 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1A4411v7KH_clip_019 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.53s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1A4411v7KH_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.53s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Ab41177yT_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Ab41177yT_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Ab411k7qb_clip_025 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Ab411k7qb_clip_025 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Ai4y1t7Rj_clip_032 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Ai4y1t7Rj_clip_032 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1B4411M7a6_clip_047 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1B4411M7a6_clip_047 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1B4411r7M7_clip_037 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1B4411r7M7_clip_037 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1B4411r7M7_clip_046 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1B4411r7M7_clip_046 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1BW411m7YG_clip_038 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1BW411m7YG_clip_038 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Bb411A74A_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Bb411A74A_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Bx411d7N7_clip_027 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Bx411d7N7_clip_027 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1CE411v7qv_clip_031 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=0.73s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1CE411v7qv_clip_031 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 0.73s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_006 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_006 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_013 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_013 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_049 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_049 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Ct411J7VD_clip_030 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Ct411J7VD_clip_030 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Ct411J7VD_clip_031 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Ct411J7VD_clip_031 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1D7411n76Y_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1D7411n76Y_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1DT4y137h7_clip_062 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)848 x (H)480>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1DT4y137h7_clip_062 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)480
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1DW411b7Xp_clip_010 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1DW411b7Xp_clip_010 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Dt41157CX_clip_033 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Dt41157CX_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Dt411e7Lu_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Dt411e7Lu_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Dt411e7Lu_clip_043 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Dt411e7Lu_clip_043 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1EW411J7fz_part2_clip_019 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1EW411J7fz_part2_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1EW411v73M_part2_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1EW411v73M_part2_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Et411d7vE_clip_025 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=0.77s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Et411d7vE_clip_025 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 0.77s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1F7411N7Lu_clip_019 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1F7411N7Lu_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1F7411Z74z_clip_062 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1F7411Z74z_clip_062 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1FE411F7Ss_clip_024 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1FE411F7Ss_clip_024 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Ft411Q7Em_clip_037 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Ft411Q7Em_clip_037 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1GE411B7aV_clip_030 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1GE411B7aV_clip_030 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1GW411p7LU_part2_clip_011 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1GW411p7LU_part2_clip_011 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Gg4y1a7Ef_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Gg4y1a7Ef_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Gg4y1a7Ef_clip_023 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Gg4y1a7Ef_clip_023 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Ht411P7eg_clip_015 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.96s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Ht411P7eg_clip_015 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Jt411q7Nh_clip_009 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Jt411q7Nh_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1KK411L7nV_clip_031 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1KK411L7nV_clip_031 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1KK411L7nV_clip_033 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1KK411L7nV_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1KW411W7Kb_clip_003 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1KW411W7Kb_clip_003 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1KW411W7Kb_clip_004 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1KW411W7Kb_clip_004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Kt41137CX_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Kt41137CX_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Kt41137CX_clip_035 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Kt41137CX_clip_035 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Kt411S7ne_clip_022 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Kt411S7ne_clip_022 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_004 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_041 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_041 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_042 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_042 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1L4411y7eN_clip_026 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1L4411y7eN_clip_026 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1L7411x7nm_clip_052 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.97s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1L7411x7nm_clip_052 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.97s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Lt411T7LT_clip_010 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Lt411T7LT_clip_010 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Lt411j7s5_clip_017 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Lt411j7s5_clip_017 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_025 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_025 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_033 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_036 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_036 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Mt41177QG_clip_016 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Mt41177QG_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Mt41177QG_clip_028 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Mt41177QG_clip_028 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Na4y1i7jC_clip_028 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Na4y1i7jC_clip_028 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1PE411X762_clip_034 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1PE411X762_clip_034 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Q5411s7Lb_clip_040 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Q5411s7Lb_clip_040 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1QE411a7aW_clip_001 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1QE411a7aW_clip_001 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Qi4y1x7Ht_clip_018 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Qi4y1x7Ht_clip_018 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1RE411H7di_clip_041 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1RE411H7di_clip_041 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1RE411H7di_clip_042 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1RE411H7di_clip_042 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Rt411j7yx_clip_035 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.96s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Rt411j7yx_clip_035 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Rt411n7CX_clip_020 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Rt411n7CX_clip_020 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Sx411u7Ey_part1_clip_024 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Sx411u7Ey_part1_clip_024 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_002 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)848 x (H)400>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_002 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_006 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)848 x (H)400>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_006 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_009 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)848 x (H)400>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)848 x (H)400
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_011 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)848 x (H)400>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_011 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_015 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)848 x (H)400>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_015 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_019 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)848 x (H)400>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_021 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)848 x (H)400>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_021 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Tt411F7W7_clip_003 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Tt411F7W7_clip_003 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1UK411L7wa_clip_043 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1UK411L7wa_clip_043 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1VE411a7Aa_clip_033 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1VE411a7Aa_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Vs411g7A4_clip_007 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Vs411g7A4_clip_007 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Wk4y167ox_clip_042 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=2.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Wk4y167ox_clip_042 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1Xt411576D_clip_012 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.96s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1Xt411576D_clip_012 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1b4411B7zM_clip_032 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.47s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1b4411B7zM_clip_032 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.47s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1cW411D7TA_clip_009 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1cW411D7TA_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1cW411z7HJ_part1_clip_009 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1cW411z7HJ_part1_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1cf4y1U76Q_clip_045 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1cf4y1U76Q_clip_045 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1gE411L7oE_clip_043 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=0.48s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1gE411L7oE_clip_043 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 0.48s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1it41157YF_clip_005 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.96s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1it41157YF_clip_005 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1it41157YF_clip_012 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.96s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1it41157YF_clip_012 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1ix411R7tt_clip_023 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1ix411R7tt_clip_023 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1jW411H7pd_part1_clip_009 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1jW411H7pd_part1_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1jW411x7tS_part1_clip_013 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1jW411x7tS_part1_clip_013 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1k7411m7Fp_clip_034 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)1080>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1k7411m7Fp_clip_034 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1kW411Y7Ub_clip_008 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1kW411Y7Ub_clip_008 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1vt411E74g_clip_026 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.96s>
-<DIM=(W)1280 x (H)720>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1vt411E74g_clip_026 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1wE411Z7hL_clip_028 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.13s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1wE411Z7hL_clip_028 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.13s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 
-~~~~~~~~~~~~~~~~~~~~ 1xE41187JZ_clip_035 ~~~~~~~~~~~~~~~~~~~~
-<LENGTH=1.0s>
-<DIM=(W)1920 x (H)910>
-<PERSPECTIVE>: {{  }}              // use [1/3]
-<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000
-<CRITICAL_POINT>: {{ TS }}         // 00:00.000
+~~~~~~~~~~~~~~~~~~~~ 1xE41187JZ_clip_035 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 

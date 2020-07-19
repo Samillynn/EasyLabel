@@ -6,9 +6,8 @@ from typing import List, Dict
 
 qa_section = """
 --------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<Q-sub>: {{ None }}
-<A-sub>: {{ None }}
-<ANS>: {{ + }}             // use + as default or [A|B|C|D]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
 
 """
 
@@ -16,12 +15,13 @@ qa_section = """
 def template_video_section(filename: str, duration: str, dimension: str) -> str:
     """ Generate the video section string."""
     vid_section = ""
-    vid_section = f"~~~~~~~~~~~~~~~~~~~~ {filename} ~~~~~~~~~~~~~~~~~~~~\n"
-    vid_section += f"<LENGTH={duration}>\n"
-    vid_section += f"<DIM={dimension}>\n"
-    vid_section += "<PERSPECTIVE>: {{  }}              // use [1/3]\n"
-    vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}  // 00:00.000, 00:00.000\n"
-    vid_section += "<CRITICAL_POINT>: {{ TS }}         // 00:00.000\n"
+    vid_section = f"~~~~~~~~~~~~~~~~~~~~ {filename} "
+    vid_section += "~" * (80 - 22 - len(filename)) + "\n"
+    vid_section += f"<LENGTH> {duration}\n"
+    vid_section += f"<DIM> {dimension}\n"
+    vid_section += "<PERSPECTIVE>: {{  }}\n"
+    vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}\n"
+    vid_section += "<CRITICAL_POINT>: {{ TS }}\n"
     vid_section += qa_section * 5
 
     return vid_section
