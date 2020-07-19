@@ -1,6 +1,6 @@
 # EasyLabel
 
-### Note: Every point in this document is important, as we are dealing with a huge amount of data, fully understanding this document will speed up the process, avoid re-work, and reduce human error.
+### Note: Every point in this document is important, as we are dealing with a huge amount of data, fully understanding this document will speed up the process, avoid re-work, and reduce human errors.
 
 ### `qa_label_template.txt` Example
 
@@ -114,7 +114,7 @@
     - If `Predictive`, first part of the video will be used as `question video`.
     - if `Reverse Inference`, the second part of the video will be used as `question video`.
 - When there is a `<CRITICAL_POINT>` present, other questions under that video should only based on the `question video`.
-- When `<RE_TRIM>` and `<CRITICAL_POINT>` both present, the timestamp of the `<CRITICAL_POINT>` should still based on original video timeline, hence, the `<CRITICAL_POINT>` timestamp should between `START_TS` and `END_TS`, otherwise it will be flagged out as error.
+- When `<RE_TRIM>` and `<CRITICAL_POINT>` both present, the timestamp of the `<CRITICAL_POINT>` should still based on original video timeline, hence, the `<CRITICAL_POINT>` timestamp should between `START_TS` and `END_TS`, otherwise it will be flagged out as an error.
 
 ### 4. Ask a question
 
@@ -124,15 +124,19 @@
     <QASet_ID>: {{ None }}
     <ANS>: {{  }}
     ```
-- On each question's 1st line, fill in the question type in the double curly braces:
+- **On the 1st line,** fill in the question type in the double curly braces:
     - use `1` or `d` for *Descriptive*.
     - use `2` or `e` for *Explanatory*.
     - use `3` or `p` for *Predictive*.
     - use `4` or `r` for *Reverse Inference*.
     - use `5` or `c` for *Counterfactual*.
     - use `6` or `i` for *Introspection*.
-- On the 2nd line, this is used for `QASet` substitution, leave it as it is or see [Advance Usage].
-- On the 3rd line, label the correct answer for the question.
+    - Example:
+        ```
+        --------------------{{ d }}
+        ```
+- **On the 2nd line**, this is used for `QASet` substitution, leave it as it is or see [About QASet substitution](#about-qaset-substitution).
+- **On the 3rd line**, label the correct answer for the question.
     - Each question should have 2 to 5 options. (Only at extreme cases, we support up to 7 options)
         - use `a` or `A` for choosing the first option as the correct answer.
         - use `b` or `B` for choosing the second option as the correct answer.
@@ -175,13 +179,19 @@
 
 - To speed up the process, we have pre-populated 5 or more basic questions for each video randomly.
 - Your job now is mainly to review these questions together with the video clip.
-    - If the question and its options are slightly off the video context.
+    1. If the question and its options are slightly off the video context.
         - you should make necessary modifications on it.
-    - After you made the modification, or if the question and its options fits the video context perfectly at the start.
+    2. After you made the modifications, or, if the question and its options fits the video context perfectly at the first place.
         - you need to label the correct answer for that question using either `<ANS>` or `+` as you wish.
         - you need to remove the exclamation mark `!` at the start of the question line to mark that this pre-populated question has been reviewed and confirmed.
-    - If the question and its options are totally off, which does not suit the video at all.
+    3. If the question and its options are totally off, which does not suit the video at all.
         - you can either leave it with the exclamation mark `!` as it is, or remove it from the file.
+    4. If all five pre-populated questions can be used, keep them all.
+    5. After removing the unfit questions, you should make sure there are at least two basic questions for every video.
+
+### About QASet substitution
+
+TODO
 
 ### Completed Label `.txt` File Example
 
@@ -236,3 +246,7 @@ yes
 no
 
 ```
+
+### Label `.txt` Validation and Error Finding after completion
+
+TODO
