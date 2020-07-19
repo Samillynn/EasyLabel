@@ -1,12 +1,63 @@
 # EasyLabel
 
+### Note: Every point in this document is important, as we are dealing with a huge amount of data, fully understanding this document will speed up the process, avoid re-work, and reduce human error.
+
+### `qa_label_template.txt` Example
+
+```
+~~~~~~~~~~~~~~~~~~~~ 127411s7T7_clip_039 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.74s
+<DIM> (W)1920 x (H)1080
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+--------------------{{  }}
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }}
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }}
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }}
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }}
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+```
+
+## How to do Labelling for Videos
+
+### 0. Download your QA Label Template
+
+- Go to this Google Sheet: [UROP_CV_2020_Shared / Video Dataset Progress Tracking](https://docs.google.com/spreadsheets/d/12tvNBGJzpzskT4ZmeruZGbDlNZmhisch0DM0Xb59rvU/edit?usp=sharing)
+    1. At the `Labelling Process` tab, choose a `TODO` task.
+    2. Put your name under `Labelled by`
+    3. Change `TODO` to `In Progress`
+    4. Remember the `Folder Name` you picked
+- Go to this folder: [UROP_CV_2020_Shared / Video_Folders / Trimmed_All_Videos](https://drive.google.com/drive/folders/17w9hVg67dcB5aFhb-Y35tV7-EDsQjVfj?usp=sharing)
+    1. Go to the `Folder Name` you picked.
+    2. there should be a `qa_label_template.txt` file indside the folder, download it and start labelling.
+    3. You can download that video folder to local all together if you wish.
+
 ### 1. To label which perspective the video is being shot at
 
 - A video can be either 1st-person perspective or 3rd-person perspective
-    - 1st-person perspective includes any of these scenarios:
-        - The camera is mounted inside a car, and the car itself is directly involved in an accident, including the car hit another car, and the car is hit by another car.
+    - 1st-person perspective could be any of these scenarios:
+        - The camera is mounted inside a car, and the car itself is directly involved in an accident, including the car hitting another car, or the car is hit by another car.
         - The camera is handheld, but whoever holding the camera is directly involved in the event / car crash / accident.
-    - 3rd-person perspective includes any of these scenarios:
+    - 3rd-person perspective could be any of these scenarios:
         - The camera is mounted inside a car, and it is observing an accident happening on other cars but not itself.
         - The camera is handheld by a pedestrian, and it is observing an accident from distance.
         - The camera is a stationary CCTV camera mounted over the head.
@@ -45,12 +96,6 @@
         - `02:30.05` interpreted as 2 minutes, 30 seconds, and 5/100 of a second.
         - `02:30.189` interpreted as 2 minutes, 30 seconds, and 189/1000 of a second.
 
-
-
-If a fraction is used, such as 02:30.05, this is interpreted as "5 100ths of a second", not as frame 5.
-
-For instance, 02:30.5 would be 2 minutes, 30 seconds, and a half a second.
-
 ### 3. Provide the critical timestamp for `Predictive` or `Reverse Inference` type of question.
 
 - If you want to ask either `Predictive` or `Reverse Inference` type of question to a video, you would need to cut the video in half, because only half of the video is shown to the DL Model, while the other half of the video will be reserved as a proof of the answer.
@@ -79,64 +124,64 @@ For instance, 02:30.5 would be 2 minutes, 30 seconds, and a half a second.
     <QASet_ID>: {{ None }}
     <ANS>: {{  }}
     ```
-- On each question's first line, fill in the question type in the double curly braces:
+- On each question's 1st line, fill in the question type in the double curly braces:
     - use `1` or `d` for *Descriptive*.
     - use `2` or `e` for *Explanatory*.
     - use `3` or `p` for *Predictive*.
     - use `4` or `r` for *Reverse Inference*.
     - use `5` or `c` for *Counterfactual*.
     - use `6` or `i` for *Introspection*.
-- On the second line, this is used for `QASet` substitution, leave it as it is or see [Advance Usage].
-- On the third line, label the correct answer for the question.
+- On the 2nd line, this is used for `QASet` substitution, leave it as it is or see [Advance Usage].
+- On the 3rd line, label the correct answer for the question.
     - Each question should have 2 to 5 options. (Only at extreme cases, we support up to 7 options)
         - use `a` or `A` for choosing the first option as the correct answer.
-        - use `b` or `B` for choosing the first option as the correct answer.
+        - use `b` or `B` for choosing the second option as the correct answer.
         - ...
-        - use `e` or `E` for choosing the first option as the correct answer.
-    - Multiple correct answers are also supported.
+        - use `e` or `E` for choosing the fifth option as the correct answer.
+    - **Multiple correct answers are also supported.**
         - use `ab` to represent both the first and the second options are correct answer.
     - Examples:
         - `<ANS>: {{ c }}` // lower case is acceptable
         - `<ANS>: {{ B }}` // upper case is acceptable
         - `<ANS>: {{ad}}`      // with or without whitespace is acceptable
         - `<ANS>: {{ e c b }}` // alphabets not in order is acceptable
+- **On the 4th line**, which is the line right below the `<ANS>: {{  }}`, should be the start of a custom question and its corresponding options.
+    - Put your question on the 4th line, and always end the question with a question mark `?`.
+    - Put your options to the question down below, one option per line.
+    - The first option corresponds to option `A`, the next line corresponds to option `B` and so on.
+    - Instead of using `a/b/c/d` to indicate the correct answer, you can also use the plus sign `+` at the start of an option line as an alternative. For Example:
+        ```
+        <ANS>: {{  }}
+        How many cars were involved in the accident?
+        only one
+        two
+        three to five
+        +more than five
 
+        ```
+    - You can even use `<ANS>` together with plus sign `+`, there is no harm to do so. In the following example, both option `A` and option `C` will be interpreted as correct answers.
+        ```
+        <ANS>: {{ a }}
+        Which part of the car has been damaged?
+        front
+        left side
+        +right side
+        rear
 
+        ```
+    - `<ANS>: {{  }}` can be left empty if you have at least one plus sign `+` below indicating at least one correct answer, otherwise, it will be flagged out as unlabelled question.
 
-### `qa_label_template.txt` Example
+### About Auto-Populated Questions and Options
 
-```
-~~~~~~~~~~~~~~~~~~~~ 127411s7T7_clip_039 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<LENGTH> 1.74s
-<DIM> (W)1920 x (H)1080
-<PERSPECTIVE>: {{  }}
-<RE_TRIM>: {{ START_TS, END_TS }}
-<CRITICAL_POINT>: {{ TS }}
-
---------------------{{  }}
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }}
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }}
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }}
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }}
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-```
+- To speed up the process, we have pre-populated 5 or more basic questions for each video randomly.
+- Your job now is mainly to review these questions together with the video clip.
+    - If the question and its options are slightly off the video context.
+        - you should make necessary modifications on it.
+    - After you made the modification, or if the question and its options fits the video context perfectly at the start.
+        - you need to label the correct answer for that question using either `<ANS>` or `+` as you wish.
+        - you need to remove the exclamation mark `!` at the start of the question line to mark that this pre-populated question has been reviewed and confirmed.
+    - If the question and its options are totally off, which does not suit the video at all.
+        - you can either leave it with the exclamation mark `!` as it is, or remove it from the file.
 
 ### Completed Label `.txt` File Example
 
@@ -167,11 +212,11 @@ more than five
 
 --------------------{{ d }}
 <QASet_ID>: {{ None }}
-<ANS>: {{ c }}
+<ANS>: {{  }}
 What's the colour of the traffic light when the car pass under?
 green
 yellow
-red
++red
 no traffic light
 
 --------------------{{ e }}
