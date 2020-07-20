@@ -6,49 +6,52 @@
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
+<ANS>: {{  }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Did a car surpass another car in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
+<ANS>: {{  }}
+how many cars turned right in the video?
 only one
 two
 three to five
 more than five
-
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
+<ANS>: {{  }}
+How many traffic lights were in the video?
+1
+2
+3
+4
+5
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -75,43 +78,48 @@ no traffic light
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Can we see all cars involved in the accident from the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Are there any white cars in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Is there a traffic jam in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Did a car stopped in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
-Yes
-No
-
+<ANS>: {{  }}
+How many traffic lights were in the video?
+1
+2
+3
+4
+5
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -138,49 +146,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
+<ANS>: {{  }}
+Did a car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any animals in this video?
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone offer to help after the incident?
+Yes, the person involved in the accident came out of their vehicle to help
+No, the road is too busy and dangerous for anyone to stop and help
+Yes, other drivers came out of their vehicles to help
+No, the involved party hit and and flee the scene
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -207,43 +213,48 @@ snowy
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn left in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How did the truck get involved in the accident? 
+The truck is being hit from behind.
+The truck is being hit from the side.
+The truck is not involved in the accident. 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway？
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -270,44 +281,51 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any animals in this video?
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars appeared in this video?
+only one
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
-Yes
-No
-
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+Tire
+parts of the body frame
+items carried by the truck
+side mirror
+car plate
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -334,46 +352,53 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car violate the traffic light?
-Yes
-No
-
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone offer to help after the incident?
+Yes, the person involved in the accident came out of their vehicle to help
+No, the road is too busy and dangerous for anyone to stop and help
+Yes, other drivers came out of their vehicles to help
+No, the involved party hit and and flee the scene
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Did a person cross the road in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Did the accident happen when any of the involved cars turned right or left?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -400,48 +425,52 @@ how many cars turned left in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn? 
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 How fast is the car moving?
 Very fast
 Normal speed
 Slow
 Not moving
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+1
+2
+3
+4
+5
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
-Yes
-No
-
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -468,47 +497,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+how many cars stop on the crossroad?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -535,44 +565,48 @@ how many cars turned left in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Was there any police car around?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Are there any pedestrians in this video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Did a car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 What is the condition of the car after the accident?
 Good
 A few scratches/dents
 Badly damaged
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Did a red SUV appear in the video?
 Yes
 No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -599,43 +633,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 Did a car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Was a black car involved in the collision?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did anyone be knocked down by a car?
+<ANS>: {{  }}
+Did the accident happen in the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did motor vehicles give way to pedestrians when they pass the crosswalk?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the accident happen when any of the involved cars turned right or left?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any pedestrian using the zebra crossing in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -662,43 +698,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car speeding up?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Was a black car involved in the collision?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn left in the video?
+<ANS>: {{  }}
+Are there any animals in this video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Day time
+Night time
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -725,48 +766,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any traffic light violation? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
 1
 2
 3
 4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
-Yes
-No
-
+5
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -793,43 +836,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Is there any pedestrian using the zebra crossing in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Is the car speeding up?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Is there a stop sign shown in the video?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
-Yes
-No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -856,47 +903,54 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many lanes does the road have in single direction? 
-1
-2
-3
-4
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn left in the video?
-Yes
-No
-
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -923,47 +977,47 @@ snowy
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+What type of accident happened in the video?
+Rear-end
+side-collision
+road-departure
+head-on
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there a pedestrian crossing marking in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Are there any red cars in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
+<ANS>: {{  }}
+Was a black car involved in the collision?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any car signalled wrongly before turning?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many lanes does the road have in single direction? 
-1
-2
-3
-4
-
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -990,50 +1044,50 @@ How many lanes does the road have in single direction?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which area of the car had been collided?
+Front
+Side
+Back
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
+<ANS>: {{  }}
+Are there any black cars in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone offer to help after the incident?
+Yes, the person involved in the accident came out of their vehicle to help
+No, the road is too busy and dangerous for anyone to stop and help
+Yes, other drivers came out of their vehicles to help
+No, the involved party hit and and flee the scene
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1060,49 +1114,48 @@ how many cars turned left in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Is there an accident in this video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is the car decelerating?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1129,47 +1182,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was anyone visibly injured by the collision?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many lanes does the road have in single direction? 
-1
-2
-3
-4
-
+<ANS>: {{  }}
+What's the time of the day?
+Day time
+Night time
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1196,51 +1250,50 @@ How many lanes does the road have in single direction?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Did a black car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Are there any cars driving in reverse?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+1
+2
+3
+4
+5
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1267,46 +1320,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-The car crash happened at which part of the car?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1333,48 +1388,49 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
+<ANS>: {{  }}
+Is there a crossroad in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1401,46 +1457,48 @@ snowy
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any animals in this video?
+<ANS>: {{  }}
+Did a fire break out after the collision?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
+<ANS>: {{  }}
+Was there a pedestrian crossing marking in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+only one
+two
+three to five
+more than five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
 Yes
 No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1467,46 +1525,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
+<ANS>: {{  }}
+Did a car have a collision with other cars?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Is there an accident in this video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1533,43 +1592,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+how many cars stop on the crossroad?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Are there any white cars in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
+<ANS>: {{  }}
+Did a person cross the road in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1596,45 +1657,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+how many cars stop on the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-The car crash happened at which part of the car?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car stopped in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1661,46 +1724,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Did a car start moving in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Did a car stopped in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Is there any pedestrian using the zebra crossing in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Is there any car rollover after crashing? 
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1727,47 +1789,50 @@ How many cars appeared in this video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
-only one
-two
-three to five
-more than five
-
+<ANS>: {{  }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+Others
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car violate the traffic light?
+<ANS>: {{  }}
+Did any car signalled wrongly before turning?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+Did a car stopped in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
-only one
-two
-three to five
-more than five
-
+<ANS>: {{  }}
+Is there any pedestrian using the zebra crossing in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1794,43 +1859,56 @@ more than five
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Was there any police car around?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
-Yes
-No
-
+<ANS>: {{  }}
+Did anyone offer to help after the incident?
+Yes, the person involved in the accident came out of their vehicle to help
+No, the road is too busy and dangerous for anyone to stop and help
+Yes, other drivers came out of their vehicles to help
+No, the involved party hit and and flee the scene
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
-Yes
-No
+<ANS>: {{  }}
+how many pedestrians cross the road?
+none
+only one 
+two
+three to five
+more than five
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many pedestrians cross the road?
+only one
+two
+three to five
+more than five
+none
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1857,49 +1935,49 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Is there any pedestrian using the zebra crossing in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+Did a red SUV appear in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+none
+only one 
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
+<ANS>: {{  }}
+Is the car slowing down?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1926,47 +2004,45 @@ How many cars appeared in this video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Are there any trees along the road?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Are there any white cars in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the accident happen when any of the involved cars turned right or left?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -1993,43 +2069,52 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Did a car have a collision with other cars?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any animals in this video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
-Yes
-No
-
+<ANS>: {{  }}
+What type of accident happened in the video?
+Rear-end
+side-collision
+road-departure
+head-on
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
-Yes
-No
-
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+only one
+two
+three to five
+more than five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car stopped in the video?
 Yes
 No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2056,43 +2141,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+What type of accident happened in the video?
+Rear-end
+side-collision
+road-departure
+head-on
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Are there any non-motorized vehicles occupying the driveway？
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+none
+only one 
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
-Yes
-No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2119,48 +2211,52 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
+<ANS>: {{  }}
+What type of accident happened in the video?
+Rear-end
+side-collision
+road-departure
+head-on
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police car around?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2187,43 +2283,47 @@ snowy
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
-Yes
-No
-
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2250,48 +2350,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Did a car have a collision with other cars?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How did the vehicles crash into each other?
+Driving closely along each other trying to change lane
+Vehicle came into a stop abruptly causing the vehicle from the back to crash into it
+Vehicle loses control due to slippery surface or vehicle malfunction
+Vehicle crashes due to neglection of traffic rules 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many lanes does the road have in single direction? 
-1
-2
-3
-4
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Did a car turn left in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did motor vehicles give way to pedestrians when they pass the crosswalk?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is the car speeding up?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2318,47 +2417,45 @@ snowy
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
+<ANS>: {{  }}
+Was it raining when the video was taken?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Is the car accelerating? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Is there any visible person being hit by any car? 
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2385,45 +2482,47 @@ Back
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 Did a car have a collision with other cars?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
-only one
-two
-three to five
-more than five
-
+<ANS>: {{  }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Are there any red cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Is there a stop sign shown in the video?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
-Yes
-No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2450,43 +2549,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
+<ANS>: {{  }}
+Was there fire after the collision?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Can we see all cars involved in the accident from the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Are there any pedestrians in this video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
+<ANS>: {{  }}
+Is the car accelerating? 
+Yes
+No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2513,48 +2614,48 @@ Night time
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did anyone be knocked down by a car?
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
+<ANS>: {{  }}
+how many cars stop on the crossroad?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Is there a red SUV in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2581,46 +2682,55 @@ no traffic light
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
-Yes
-No
-
+<ANS>: {{  }}
+Why did the accident occur when the road is clear?
+Slippery surface due to snow or rain
+Uneven road, full of potholes
+Vehicle malfunction
+Driver was not paying attention to the road
+Trying to avoid something on the road 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
+<ANS>: {{  }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+none
+only one 
+two
+three to five
+more than five
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2647,47 +2757,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car speeding up?
+<ANS>: {{  }}
+Was it a hit-and-run accident?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were all cars involved in the accident visible in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
+<ANS>: {{  }}
+Did a car turn left in the video?
+Yes
+No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2714,43 +2824,47 @@ how many cars turned right in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
+<ANS>: {{  }}
+Are there any red cars in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Did the accident happen in the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2777,45 +2891,49 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any animals in this video?
-Yes
-No
-
+<ANS>: {{  }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+Others
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
+<ANS>: {{  }}
+Are there any white cars in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any car signalled wrongly before turning?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car stopped in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2842,45 +2960,56 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+1
+2
+3
+4
+5
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 How fast is the car moving?
 Very fast
 Normal speed
 Slow
 Not moving
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car speeding up?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
-Yes
-No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2907,46 +3036,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did anyone be knocked down by a car?
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
-Yes
-No
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -2973,46 +3106,51 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any car signalled wrongly before turning?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3039,46 +3177,53 @@ how many cars turned right in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
+<ANS>: {{  }}
+Are there any red cars in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car violate the traffic light?
+<ANS>: {{  }}
+Did a car surpass another car in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3105,46 +3250,50 @@ How many cars appeared in this video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Did anyone be knocked down by a car?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appear in the video.
+Stop sign
+Speed limit
+Slow down
+Pedestrian crossing
+Danger sign
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3171,43 +3320,49 @@ Night time
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
+<ANS>: {{  }}
+Was a black car involved in the collision?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is the car slowing down?
 Yes
 No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3234,47 +3389,46 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did anyone be knocked down by a car?
+<ANS>: {{  }}
+Did a black car turn right in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How did the truck get involved in the accident? 
+The truck is being hit from behind.
+The truck is being hit from the side.
+The truck is not involved in the accident. 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Is there any traffic light violation? 
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn left in the video?
+<ANS>: {{  }}
+Is there a red SUV in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many lanes does the road have in single direction? 
-1
-2
-3
-4
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
+<ANS>: {{  }}
+Was anyone visibly injured by the collision?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3301,45 +3455,46 @@ no traffic light
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 Are there any cars changing lane?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was anyone visibly injured by the collision?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3366,43 +3521,49 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
-Yes
-No
-
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars driving in reverse?
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
+<ANS>: {{  }}
+Are there any black cars in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is the car decelerating?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3429,43 +3590,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a red SUV appear in the video?
+<ANS>: {{  }}
+Is there a traffic jam in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Did a car surpass another car in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car speeding up?
+<ANS>: {{  }}
+Did a person cross the road in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3492,48 +3655,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
+<ANS>: {{  }}
+Was there fire after the collision?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Is there a crossroad in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did motor vehicles give way to pedestrians when they pass the crosswalk?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3560,45 +3720,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any car signalled wrongly before turning?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 How fast is the car moving?
 Very fast
 Normal speed
 Slow
 Not moving
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
-Yes
-No
-
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+Tire
+parts of the body frame
+items carried by the truck
+side mirror
+car plate
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3625,45 +3790,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
+<ANS>: {{  }}
+how many cars stop on the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
 Yes
 No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3690,43 +3857,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
-Yes
-No
-
+<ANS>: {{  }}
+How did the truck get involved in the accident? 
+The truck is being hit from behind.
+The truck is being hit from the side.
+The truck is not involved in the accident. 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+Did a car start moving in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+how many cars stop on the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the accident happen when any of the involved cars turned right or left?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3753,45 +3925,51 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
-Yes
-No
-
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Did a car surpass another car in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+only one
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
+<ANS>: {{  }}
+Did motor vehicles give way to pedestrians when they pass the crosswalk?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
+<ANS>: {{  }}
+How many traffic lights were in the video?
+1
+2
+3
+4
+5
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3818,48 +3996,56 @@ Not moving
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Was a black car involved in the collision?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did anyone be knocked down by a car?
-Yes
-No
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+Tire
+parts of the body frame
+items carried by the truck
+side mirror
+car plate
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many pedestrians cross the road?
+only one
+two
+three to five
+more than five
+none
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3886,46 +4072,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did anyone be knocked down by a car?
+<ANS>: {{  }}
+Did a white car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Were all cars involved in the accident visible in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+How many cars appeared in this video?
+only one
+two
+three to five
+more than five
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -3952,43 +4139,50 @@ how many cars turned left in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any animals in this video?
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How many cars appeared in this video?
+only one
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
+<ANS>: {{  }}
+Did a person cross the road in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+none
+only one 
+two
+three to five
+more than five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Day time
+Night time
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4015,49 +4209,57 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Was it a hit-and-run accident?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 What's the condition of the road？
 clear
 wet
 muddy
 snowy
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any traffic light violation? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
-Yes
-No
-
+<ANS>: {{  }}
+How many pedestrians cross the road?
+only one
+two
+three to five
+more than five
+none
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4084,48 +4286,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Did a car start moving in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 Are there any cars signalling left or right turn? 
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
+<ANS>: {{  }}
+Are they any bicycles in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+Is there any pedestrian using the zebra crossing in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4152,45 +4353,54 @@ how many cars turned right in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars driving in reverse?
-Yes
-No
-
+<ANS>: {{  }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+Others
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many pedestrians cross the road?
+only one
+two
+three to five
+more than five
+none
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4217,47 +4427,52 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
+<ANS>: {{  }}
+Are there any cars changing lane?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
+<ANS>: {{  }}
+which kind of traffic sign appear in the video.
+Stop sign
+Speed limit
+Slow down
+Pedestrian crossing
+Danger sign
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How did the truck get involved in the accident? 
+The truck is being hit from behind.
+The truck is being hit from the side.
+The truck is not involved in the accident. 
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4284,45 +4499,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Was there a pedestrian crossing marking in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Did a red SUV appear in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4349,48 +4564,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
+<ANS>: {{  }}
+Did a car have a collision with other cars?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Did a car violate the traffic light?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+Did a car start moving in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4417,45 +4629,49 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How did the vehicles crash into each other?
+Driving closely along each other trying to change lane
+Vehicle came into a stop abruptly causing the vehicle from the back to crash into it
+Vehicle loses control due to slippery surface or vehicle malfunction
+Vehicle crashes due to neglection of traffic rules 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Are there any trees along the road?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn left in the video?
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Day time
+Night time
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is the car decelerating?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4482,49 +4698,55 @@ no traffic light
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-The car crash happened at which part of the car?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
-Yes
-No
-
+<ANS>: {{  }}
+What type of accident happened in the video?
+Rear-end
+side-collision
+road-departure
+head-on
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did motor vehicles give way to pedestrians when they pass the crosswalk?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+Tire
+parts of the body frame
+items carried by the truck
+side mirror
+car plate
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4551,43 +4773,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
-Yes
-No
-
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any car signalled wrongly before turning?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 What's the time of the day?
 Day time
 Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
-Yes
-No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4614,43 +4843,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How did the vehicles crash into each other?
+Driving closely along each other trying to change lane
+Vehicle came into a stop abruptly causing the vehicle from the back to crash into it
+Vehicle loses control due to slippery surface or vehicle malfunction
+Vehicle crashes due to neglection of traffic rules 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
+<ANS>: {{  }}
+Are there any white cars in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4677,44 +4911,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+What's the time of the day?
+Day time
+Night time
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-The car crash happened at which part of the car?
-Front
-Side
-Back
-
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4741,43 +4979,56 @@ Back
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
-Yes
-No
-
+<ANS>: {{  }}
+Did anyone offer to help after the incident?
+Yes, the person involved in the accident came out of their vehicle to help
+No, the road is too busy and dangerous for anyone to stop and help
+Yes, other drivers came out of their vehicles to help
+No, the involved party hit and and flee the scene
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Did the accident happen in the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+none
+only one 
+two
+three to five
+more than five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4804,47 +5055,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Was there a pedestrian crossing marking in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How did the vehicles crash into each other?
+Driving closely along each other trying to change lane
+Vehicle came into a stop abruptly causing the vehicle from the back to crash into it
+Vehicle loses control due to slippery surface or vehicle malfunction
+Vehicle crashes due to neglection of traffic rules 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Was a black car involved in the collision?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4871,45 +5122,52 @@ Back
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+only one
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
+<ANS>: {{  }}
+Did the accident happen in the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a red SUV appear in the video?
-Yes
-No
-
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+Tire
+parts of the body frame
+items carried by the truck
+side mirror
+car plate
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -4936,51 +5194,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
+<ANS>: {{  }}
+Was there a pedestrian crossing marking in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5007,47 +5264,45 @@ Night time
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Did a black car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
-only one
-two
-three to five
-more than five
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5074,47 +5329,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
+<ANS>: {{  }}
+Did a black car turn right in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a red SUV appear in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-The car crash happened at which part of the car?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 how many cars turned left in the video?
-1
-2
-3
-4
-5.0
+only one
+two
+three to five
+more than five
+none
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How did the vehicles crash into each other?
+Driving closely along each other trying to change lane
+Vehicle came into a stop abruptly causing the vehicle from the back to crash into it
+Vehicle loses control due to slippery surface or vehicle malfunction
+Vehicle crashes due to neglection of traffic rules 
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5141,43 +5399,48 @@ how many cars turned left in the video?
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Are there any pedestrians in this video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car violate the traffic light?
+<ANS>: {{  }}
+Are there any animals in this video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5204,43 +5467,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car slowing down?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
-Yes
-No
-
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Was there a pedestrian crossing marking in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car violate the traffic light?
+<ANS>: {{  }}
+Why did the accident occur when the road is clear?
+Slippery surface due to snow or rain
+Uneven road, full of potholes
+Vehicle malfunction
+Driver was not paying attention to the road
+Trying to avoid something on the road 
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5267,45 +5537,50 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars signalling left or right turn? 
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Are there any black cars in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
+<ANS>: {{  }}
+how many pedestrians cross the road?
+none
+only one 
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
 Yes
 No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5332,47 +5607,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
+<ANS>: {{  }}
+Are there any pedestrians in this video?
+Yes
+No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5399,48 +5675,53 @@ snowy
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Did a car violate the traffic light?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Are there any white cars in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+none
+only one 
+two
+three to five
+more than five
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
+<ANS>: {{  }}
+What type of collision happened in the video? 
+Car hit car
+Car hit bicycle 
+Car hit person
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many lanes does the road have in single direction? 
-1
-2
-3
-4
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
-Yes
-No
-
+<ANS>: {{  }}
+How many pedestrians cross the road?
+only one
+two
+three to five
+more than five
+none
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5467,45 +5748,48 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Were the motorcyclists wearing helmet in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur when the road is clear?
+Slippery surface due to snow or rain
+Uneven road, full of potholes
+Vehicle malfunction
+Driver was not paying attention to the road
+Trying to avoid something on the road 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car accelerating? 
+<ANS>: {{  }}
+Are there any pedestrians in this video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5532,48 +5816,48 @@ Not moving
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What would be considered a high potential traffic hazard?
+Narrow roads
+Not obeying the traffic rules and regulations
+Speeding vehicles
+Not paying attention to hazards
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How did the truck get involved in the accident? 
+The truck is being hit from behind.
+The truck is being hit from the side.
+The truck is not involved in the accident. 
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Day time
+Night time
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5600,48 +5884,46 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any red cars in the video?
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Did a car start moving in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Did motor vehicles give way to pedestrians when they pass the crosswalk?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
+<ANS>: {{  }}
+Did the accident happen when any of the involved cars turned right or left?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5668,50 +5950,53 @@ snowy
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the condition of the car after the accident?
-Good
-A few scratches/dents
-Badly damaged
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned right in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn left in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any visible person being hit by any car? 
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Major
+Minor
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5738,48 +6023,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a crossroad in the video?
+<ANS>: {{  }}
+Are there any cars driving in reverse?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
+<ANS>: {{  }}
+Did any car signalled wrongly before turning?
+Yes
+No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5806,44 +6088,48 @@ Bicycle
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
 Are there any cars changing lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn left in the video?
+<ANS>: {{  }}
+Is there any traffic light violation? 
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was anyone visibly injured by the collision?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5870,44 +6156,55 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there any car rollover after crashing? 
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
-Yes
-No
-
+<ANS>: {{  }}
+What could possibly cause this accident?
+ The front car braked sharply.
+Weather conditions (rain/snow/fog)
+Violation of traffic rules
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-The car crash happened at which part of the car?
-Front
-Side
-Back
+<ANS>: {{  }}
+Why did the accident occur when the road is clear?
+Slippery surface due to snow or rain
+Uneven road, full of potholes
+Vehicle malfunction
+Driver was not paying attention to the road
+Trying to avoid something on the road 
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many pedestrians cross the road?
+only one
+two
+three to five
+more than five
+none
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5934,43 +6231,51 @@ Back
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
-Yes
-No
-
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is the car speeding up?
+<ANS>: {{  }}
+Are there any white cars in the video?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars changing lane?
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars driving in reverse?
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -5997,44 +6302,54 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a red SUV in the video?
-Yes
-No
-
+<ANS>: {{  }}
+how many cars turned left in the video?
+only one
+two
+three to five
+more than five
+none
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Which area of the car had been collided?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a turn on the road?
+<ANS>: {{  }}
+Was it raining when the video was taken?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appear in the video.
+Stop sign
+Speed limit
+Slow down
+Pedestrian crossing
+Danger sign
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6061,43 +6376,46 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Was there a pedestrian crossing marking in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 Are there any red cars in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a person crossing my driving lane?
+<ANS>: {{  }}
+Did the accident happen in the crossroad?
 Yes
 No
-
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars driving in reverse?
+<ANS>: {{  }}
+Did a car stopped in the video?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car have a collision with other cars?
-Yes
-No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars driving in reverse?
-Yes
-No
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6124,49 +6442,47 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any red cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
 How fast is the car moving?
 Very fast
 Normal speed
 Slow
 Not moving
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Is the car slowing down?
 Yes
 No
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the colour of the traffic light when the car pass under?
-green
-yellow
-red
-no traffic light
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
-only one
-two
-three to five
-more than five
-
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6193,47 +6509,50 @@ more than five
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Is there a turn on the road?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Was there any police car around?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur when the road is clear?
+Slippery surface due to snow or rain
+Uneven road, full of potholes
+Vehicle malfunction
+Driver was not paying attention to the road
+Trying to avoid something on the road 
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there a stop sign shown in the video?
+<ANS>: {{  }}
+Is there a crossroad in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What might be the causing factors that lead to the accident?
+Traffic congestion
+Speeding vehicles
+Not paying attention to their surroundings or road safety
+Bad road surfaces
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the accident happen when any of the involved cars turned right or left?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6260,47 +6579,49 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did anyone be knocked down by a car?
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-how many cars turned left in the video?
-1
-2
-3
-4
-5.0
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any white cars in the video?
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which party should be responsible for the car accident?
+The pedestrian
+The front car
+The closer car
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-The car crash happened at which part of the car?
-Front
-Side
-Back
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Did the accident happen in the crossroad?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How did the truck get involved in the accident? 
+The truck is being hit from behind.
+The truck is being hit from the side.
+The truck is not involved in the accident. 
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6327,45 +6648,45 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any non-motorized vehicles occupying the driveway？
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars driving in reverse?
+<ANS>: {{  }}
+Is there any traffic light violation? 
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What is the type of vehicles present in this video?
-Car
-Truck
-Bus
-Bicycle
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Is there an accident in this video?
+<ANS>: {{  }}
+Is there a crossroad in the video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was a black car involved in the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
+Yes
+No
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6392,50 +6713,53 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars appeared in this video?
-5
-4
-10
-3
-2.0
-
+<ANS>: {{  }}
+How did the pedestrian gets involved in the accident?
+Run across the road without using the pedestrian crossing 
+The vehicle did not stop in time at the pedestrian crossing
+Both the pedestrian and the vehicle were not paying attention for safety
+Pedestrian ran into the road and driver not able to see nor predict due to blindspot
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car take a U-turn in the video?
+<ANS>: {{  }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appear in the video.
+Stop sign
+Speed limit
+Slow down
+Pedestrian crossing
+Danger sign
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the condition of the road？
-clear
-wet
-muddy
-snowy
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
-only one
-two
-three to five
-more than five
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any cars coming from opposite directions?
+<ANS>: {{  }}
+Did motor vehicles give way to pedestrians when they pass the crosswalk?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6462,45 +6786,49 @@ No
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Was anyone visibly injured by the collision?
+<ANS>: {{  }}
+Did a car have a collision with other cars?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident occur at night?
+Bad or low lighting on the road
+Speeding vehicles as there were little vehicles on the road
+Drivers were tired and not paying close attention to safety
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a person cross the road in the video?
+<ANS>: {{  }}
+Are there any white cars in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did any non-motorized vehicles appear in the video?
+<ANS>: {{  }}
+Is there an accident in this video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
 
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-What's the time of the day?
-Day time
-Night time
-
+<ANS>: {{  }}
+how many cars turned right in the video?
+only one
+two
+three to five
+more than five
+none
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -6527,47 +6855,51 @@ Night time
 <CRITICAL_POINT>: {{ TS }}
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any black cars in the video?
+<ANS>: {{  }}
+Is there a gas station in the video? 
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How many cars were involved in the accident?
-only one
-two
-three to five
-more than five
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Did a car turn right in the video?
+<ANS>: {{  }}
+Did a car surpass another car in the video?
 Yes
 No
 
-
 !--------------------{{ auto }}
 <QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-How fast is the car moving?
-Very fast
-Normal speed
-Slow
-Not moving
-
-
-!--------------------{{ auto }}
-<QASet_ID>: {{ auto }}
-<ANS>: {{ None }}
-Are there any pedestrians in this video?
+<ANS>: {{  }}
+Is there an accident in this video?
 Yes
 No
 
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Why did the accident happened in a unmarked road?
+The width of the road is too narrow
+There is no proper indication of direction
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Buildings
+Mountainous area
+Forest
+Tunnel
+Expressway
+Others
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
 
 
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]

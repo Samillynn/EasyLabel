@@ -179,7 +179,7 @@ def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
 
 if __name__ == "__main__":
     pool = QASetPool()
-    pool.load_from_excel("example/qa_bank_sample.xlsx")
-    pool.write_to_json("example/qa_bank_sample.json")
+    pool.load_from_excel("qa_bank/qa_bank_20_July_2020.xlsx")
+    pool.write_to_json("qa_bank/qa_bank_20_July_2020.json")
     # q = pool.random_draw()
     # print(q)
