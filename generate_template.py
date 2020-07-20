@@ -2,7 +2,9 @@ import os
 import json
 from pathlib import Path
 from typing import List, Dict
+from qa_class import QASet, QASetPool, get_qa_pool_from_json
 
+QA_BANK_JSON_FILEPATH = "example/qa_bank_sample.json"
 
 qa_section = """
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -10,6 +12,27 @@ qa_section = """
 <ANS>: {{  }}
 
 """
+
+qa_pool = QASetPool()
+qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
+
+
+def auto_populated_qa_section(num: int) -> str:
+    qa_sections: str = ""
+    # print(len(qa_pool._pool))
+
+    for _ in range(num):
+        qa_set: QASet = qa_pool.random_draw()
+        qa: Tuple[str, Tuple] = qa_set.get()
+        qa_sections += "--------------------{{ auto }}\n"
+        qa_sections += "<QASet_ID>: {{ auto }}\n"
+        qa_sections += "<QASet_ID>: {{ None }}\n"
+        qa_sections += f"{qa[0]}\n"
+        for option in qa[1]:
+            qa_sections += f"{option}\n"
+        qa_sections += "\n\n"
+
+    return qa_sections
 
 
 def template_video_section(filename: str, duration: str, dimension: str) -> str:
@@ -22,7 +45,8 @@ def template_video_section(filename: str, duration: str, dimension: str) -> str:
     vid_section += "<PERSPECTIVE>: {{  }}\n"
     vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}\n"
     vid_section += "<CRITICAL_POINT>: {{ TS }}\n"
-    vid_section += qa_section * 5
+    vid_section += auto_populated_qa_section(5)
+    vid_section += qa_section * 3
 
     return vid_section
 

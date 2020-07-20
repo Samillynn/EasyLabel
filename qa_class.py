@@ -38,6 +38,9 @@ class QASet:
         # options should be immutable
         self.options: Tuple[str] = tuple(options)
 
+    def __repr__(self):
+        return f"{self._id}, {str(self.qns)}, {str(self.options)}"
+
     def get(self) -> Tuple[str, Tuple]:
         """ Randomly select a qn from self.qns
         return the selected qn and the option_lst
@@ -127,6 +130,14 @@ class QASetPool:
                 qa_set_type = qa_sheet.iloc[i][0]
                 qa_set_subtype = qa_sheet.iloc[i][2]
                 qa_set_options = tuple(qa_sheet.iloc[i][j] for j in range(5, cols_num))
+
+                # remove None
+                qa_set_options_copy, qa_set_options = qa_set_options, []
+                for option in qa_set_options_copy:
+                    if str(option) != "nan":
+                        qa_set_options.append(option)
+                qa_set_options = tuple(qa_set_options)
+
                 qa_set = QASet(
                     qa_set_id, qa_set_type, qa_set_qn, qa_set_options, qa_set_subtype
                 )
@@ -154,6 +165,21 @@ class QASetPool:
         """
 
         qadict_lst = json.load(open(json_fp))
-        qaset_pool = QASetPool()
         for qa_dict in qadict_lst:
-            qaset_pool.add(QASet(**qa_dict))
+            self.add(QASet(**qa_dict))
+
+
+def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
+    assert Path(qa_bank_json).is_file()
+
+    qa_pool = QASetPool()
+    qa_pool.load_from_json(Path(qa_bank_json))
+    return qa_pool
+
+
+if __name__ == "__main__":
+    pool = QASetPool()
+    pool.load_from_excel("example/qa_bank_sample.xlsx")
+    pool.write_to_json("example/qa_bank_sample.json")
+    # q = pool.random_draw()
+    # print(q)

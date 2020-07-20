@@ -4,28 +4,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -37,28 +69,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn right in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -70,28 +135,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -103,28 +203,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -136,28 +266,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -169,28 +329,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -202,28 +395,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car speeding up?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn left in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -235,28 +460,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -268,28 +527,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -301,28 +590,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -334,28 +657,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -367,28 +724,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -400,28 +792,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Was anyone visibly injured by the collision?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -433,28 +855,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -466,28 +920,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -499,28 +984,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -532,28 +1049,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn left in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -565,28 +1117,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -598,28 +1183,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a red SUV in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -631,28 +1250,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a red SUV in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -664,28 +1315,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -697,28 +1382,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Was anyone visibly injured by the collision?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -730,28 +1447,66 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -763,28 +1518,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any traffic light violation? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -796,28 +1582,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -829,28 +1650,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -862,28 +1718,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -895,28 +1784,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -928,28 +1850,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn left in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -961,28 +1915,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -994,28 +1982,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1027,28 +2047,66 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1060,28 +2118,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1093,28 +2184,64 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a red SUV in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1126,28 +2253,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a red SUV in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1159,28 +2321,64 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1192,28 +2390,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1225,28 +2455,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1258,28 +2518,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1291,28 +2584,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1324,28 +2650,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a stop sign shown in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn left in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1357,28 +2713,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1390,28 +2779,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1423,28 +2845,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car speeding up?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1456,28 +2911,65 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1489,28 +2981,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1522,28 +3047,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car speeding up?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1555,28 +3112,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1588,28 +3175,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Was anyone visibly injured by the collision?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1621,28 +3240,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1654,28 +3307,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1687,28 +3374,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1720,28 +3437,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Was anyone visibly injured by the collision?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1753,28 +3502,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1786,28 +3570,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1819,28 +3635,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn left in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn right in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1852,28 +3700,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any traffic light violation? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1885,28 +3763,64 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1918,28 +3832,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn right in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1951,28 +3900,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn left in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn right in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -1984,28 +3966,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2017,28 +4031,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car speeding up?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2050,28 +4097,64 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2083,28 +4166,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a red SUV in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2116,28 +4231,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car speeding up?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2149,28 +4298,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2182,28 +4364,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2215,28 +4431,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any traffic light violation? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2248,28 +4497,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2281,28 +4563,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2314,28 +4627,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2347,28 +4692,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2380,28 +4759,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2413,28 +4824,64 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car speeding up?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car accelerating? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2446,28 +4893,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn right in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car accelerating? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2479,28 +4957,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2512,28 +5022,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a red SUV in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2545,28 +5086,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2578,28 +5151,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2611,28 +5217,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2644,28 +5285,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2677,28 +5349,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a crossroad in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars appeared in this video?
+5
+4
+10
+3
+2.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2710,28 +5417,61 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2743,28 +5483,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2776,28 +5546,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there an accident in this video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the time of the day?
+Day time
+Night time
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2809,28 +5610,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car slowing down?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Was anyone visibly injured by the collision?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2842,28 +5675,67 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+red
+no traffic light
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2875,28 +5747,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many lanes does the road have in single direction? 
+1
+2
+3
+4
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2908,28 +5814,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the condition of the car after the accident?
+Good
+A few scratches/dents
+Badly damaged
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars signalling left or right turn? 
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2941,28 +5878,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a person cross the road in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any black cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What's the condition of the road？
+clear
+wet
+muddy
+snowy
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -2974,28 +5946,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3007,28 +6009,58 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a stop sign shown in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a red SUV in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any traffic light violation? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3040,28 +6072,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car turn right in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned right in the video?
+1
+2
+3
+4
+5.0
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3073,28 +6140,63 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How many cars were involved in the accident?
+only one
+two
+three to five
+more than five
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3106,28 +6208,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3139,28 +6272,59 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars driving in reverse?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a turn on the road?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any non-motorized vehicles occupying the driveway？
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+The car crash happened at which part of the car?
+Front
+Side
+Back
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3172,28 +6336,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car violate the traffic light?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3205,28 +6401,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any white cars in the video?
+Yes
+No
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is the car speeding up?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars changing lane?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+How fast is the car moving?
+Very fast
+Normal speed
+Slow
+Not moving
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any traffic light violation? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3238,28 +6466,60 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+What is the type of vehicles present in this video?
+Car
+Truck
+Bus
+Bicycle
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any pedestrians in this video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
@@ -3271,28 +6531,62 @@
 <PERSPECTIVE>: {{  }}
 <RE_TRIM>: {{ START_TS, END_TS }}
 <CRITICAL_POINT>: {{ TS }}
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+how many cars turned left in the video?
+1
+2
+3
+4
+5.0
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Which area of the car had been collided?
+Front
+Side
+Back
+
+
+--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<QASet_ID>: {{ None }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
 
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
-<QASet_ID>: {{ None }}
-<ANS>: {{  }}
-
-
---------------------{{  }} // Q Type: use [1-6]|[d|e|p|r|c|i]
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
 
