@@ -24,7 +24,7 @@ def auto_populated_qa_section(num: int) -> str:
     for _ in range(num):
         qa_set: QASet = qa_pool.random_draw()
         qa: Tuple[str, Tuple] = qa_set.get()
-        qa_sections += "--------------------{{ auto }}\n"
+        qa_sections += "!--------------------{{ auto }}\n"
         qa_sections += "<QASet_ID>: {{ auto }}\n"
         qa_sections += "<ANS>: {{ None }}\n"
         qa_sections += f"{qa[0]}\n"
