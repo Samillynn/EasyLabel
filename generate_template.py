@@ -26,7 +26,7 @@ def auto_populated_qa_section(num: int) -> str:
         qa: Tuple[str, Tuple] = qa_set.get()
         qa_sections += "--------------------{{ auto }}\n"
         qa_sections += "<QASet_ID>: {{ auto }}\n"
-        qa_sections += "<QASet_ID>: {{ None }}\n"
+        qa_sections += "<ANS>: {{ None }}\n"
         qa_sections += f"{qa[0]}\n"
         for option in qa[1]:
             qa_sections += f"{option}\n"
