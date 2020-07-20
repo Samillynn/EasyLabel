@@ -1,0 +1,1216 @@
+[
+    {
+        "_id": 1,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any pedestrians in this video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 2,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a person cross the road in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 3,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a car turn left in the video?",
+            "Did a car turn right in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 4,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Is there an accident in this video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 5,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "How many cars appeared in this video?"
+        ],
+        "options": [
+            "only one",
+            "two",
+            "three to five",
+            "more than five"
+        ]
+    },
+    {
+        "_id": 6,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "How many cars were involved in the accident?"
+        ],
+        "options": [
+            "only one",
+            "two",
+            "three to five",
+            "more than five"
+        ]
+    },
+    {
+        "_id": 7,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a car have a collision with other cars?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 8,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a car violate the traffic light?",
+            "Is there any traffic light violation? "
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 9,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Is there a crossroad in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 10,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any non-motorized vehicles occupying the driveway\uff1f"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 11,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did anyone be knocked down by a car?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 12,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a car take a U-turn in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 13,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "how many cars turned right in the video?"
+        ],
+        "options": [
+            "only one",
+            "two",
+            "three to five",
+            "more than five",
+            "none"
+        ]
+    },
+    {
+        "_id": 14,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "What's the colour of the traffic light when the car pass under?"
+        ],
+        "options": [
+            "green",
+            "yellow",
+            "red",
+            "no traffic light"
+        ]
+    },
+    {
+        "_id": 15,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "What's the condition of the road\uff1f"
+        ],
+        "options": [
+            "clear",
+            "wet",
+            "muddy",
+            "snowy"
+        ]
+    },
+    {
+        "_id": 16,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "how many cars turned left in the video?"
+        ],
+        "options": [
+            "only one",
+            "two",
+            "three to five",
+            "more than five",
+            "none"
+        ]
+    },
+    {
+        "_id": 17,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any cars signalling left or right turn? "
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 18,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any cars coming from opposite directions?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 19,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "How many lanes does the road have in single direction? "
+        ],
+        "options": [
+            "only one",
+            "two",
+            "three to five",
+            "more than five"
+        ]
+    },
+    {
+        "_id": 20,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Did a red SUV appear in the video?",
+            "Is there a red SUV in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 21,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Is there a stop sign shown in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 22,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "What's the time of the day?"
+        ],
+        "options": [
+            "Day time",
+            "Night time"
+        ]
+    },
+    {
+        "_id": 23,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any cars changing lane?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 24,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any cars driving in reverse?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 25,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any red cars in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 26,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any white cars in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 27,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any black cars in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 28,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Did any non-motorized vehicles appear in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 29,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Is there any car rollover after crashing? "
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 30,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Was anyone visibly injured by the collision?",
+            "Is there any visible person being hit by any car? "
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 31,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Is there a turn on the road?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 32,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Is there a person crossing my driving lane?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 33,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "Which area of the car had been collided?",
+            "The car crash happened at which part of the car?"
+        ],
+        "options": [
+            "Front",
+            "Side",
+            "Back"
+        ]
+    },
+    {
+        "_id": 34,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "What is the condition of the car after the accident?"
+        ],
+        "options": [
+            "Good",
+            "A few scratches/dents",
+            "Badly damaged"
+        ]
+    },
+    {
+        "_id": 35,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any animals in this video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 36,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "How fast is the car moving?"
+        ],
+        "options": [
+            "Very fast",
+            "Normal speed",
+            "Slow",
+            "Not moving"
+        ]
+    },
+    {
+        "_id": 37,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Is the car accelerating? ",
+            "Is the car speeding up?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 38,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Is the car decelerating?",
+            "Is the car slowing down?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 39,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "What is the type of vehicles present in this video?"
+        ],
+        "options": [
+            "Car",
+            "Truck",
+            "Bus",
+            "Bicycle",
+            "Others"
+        ]
+    },
+    {
+        "_id": 40,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was the accident caused by another vehicle?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 41,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was the driver driving in the correct direction?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 42,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did the car skid due to a slippery surface?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 43,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was there any visible hit by another vehicle caught on the camera?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 44,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was the accident a mere hit by another vehicle?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 45,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was the accident a minor or major accident?"
+        ],
+        "options": [
+            "Major",
+            "Minor"
+        ]
+    },
+    {
+        "_id": 46,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "how many pedestrians cross the road?"
+        ],
+        "options": [
+            "none",
+            "only one ",
+            "two",
+            "three to five",
+            "more than five"
+        ]
+    },
+    {
+        "_id": 47,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Did a black car turn right in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 48,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Did a white car turn right in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 49,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are there any trees along the road?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 50,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Is there a traffic jam in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 51,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a car surpass another car in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 52,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Did a car stopped in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 53,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was the car in front moving when the collision occur?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 54,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "Was the pedestrian a child?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 55,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a fire break out after the collision?",
+            "Was there fire after the collision?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 57,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Was there any police officer nearby when the collision occur?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 58,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did a car start moving in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 59,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Is there a gas station in the video? "
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 60,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "What is the surrounding environment like?"
+        ],
+        "options": [
+            "Buildings",
+            "Mountainous area",
+            "Forest",
+            "Tunnel",
+            "Expressway",
+            "Others"
+        ]
+    },
+    {
+        "_id": 61,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Are they any bicycles in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 62,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did any parts of the vehicle fall off ?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 63,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Which part of the vehicle fall off?"
+        ],
+        "options": [
+            "Tire",
+            "parts of the body frame",
+            "items carried by the truck",
+            "side mirror",
+            "car plate"
+        ]
+    },
+    {
+        "_id": 64,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "Was the road unmarked or marked?"
+        ],
+        "options": [
+            "Marked",
+            "Unmarked"
+        ]
+    },
+    {
+        "_id": 65,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Was there a pedestrian crossing marking in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 66,
+        "_type": "Descriptive",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "Were the motorcyclists wearing helmet in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 67,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did the pedestrian check for safety before crossing the traffic?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 68,
+        "_type": "Descriptive",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Were the vehicles close to each other in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 69,
+        "_type": "Descriptive",
+        "_sub_type": "Classify",
+        "qns": [
+            "which kind of traffic sign appear in the video."
+        ],
+        "options": [
+            "Stop sign",
+            "Speed limit",
+            "Slow down",
+            "Pedestrian crossing",
+            "Danger sign"
+        ]
+    },
+    {
+        "_id": 70,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "How many traffic lights were in the video?"
+        ],
+        "options": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "_id": 71,
+        "_type": "Descriptive",
+        "_sub_type": "Count",
+        "qns": [
+            "how many cars stop on the crossroad?"
+        ],
+        "options": [
+            "none",
+            "only one ",
+            "two",
+            "three to five",
+            "more than five"
+        ]
+    },
+    {
+        "_id": 72,
+        "_type": "Explanatory",
+        "_sub_type": "Classify",
+        "qns": [
+            "What type of accident happened in the video?"
+        ],
+        "options": [
+            "Rear-end",
+            "side-collision",
+            "road-departure",
+            "head-on"
+        ]
+    },
+    {
+        "_id": 73,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "What could possibly cause this accident?"
+        ],
+        "options": [
+            " The front car braked sharply.",
+            "Weather conditions (rain/snow/fog)",
+            "Violation of traffic rules"
+        ]
+    },
+    {
+        "_id": 74,
+        "_type": "Explanatory",
+        "_sub_type": "Count",
+        "qns": [
+            "how many cars stop on the crossroad?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 75,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "Which party should be responsible for the car accident?"
+        ],
+        "options": [
+            "The pedestrian",
+            "The front car",
+            "The closer car"
+        ]
+    },
+    {
+        "_id": 76,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did any car signalled wrongly before turning?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 77,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did motor vehicles give way to pedestrians when they pass the crosswalk?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 78,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "How did the truck get involved in the accident? "
+        ],
+        "options": [
+            "The truck is being hit from behind.",
+            "The truck is being hit from the side.",
+            "The truck is not involved in the accident. "
+        ]
+    },
+    {
+        "_id": 79,
+        "_type": "Explanatory",
+        "_sub_type": "Classify",
+        "qns": [
+            "What type of collision happened in the video? "
+        ],
+        "options": [
+            "Car hit car",
+            "Car hit bicycle ",
+            "Car hit person"
+        ]
+    },
+    {
+        "_id": 80,
+        "_type": "Explanatory",
+        "_sub_type": "Attribute Query",
+        "qns": [
+            "Was it raining when the video was taken?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 81,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Were all cars involved in the accident visible in the video?",
+            "Can we see all cars involved in the accident from the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 83,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was a black car involved in the collision?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 84,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did anyone offer to help after the incident?"
+        ],
+        "options": [
+            "Yes, the person involved in the accident came out of their vehicle to help",
+            "No, the road is too busy and dangerous for anyone to stop and help",
+            "Yes, other drivers came out of their vehicles to help",
+            "No, the involved party hit and and flee the scene"
+        ]
+    },
+    {
+        "_id": 85,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did the accident happen in the crossroad?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 86,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Did the accident happen when any of the involved cars turned right or left?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 87,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Is there any pedestrian using the zebra crossing in the video?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 88,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "How did the pedestrian gets involved in the accident?"
+        ],
+        "options": [
+            "Run across the road without using the pedestrian crossing ",
+            "The vehicle did not stop in time at the pedestrian crossing",
+            "Both the pedestrian and the vehicle were not paying attention for safety",
+            "Pedestrian ran into the road and driver not able to see nor predict due to blindspot"
+        ]
+    },
+    {
+        "_id": 89,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "How did the vehicles crash into each other?"
+        ],
+        "options": [
+            "Driving closely along each other trying to change lane",
+            "Vehicle came into a stop abruptly causing the vehicle from the back to crash into it",
+            "Vehicle loses control due to slippery surface or vehicle malfunction",
+            "Vehicle crashes due to neglection of traffic rules "
+        ]
+    },
+    {
+        "_id": 90,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "Why did the accident occur when the road is clear?"
+        ],
+        "options": [
+            "Slippery surface due to snow or rain",
+            "Uneven road, full of potholes",
+            "Vehicle malfunction",
+            "Driver was not paying attention to the road",
+            "Trying to avoid something on the road "
+        ]
+    },
+    {
+        "_id": 91,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "Why did the accident occur at night?"
+        ],
+        "options": [
+            "Bad or low lighting on the road",
+            "Speeding vehicles as there were little vehicles on the road",
+            "Drivers were tired and not paying close attention to safety"
+        ]
+    },
+    {
+        "_id": 92,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "Why did the accident happened in a unmarked road?"
+        ],
+        "options": [
+            "The width of the road is too narrow",
+            "There is no proper indication of direction"
+        ]
+    },
+    {
+        "_id": 93,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "What would be considered a high potential traffic hazard?"
+        ],
+        "options": [
+            "Narrow roads",
+            "Not obeying the traffic rules and regulations",
+            "Speeding vehicles",
+            "Not paying attention to hazards"
+        ]
+    },
+    {
+        "_id": 94,
+        "_type": "Explanatory",
+        "_sub_type": "Reasoning",
+        "qns": [
+            "What might be the causing factors that lead to the accident?"
+        ],
+        "options": [
+            "Traffic congestion",
+            "Speeding vehicles",
+            "Not paying attention to their surroundings or road safety",
+            "Bad road surfaces"
+        ]
+    },
+    {
+        "_id": 95,
+        "_type": "Explanatory",
+        "_sub_type": "Count",
+        "qns": [
+            "How many pedestrians cross the road?"
+        ],
+        "options": [
+            "only one",
+            "two",
+            "three to five",
+            "more than five",
+            "none"
+        ]
+    },
+    {
+        "_id": 96,
+        "_type": "Explanatory",
+        "_sub_type": "Event Query (bool)",
+        "qns": [
+            "Was it a hit-and-run accident?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "_id": 97,
+        "_type": "Descriptive",
+        "_sub_type": "Existence Query (bool)",
+        "qns": [
+            "Was there any police car around?"
+        ],
+        "options": [
+            "Yes",
+            "No"
+        ]
+    }
+]
