@@ -867,11 +867,11 @@
             "How many traffic lights were in the video?"
         ],
         "options": [
-            1,
-            2,
-            3,
-            4,
-            5
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
         ]
     },
     {

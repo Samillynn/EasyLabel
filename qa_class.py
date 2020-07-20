@@ -135,7 +135,7 @@ class QASetPool:
                 qa_set_options_copy, qa_set_options = qa_set_options, []
                 for option in qa_set_options_copy:
                     if str(option) != "nan":
-                        qa_set_options.append(option)
+                        qa_set_options.append(str(option))
                 qa_set_options = tuple(qa_set_options)
 
                 qa_set = QASet(

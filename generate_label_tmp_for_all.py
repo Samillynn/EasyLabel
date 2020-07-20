@@ -20,7 +20,14 @@ def main():
             vid_lst: list = json.load(f)
         name_list = [f'{video["filename"]+video["ext"]}' for video in vid_lst]
         sys_name_list = os.listdir(folder_path)
-        sys_name_list.remove("video_metadata_lst.json")
+        try:
+            sys_name_list.remove("video_metadata_lst.json")
+        except:
+            pass
+        try:
+            sys_name_list.remove("qa_label_template.txt")
+        except:
+            pass
         assert len(sys_name_list) == len(name_list)
         assert sys_name_list == name_list
 
