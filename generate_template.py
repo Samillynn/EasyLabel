@@ -76,8 +76,7 @@ def generate_qa_template_from_json(json_fp: str):
         )
 
     with export_fp.open(mode="w") as f:
-        to_write = str("\n\n".join(string_lst_to_write))
-        f.write(to_write)
+        f.write("\n\n".join(string_lst_to_write))
     print(f"successfully generated: {export_fp}")
 
 
