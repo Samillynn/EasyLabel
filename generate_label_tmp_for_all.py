@@ -20,16 +20,28 @@ def main():
             vid_lst: list = json.load(f)
         name_list = [f'{video["filename"]+video["ext"]}' for video in vid_lst]
         sys_name_list = os.listdir(folder_path)
-        try:
-            sys_name_list.remove("video_metadata_lst.json")
-        except:
-            pass
+
+        sys_name_list.remove("video_metadata_lst.json")
+
+        if "qa_label_template.txt" in sys_name_list:
+            continue
+
         try:
             sys_name_list.remove("qa_label_template.txt")
         except:
             pass
-        assert len(sys_name_list) == len(name_list)
-        assert sys_name_list == name_list
+
+        try:
+            assert len(sys_name_list) == len(name_list)
+            assert sys_name_list == name_list
+        except:
+            print("sys_name_list", len(sys_name_list))
+            print("json video lst", len(name_list))
+            sys_name_list = set(sys_name_list)
+            name_list = set(name_list)
+            diff = sys_name_list.difference(name_list)
+            print("ERR")
+            print(diff)
 
         # generate label template
         generate_qa_template_from_json(sublist_fp)
