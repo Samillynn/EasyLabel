@@ -41,14 +41,14 @@
 
 ### 0. Download your QA Label Template
 
-- Go to this Google Sheet: [UROP_CV_2020_Shared / Video Dataset Progress Tracking](https://docs.google.com/spreadsheets/d/12tvNBGJzpzskT4ZmeruZGbDlNZmhisch0DM0Xb59rvU/edit?usp=sharing)
+- Go to this Google Sheet: [UROP_CV_2020_Shared / Video Dataset Progress Tracking](https://docs.google.com/spreadsheets/d/12tvNBGJzpzskT4ZmeruZGbDlNZmhisch0DM0Xb59rvU/edit#gid=1408681658)
     1. At the `Labelling Process` tab, choose a `TODO` task.
     2. Put your name under `Labelled by`
     3. Change `TODO` to `In Progress`
     4. Remember the `Folder Name` you picked
 - Go to this folder: [UROP_CV_2020_Shared / Video_Folders / Trimmed_All_Videos](https://drive.google.com/drive/folders/17w9hVg67dcB5aFhb-Y35tV7-EDsQjVfj?usp=sharing)
     1. Go to the `Folder Name` you picked.
-    2. there should be a `qa_label_template.txt` file indside the folder, download it and start labelling.
+    2. there should be a `qa_label_template.txt` file inside the folder, download it and start labelling.
     3. You can download that video folder to local all together if you wish.
 
 ### 1. To label which perspective the video is being shot at
@@ -187,8 +187,8 @@
     3. If the question and its options are totally off, which does not suit the video at all.
         - you can either leave it with the exclamation mark `!` as it is, or remove it from the file.
         - question section marked with `!` will not be processed eventually. 
-    4. If all five pre-populated questions can be used, keep them all.
-    5. After removing the unfit questions, you should make sure there are at least two basic questions for every video.
+    4. If all 7 pre-populated questions can be used, keep them all.
+    5. After removing the unfit questions, you should make sure there are at least 2-3 basic questions for every video.
 - `{{ auto }}` means auto generation, no change is required, just leave it as it is.
 
 ### About QASet substitution
