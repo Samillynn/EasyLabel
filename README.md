@@ -177,7 +177,7 @@
 
 ### About Auto-Populated Questions and Options
 
-- To speed up the process, we have pre-populated 5 or more basic questions for each video randomly.
+- To speed up the process, we have pre-populated 7 basic questions for each video randomly.
 - Your job now is mainly to review these questions together with the video clip.
     1. If the question and its options are slightly off the video context.
         - you should make necessary modifications on it.
@@ -186,8 +186,10 @@
         - you need to remove the exclamation mark `!` at the start of the question line to mark that this pre-populated question has been reviewed and confirmed.
     3. If the question and its options are totally off, which does not suit the video at all.
         - you can either leave it with the exclamation mark `!` as it is, or remove it from the file.
+        - question section marked with `!` will not be processed eventually. 
     4. If all five pre-populated questions can be used, keep them all.
     5. After removing the unfit questions, you should make sure there are at least two basic questions for every video.
+- `{{ auto }}` means auto generation, no change is required, just leave it as it is.
 
 ### About QASet substitution
 

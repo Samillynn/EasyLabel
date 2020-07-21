@@ -118,7 +118,7 @@
         "_type": "Descriptive",
         "_sub_type": "Existence Query (bool)",
         "qns": [
-            "Are there any non-motorized vehicles occupying the driveway\uff1f"
+            "Are there any non-motorized vehicles occupying the driveway?"
         ],
         "options": [
             "Yes",
@@ -183,7 +183,7 @@
         "_type": "Descriptive",
         "_sub_type": "Attribute Query",
         "qns": [
-            "What's the condition of the road\uff1f"
+            "What's the condition of the road?"
         ],
         "options": [
             "clear",
@@ -867,11 +867,11 @@
             "How many traffic lights were in the video?"
         ],
         "options": [
-            1,
-            2,
-            3,
-            4,
-            5
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
         ]
     },
     {
