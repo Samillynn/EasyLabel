@@ -41,14 +41,14 @@
 
 ### 0. Download your QA Label Template
 
-- Go to this Google Sheet: [UROP_CV_2020_Shared / Video Dataset Progress Tracking](https://docs.google.com/spreadsheets/d/12tvNBGJzpzskT4ZmeruZGbDlNZmhisch0DM0Xb59rvU/edit?usp=sharing)
+- Go to this Google Sheet: [UROP_CV_2020_Shared / Video Dataset Progress Tracking](https://docs.google.com/spreadsheets/d/12tvNBGJzpzskT4ZmeruZGbDlNZmhisch0DM0Xb59rvU/edit#gid=1408681658)
     1. At the `Labelling Process` tab, choose a `TODO` task.
     2. Put your name under `Labelled by`
     3. Change `TODO` to `In Progress`
     4. Remember the `Folder Name` you picked
 - Go to this folder: [UROP_CV_2020_Shared / Video_Folders / Trimmed_All_Videos](https://drive.google.com/drive/folders/17w9hVg67dcB5aFhb-Y35tV7-EDsQjVfj?usp=sharing)
     1. Go to the `Folder Name` you picked.
-    2. there should be a `qa_label_template.txt` file indside the folder, download it and start labelling.
+    2. there should be a `qa_label_template.txt` file inside the folder, download it and start labelling.
     3. You can download that video folder to local all together if you wish.
 
 ### 1. To label which perspective the video is being shot at
