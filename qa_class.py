@@ -246,7 +246,7 @@ class QASetPool:
         """
         export_fp: Path = Path(export_fp)
         if export_fp.is_file():
-            overwrite = input(f"{export_fp} already exist, overwrite it (y/n)?")
+            overwrite = input(f"{export_fp} already exist, overwrite it (y/n)? ")
             if overwrite in ("Y", "y", "yes"):
                 _logger.warning(f"Overwriting {export_fp}")
             else:
