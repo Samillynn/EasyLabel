@@ -2,7 +2,7 @@ import os
 import json
 import shutil
 from pathlib import Path
-from generate_template import generate_template
+from qa_template_gen import generate_template
 
 BASE_DIR = Path("/home/UROP/shared_drive/Video_Folders/Trimmed_All_Videos")
 
