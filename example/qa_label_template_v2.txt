@@ -1,0 +1,7071 @@
+~~~~~~~~~~~~~~~~~~~~ 127411s7T7_clip_039 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.74s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 14a4y147uG_clip_045 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a fire break out after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a red SUV in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a turn on the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 14t411K7Bb_clip_022 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there fire after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+The car crash happened at which part of the car?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+no traffic light
+red
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 14t411K7Bb_clip_034 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 154411v7Jh_clip_020 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1440 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+more than five
+only one
+none
+two
+three to five
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1764y1M7zr_clip_017 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.97s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there fire after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which area of the car had been collided?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 18b411F7hq_clip_004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did an accident happen in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 19t411B7A4_clip_015 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a black car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1A4411v7KH_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.53s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Ab41177yT_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a black car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car speeding up?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Ab411k7qb_clip_025 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What are the types of vehicles appeared in the video?
+Pickup Truck
+Truck
+Sedan
+Bus
+Sports car
+SUV
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+more than five
+none
+two
+only one
+three to five
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Ai4y1t7Rj_clip_032 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there fire after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1B4411M7a6_clip_047 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1B4411r7M7_clip_037 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1B4411r7M7_clip_046 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which area of the car had been collided?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1BW411m7YG_clip_038 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+no traffic light
+red
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Bb411A74A_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did an accident happen in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Bx411d7N7_clip_027 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which area of the car had been collided?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a turn on the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1CE411v7qv_clip_031 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 0.73s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a red SUV in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_006 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+The car crash happened at which part of the car?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+car plate
+items carried by the truck
+Tire
+side mirror
+parts of the body frame
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_013 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a black car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Cb411b7BW_clip_049 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which area of the car had been collided?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Ct411J7VD_clip_030 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Ct411J7VD_clip_031 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1D7411n76Y_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+car plate
+items carried by the truck
+Tire
+side mirror
+parts of the body frame
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1DT4y137h7_clip_062 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)480
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car stopped in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1DW411b7Xp_clip_010 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car speeding up?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Dt41157CX_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a fire break out after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What are the types of vehicles appeared in the video?
+Pickup Truck
+Truck
+Sedan
+Bus
+Sports car
+SUV
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Dt411e7Lu_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was anyone visibly injured by the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Dt411e7Lu_clip_043 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car decelerating?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1EW411J7fz_part2_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any red cars in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1EW411v73M_part2_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car slowing down?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn left in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Et411d7vE_clip_025 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 0.77s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1F7411N7Lu_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Minor
+Major
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1F7411Z74z_clip_062 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1FE411F7Ss_clip_024 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any red cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Ft411Q7Em_clip_037 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Minor
+Major
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1GE411B7aV_clip_030 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a black car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a turn on the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1GW411p7LU_part2_clip_011 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any traffic light violation? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Gg4y1a7Ef_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Gg4y1a7Ef_clip_023 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any red cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Ht411P7eg_clip_015 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car slowing down?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Jt411q7Nh_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there fire after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car accelerating? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1KK411L7nV_clip_031 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+no traffic light
+red
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1KK411L7nV_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1KW411W7Kb_clip_003 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1KW411W7Kb_clip_004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+car plate
+items carried by the truck
+Tire
+side mirror
+parts of the body frame
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Kt41137CX_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Kt41137CX_clip_035 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+car plate
+items carried by the truck
+Tire
+side mirror
+parts of the body frame
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Minor
+Major
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Kt411S7ne_clip_022 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a turn on the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_041 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+car plate
+items carried by the truck
+Tire
+side mirror
+parts of the body frame
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1L4411M7kf_clip_042 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1L4411y7eN_clip_026 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any red cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1L7411x7nm_clip_052 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.97s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there fire after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did an accident happen in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Lt411T7LT_clip_010 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+no traffic light
+red
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a red SUV in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Lt411j7s5_clip_017 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn left in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_025 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car slowing down?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a turn on the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car stopped in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a turn on the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any non-motorized vehicles appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the motorcyclists wearing helmet in the video?
+There is no motorcyclists
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Mb41157pm_clip_036 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a red SUV in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any animals in this video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Mt41177QG_clip_016 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which part of the vehicle fall off?
+car plate
+items carried by the truck
+Tire
+side mirror
+parts of the body frame
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a red SUV in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Mt41177QG_clip_028 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What are the types of vehicles appeared in the video?
+Pickup Truck
+Truck
+Sedan
+Bus
+Sports car
+SUV
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car decelerating?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car accelerating? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Na4y1i7jC_clip_028 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which area of the car had been collided?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1PE411X762_clip_034 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the motorcyclists wearing helmet in the video?
+There is no motorcyclists
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Q5411s7Lb_clip_040 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What are the types of vehicles appeared in the video?
+Pickup Truck
+Truck
+Sedan
+Bus
+Sports car
+SUV
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the motorcyclists wearing helmet in the video?
+There is no motorcyclists
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1QE411a7aW_clip_001 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a turn on the road?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+no traffic light
+red
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many pedestrians cross the road?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Qi4y1x7Ht_clip_018 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1RE411H7di_clip_041 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car speeding up?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+more than five
+only one
+none
+two
+three to five
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1RE411H7di_clip_042 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there fire after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Rt411j7yx_clip_035 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+The car crash happened at which part of the car?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Rt411n7CX_clip_020 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car speeding up?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Sx411u7Ey_part1_clip_024 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a black car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_002 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the condition of the road?
+clear
+wet
+snowy
+muddy
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did an accident happen in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_006 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a black car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did an accident happen in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any trees along the road?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)848 x (H)400
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Minor
+Major
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_011 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_015 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Minor
+Major
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the road unmarked or marked?
+Marked
+Unmarked
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_019 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car accelerating? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car take a U-turn in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1TW411B7YC_clip_021 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)848 x (H)400
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any traffic light violation? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Tt411F7W7_clip_003 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Minor
+Major
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars changing lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1UK411L7wa_clip_043 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car slowing down?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are they any bicycles in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1VE411a7Aa_clip_033 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Vs411g7A4_clip_007 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned left in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+no traffic light
+red
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Wk4y167ox_clip_042 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 2.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car stopped in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Which area of the car had been collided?
+Side
+Back
+Front
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car have a collision with other cars?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1Xt411576D_clip_012 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any white cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1b4411B7zM_clip_032 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.47s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn left in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a white car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1cW411D7TA_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any traffic light violation? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a gas station in the video? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+more than five
+only one
+none
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1cW411z7HJ_part1_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a stop sign shown in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a red SUV appear in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the pedestrian check for safety before crossing the traffic?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1cf4y1U76Q_clip_045 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the colour of the traffic light when the car pass under?
+green
+yellow
+no traffic light
+red
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1gE411L7oE_clip_043 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 0.48s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any visible hit by another vehicle caught on the camera?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a fire break out after the collision?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the condition of the cars after the accident?
+No visible deformation
+Badly damaged
+A few scratches/dents
+There is no accident in the video
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the driver driving in the correct direction?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1it41157YF_clip_005 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car decelerating?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What are the types of vehicles appeared in the video?
+Pickup Truck
+Truck
+Sedan
+Bus
+Sports car
+SUV
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many vehicle appeared in this video?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1it41157YF_clip_012 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many traffic lights were in the video?
+2
+1
+4
+5
+3
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+which kind of traffic sign appeared in the video?
+Danger sign
+Pedestrian crossing
+Slow down
+There is no visible traffic sign
+Stop sign
+Speed limit
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the car in front moving when the collision occur?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1ix411R7tt_clip_023 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is my car decelerating?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Were the vehicles close to each other in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What is the surrounding environment like?
+Mountainous area
+Expressway
+Tunnel
+The countryside
+Others
+Forest
+Buildings
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many lanes does the road have in single direction? 
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a traffic jam in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1jW411H7pd_part1_clip_009 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars signalling left or right turn?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any visible person being hit by any car? 
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars driving in reverse?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any non-motorized vehicles occupying the driveway?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1jW411x7tS_part1_clip_013 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car start moving in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any black cars in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car surpass another car in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars turned right in the video?
+more than five
+only one
+none
+two
+three to five
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1k7411m7Fp_clip_034 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)1080
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car violate the traffic light?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did anyone be knocked down by a car?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any pedestrians in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn left in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there an accident in this video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1kW411Y7Ub_clip_008 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident caused by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the pedestrian a child?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a minor or major accident?
+Minor
+Major
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1vt411E74g_clip_026 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.96s
+<DIM> (W)1280 x (H)720
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a crossroad in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a grey car in this video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What's the time of the day?
+Daytime
+Nighttime
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there a person crossing my driving lane?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Is there any car rollover after crashing? 
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1wE411Z7hL_clip_028 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.13s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+What are the types of vehicles appeared in the video?
+Pickup Truck
+Truck
+Sedan
+Bus
+Sports car
+SUV
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+how many cars stop on the crossroad?
+more than five
+none
+two
+only one
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Are there any cars coming from opposite directions?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car turn right in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did any parts of the vehicle fall off ?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a person cross the road in the video?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+
+~~~~~~~~~~~~~~~~~~~~ 1xE41187JZ_clip_035 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<LENGTH> 1.0s
+<DIM> (W)1920 x (H)910
+
+<PERSPECTIVE>: {{  }}
+<RE_TRIM>: {{ START_TS, END_TS }}
+<CRITICAL_POINT>: {{ TS }}
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How fast is my car moving comparing to others?
+Faster than other cars
+Slower than other cars
+Same as other cars
+My car is stationary
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did a car stopped in the video?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was the accident a mere hit by another vehicle?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Was there any police officer nearby when the collision occur?
+Yes
+No
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+How many cars were involved in the accident?
+more than five
+only one
+two
+three to five
+
+!--------------------{{ auto }}
+<QASet_ID>: {{ auto }}
+<ANS>: {{  }}
+Did the car skid due to a slippery surface?
+Yes
+No
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
+
+--------------------{{  }} # [1-6] or [d|e|p|r|c|i]
+<QASet_ID>: {{ None }}
+<ANS>: {{  }}
+
