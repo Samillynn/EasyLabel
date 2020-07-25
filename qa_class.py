@@ -183,24 +183,21 @@ class QASetPool:
         data = self.type_map[type] if type else list(self.id_map.values())
         return random.choice(data)
 
-    def random_draw_multiple(self, q_num, type=None):
-        num, iter_num = q_num, 0
+    def random_draw_multiple(self, q_num: int, type=None) -> Set[QASet]:
+        """ Randomly draw given number of QASet from self._QASetPool """
+        iter_num = 0
         res = set()
-        subtype_list = []
-        while num > 0:
+        # subtype_list = []
+        while len(res) < q_num:
             iter_num += 1
-            if iter_num > 1000:
-                raise ValueError(
-                    f"question number {q_num} is too large, " "make it smaller"
-                )
-            qa_set = self.random_draw(type)
-            _subtype = qa_set._subtype
-            if qa_set in res or _subtype in subtype_list:
-                continue
-            if _subtype is not None:
-                subtype_list.append(_subtype)
-            num -= 1
-            res.add_to_pool(qa_set)
+            qa_set: QASet = self.random_draw_one(type=type)
+            # _subtype: str = qa_set._subtype
+            # if qa_set in res or _subtype in subtype_list:
+            #     continue
+            # if _subtype:
+            #     subtype_list.append(_subtype)
+            res.add(qa_set)
+
         return res
 
     def get_by_id(self, _id: str) -> QASet:
