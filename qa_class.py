@@ -2,44 +2,129 @@ import json
 import random
 import pandas
 import numpy as np
-from collections import abc
 from pathlib import Path
+from collections import abc
 from typing import List, Dict, Tuple, Set, Iterable, Union
+
+import colorlog
+from markkk.pyutils.check_text_encoding import ensure_no_zh_punctuation
+
+
+handler = colorlog.StreamHandler()
+handler.setFormatter(
+    colorlog.ColoredFormatter(
+        "%(log_color)s%(levelname)-8s%(reset)s %(log_color)s%(message)s",
+        datefmt=None,
+        reset=True,
+        log_colors={
+            "DEBUG": "green",
+            "INFO": "green",
+            "WARNING": "yellow",
+            "ERROR": "red",
+            "CRITICAL": "red,bg_white",
+        },
+        secondary_log_colors={},
+        style="%",
+    )
+)
+
+_logger = colorlog.getLogger()
+_logger.addHandler(handler)
+_logger.setLevel("DEBUG")
 
 
 class QASet:
 
-    info_list = ["_id", "_type", "_sub_type", "qns", "options"]
+    property_list = ["id", "type", "subtype", "qns", "options"]
+    supported_types = (
+        "Descriptive",
+        "Explanatory",
+        "Predictive",
+        "Reverse Inference",
+        "Counterfactual",
+        "Introspection",
+    )
 
     def __init__(
         self,
-        _id: int,
-        _type: str,
-        qns: Union[str, List[str]],
-        options: Iterable[str],
-        _sub_type: str = None,
+        *,
+        id: int,
+        type: str,
+        subtype: str = None,
+        qns: Union[str, List[str]] = [],
+        options: Iterable[str] = [],
     ):
-        # id should be immutable
-        self._id: int = int(_id)
+        try:
+            id = int(id)
+        except:
+            raise TypeError(
+                f"ID of QASet should be an integer, but not {id}({id.__class__})"
+            )
+        self._id: int = id
 
-        # type and _sub_type should be immutable
-        self._type: str = _type
-        self._sub_type: str = _sub_type
+        type = type.strip().capitalize()
+        if type in self.supported_types:
+            self._type: str = type
+
+        subtype = ensure_no_zh_punctuation(subtype.strip())
+        self._subtype: str = subtype
 
         if isinstance(qns, str):
+            qns = ensure_no_zh_punctuation(qns)
             self.qns: List[str] = [qns]
         elif isinstance(qns, abc.Sequence):
-            self.qns: List[str] = list(qns)
+            qns_lst = []
+            for qn in qns:
+                qns_lst.append(ensure_no_zh_punctuation(qn))
+            self.qns: List[str] = qns_lst
         else:
-            raise ValueError(
+            raise TypeError(
                 f"qns of QASet should be str or List[str], but not {qns}({qns.__class__})"
             )
 
-        # options should be immutable
-        self.options: Tuple[str] = tuple(options)
+        options_lst = []
+        for i in options:
+            options_lst.append(ensure_no_zh_punctuation(i.strip()))
+        self._options: Tuple[str] = tuple(options_lst)
+
+    @property
+    def id(self):
+        return self._id
+
+    @id.setter
+    def id(self, value):
+        _logger.error(f"QASet ID is immutable, and it remains as {self._id}")
+        return
+
+    @property
+    def type(self):
+        return self._type
+
+    @type.setter
+    def type(self, value):
+        _logger.error(f"QASet type is immutable, and it remains as {self._type}")
+        return
+
+    @property
+    def subtype(self):
+        return self._subtype
+
+    @subtype.setter
+    def subtype(self, value):
+        _logger.error(f"QASet subtype is immutable, and it remains as {self._subtype}")
+        return
+
+    @property
+    def options(self):
+        return self._options
+
+    @options.setter
+    def options(self, value):
+        _logger.error(f"QASet options is immutable, and it remains as {self._options}")
+        return
 
     def __repr__(self):
-        return f"{self._id}, {str(self.qns)}, {str(self.options)}"
+        return f"<QASet ID: {self.id}> ({self.type} - {self.subtype})\n{str(self.qns)}\n{str(self.options)}\n"
 
     def get(self) -> Tuple[str, Tuple]:
         """ Randomly select a qn from self.qns
@@ -63,31 +148,42 @@ class QASetPool:
         self._id_map: Dict[str:QASet] = {}
         self._type_map: Dict = {}
 
-    def add(self, qa_set: QASet):
-        """ Add a QASet object into self._pool """
+    @property
+    def pool(self):
+        return self._pool
+
+    @property
+    def id_map(self):
+        return self._id_map
+
+    @property
+    def type_map(self):
+        return self._type_map
+
+    def add_to_pool(self, qa_set: QASet):
+        """ Add a QASet object into self.pool """
         assert isinstance(qa_set, QASet)
 
-        # add qa_set to _pool and _id_map
+        # add qa_set to pool and id_map
         try:
-            self._id_map[qa_set._id].append_rephrase(qa_set.qns)
+            self.id_map[qa_set._id].append_rephrase(qa_set.qns)
         except KeyError:
-            self._id_map[qa_set._id] = qa_set
-            self._pool.append(qa_set)
+            self.id_map[qa_set._id] = qa_set
+            self.pool.append(qa_set)
 
-            # add qa_set to _type_map
-            _type = qa_set._type
+            # add qa_set to type_map
+            type = qa_set.type
             try:
-                self._type_map[_type].append(qa_set)
+                self.type_map[type].append(qa_set)
             except KeyError:
-                self._type_map[_type] = [qa_set]
+                self.type_map[type] = [qa_set]
 
-    def random_draw(self, _type=None, duration: float = None) -> QASet:
+    def random_draw_one(self, type=None) -> QASet:
         """ Randomly draw a QASet from self._QASetPool """
-
-        data = self._type_map[_type] if _type else list(self._id_map.values())
+        data = self.type_map[type] if type else list(self.id_map.values())
         return random.choice(data)
 
-    def draw_many(self, q_num, _type=None):
+    def random_draw_multiple(self, q_num, type=None):
         num, iter_num = q_num, 0
         res = set()
         subtype_list = []
@@ -97,81 +193,113 @@ class QASetPool:
                 raise ValueError(
                     f"question number {q_num} is too large, " "make it smaller"
                 )
-            qa_set = self.random_draw(_type)
-            _sub_type = qa_set._sub_type
-            if qa_set in res or _sub_type in subtype_list:
+            qa_set = self.random_draw(type)
+            _subtype = qa_set._subtype
+            if qa_set in res or _subtype in subtype_list:
                 continue
-            if _sub_type is not None:
-                subtype_list.append(_sub_type)
+            if _subtype is not None:
+                subtype_list.append(_subtype)
             num -= 1
-            res.add(qa_set)
+            res.add_to_pool(qa_set)
         return res
 
     def get_by_id(self, _id: str) -> QASet:
         """ Get a specific QASet by QASet.id attribute """
         _id = int(_id)
-        return self._id_map.get(_id)
+        return self.id_map.get(_id)
 
     def load_from_excel(self, excel_fp: str):
         """ 1. read from excel
         2. create QASet objects from excel data
-        3. add QASet objects into self._pool
+        3. add QASet objects into self.pool
         """
         qa_sheet = pandas.read_excel(excel_fp)
-        rows_num = len(qa_sheet)
-        cols_num = len(qa_sheet.columns)
+        rows_num, cols_num = qa_sheet.shape
+        _logger.debug(f"rows_num: {rows_num}")
+        _logger.debug(f"cols_num: {cols_num}\n")
+
         for i in range(0, rows_num):
             try:
-                qa_set_id = int(qa_sheet.iloc[i][3])
+                qa_set_id = int(qa_sheet.iloc[i][2])
+                _logger.debug(f"ID: {qa_set_id}")
             except Exception as e:
+                _logger.error("Failed getting QASet ID from excel row")
                 continue
-            qa_set_qn = qa_sheet.iloc[i][4]
-            if self.get_by_id(qa_set_id) == None:
-                qa_set_type = qa_sheet.iloc[i][0]
-                qa_set_subtype = qa_sheet.iloc[i][2]
-                qa_set_options = tuple(qa_sheet.iloc[i][j] for j in range(5, cols_num))
 
-                # remove None
-                qa_set_options_copy, qa_set_options = qa_set_options, []
-                for option in qa_set_options_copy:
-                    if str(option) != "nan":
-                        qa_set_options.append(str(option))
-                qa_set_options = tuple(qa_set_options)
+            qa_set_qn: str = qa_sheet.iloc[i][3]
+            _logger.debug(f"qa_set_qn: {qa_set_qn}")
 
-                qa_set = QASet(
-                    qa_set_id, qa_set_type, qa_set_qn, qa_set_options, qa_set_subtype
+            if not self.get_by_id(qa_set_id):
+                qa_set_type: str = qa_sheet.iloc[i][0]
+                _logger.debug(f"qa_set_type: {qa_set_type}")
+
+                qa_set_subtype: str = qa_sheet.iloc[i][1]
+                _logger.debug(f"qa_set_subtype: {qa_set_subtype}")
+
+                qa_set_options: Set = set(
+                    str(qa_sheet.iloc[i][j]) for j in range(4, cols_num)
                 )
-                self.add(qa_set)
+                # remove emtpy option, which is 'nan' in pandas
+                qa_set_options.discard("nan")
+                _logger.debug(f"qa_set_options: {qa_set_options}")
+
+                qa_set: QASet = QASet(
+                    id=qa_set_id,
+                    type=qa_set_type,
+                    subtype=qa_set_subtype,
+                    qns=qa_set_qn,
+                    options=qa_set_options,
+                )
+                self.add_to_pool(qa_set)
+                _logger.debug(">>> Added new QASet into pool\n")
+                # _logger.debug(qa_set)
             else:
                 self.get_by_id(qa_set_id).append_rephrase(qa_set_qn)
+                _logger.debug("### Added new rephrased version into existing QASet\n")
 
     def write_to_json(self, export_fp: str):
         """
-        get all QASet objects from self._pool
+        get all QASet objects from self.pool
         convert every QASet object into a dictionary
         write the list of dictionaries into json
         """
+        export_fp: Path = Path(export_fp)
+        if export_fp.is_file():
+            overwrite = input(f"{export_fp} already exist, overwrite it (y/n)?")
+            if overwrite in ("Y", "y", "yes"):
+                _logger.warning(f"Overwriting {export_fp}")
+            else:
+                _logger.error(f"Export aborted")
+                return
 
-        with open(export_fp, "w") as f:
-            lst = []
-            for qa_set in self._pool:
-                lst.append({tag: getattr(qa_set, tag) for tag in QASet.info_list})
-            json.dump(lst, open(export_fp, "w"), indent=4)
+        lst = []
+        # gather all data from pool
+        for qa_set in self.pool:
+            lst.append({tag: getattr(qa_set, tag) for tag in QASet.property_list})
+
+        with export_fp.open(mode="w") as f:
+            json.dump(lst, f, indent=4)
 
     def load_from_json(self, json_fp: str):
         """ 1. read from json
         2. create QASet objects from json data
-        3. add QASet objects into self._pool
+        3. add QASet objects into self.pool
         """
+        assert Path(json_fp).is_file()
+        try:
+            qadict_lst = json.load(open(json_fp))
+            _logger.debug(f"{json_fp} has been loaded")
+        except:
+            _logger.error(f"Failed loading {json_fp}")
+            return
 
-        qadict_lst = json.load(open(json_fp))
         for qa_dict in qadict_lst:
-            self.add(QASet(**qa_dict))
+            self.add_to_pool(QASet(**qa_dict))
 
 
 def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
+    """ Return a QASetPool instance with loaded QASets from json """
     assert Path(qa_bank_json).is_file()
-
     qa_pool = QASetPool()
     qa_pool.load_from_json(Path(qa_bank_json))
     return qa_pool
@@ -179,7 +307,9 @@ def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
 
 if __name__ == "__main__":
     pool = QASetPool()
-    pool.load_from_excel("qa_bank/qa_bank_20_July_2020.xlsx")
-    pool.write_to_json("qa_bank/qa_bank_20_July_2020.json")
-    # q = pool.random_draw()
-    # print(q)
+    pool.load_from_excel("example/qa_bank_sample_2.xlsx")
+    pool.write_to_json("example/qa_bank_sample_2.json")
+
+    pool_2 = get_qa_pool_from_json("example/qa_bank_sample_2.json")
+    q = pool_2.random_draw_one()
+    print(q)
