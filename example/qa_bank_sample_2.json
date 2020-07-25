@@ -7,10 +7,10 @@
             "What's the colour of the traffic light when the car pass under?"
         ],
         "options": [
-            "green",
-            "yellow",
             "no traffic light",
-            "red"
+            "red",
+            "yellow",
+            "green"
         ]
     },
     {
@@ -21,10 +21,10 @@
             "What's the condition of the road?"
         ],
         "options": [
-            "clear",
             "wet",
-            "snowy",
-            "muddy"
+            "clear",
+            "muddy",
+            "snowy"
         ]
     },
     {
@@ -49,8 +49,8 @@
         ],
         "options": [
             "Side",
-            "Back",
-            "Front"
+            "Front",
+            "Back"
         ]
     },
     {
@@ -61,9 +61,9 @@
             "What is the condition of the cars after the accident?"
         ],
         "options": [
+            "A few scratches/dents",
             "No visible deformation",
             "Badly damaged",
-            "A few scratches/dents",
             "There is no accident in the video"
         ]
     },
@@ -75,10 +75,10 @@
             "How fast is my car moving comparing to others?"
         ],
         "options": [
-            "Faster than other cars",
-            "Slower than other cars",
+            "My car is stationary",
             "Same as other cars",
-            "My car is stationary"
+            "Slower than other cars",
+            "Faster than other cars"
         ]
     },
     {
@@ -89,12 +89,12 @@
             "What are the types of vehicles appeared in the video?"
         ],
         "options": [
-            "Pickup Truck",
             "Truck",
-            "Sedan",
-            "Bus",
+            "Pickup Truck",
+            "SUV",
             "Sports car",
-            "SUV"
+            "Sedan",
+            "Bus"
         ]
     },
     {
@@ -105,8 +105,8 @@
             "Was the pedestrian a child?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -118,12 +118,12 @@
         ],
         "options": [
             "Mountainous area",
+            "Buildings",
             "Expressway",
             "Tunnel",
-            "The countryside",
             "Others",
             "Forest",
-            "Buildings"
+            "The countryside"
         ]
     },
     {
@@ -146,9 +146,9 @@
             "Were the motorcyclists wearing helmet in the video?"
         ],
         "options": [
-            "There is no motorcyclists",
+            "No",
             "Yes",
-            "No"
+            "There is no motorcyclists"
         ]
     },
     {
@@ -159,11 +159,11 @@
             "which kind of traffic sign appeared in the video?"
         ],
         "options": [
-            "Danger sign",
-            "Pedestrian crossing",
+            "Stop sign",
             "Slow down",
             "There is no visible traffic sign",
-            "Stop sign",
+            "Danger sign",
+            "Pedestrian crossing",
             "Speed limit"
         ]
     },
@@ -175,10 +175,10 @@
             "How many vehicle appeared in this video?"
         ],
         "options": [
-            "more than five",
-            "only one",
+            "three to five",
             "two",
-            "three to five"
+            "only one",
+            "more than five"
         ]
     },
     {
@@ -189,10 +189,10 @@
             "How many cars were involved in the accident?"
         ],
         "options": [
-            "more than five",
-            "only one",
+            "three to five",
             "two",
-            "three to five"
+            "only one",
+            "more than five"
         ]
     },
     {
@@ -203,11 +203,11 @@
             "how many cars turned right in the video?"
         ],
         "options": [
-            "more than five",
-            "only one",
+            "three to five",
             "none",
             "two",
-            "three to five"
+            "only one",
+            "more than five"
         ]
     },
     {
@@ -218,11 +218,11 @@
             "how many cars turned left in the video?"
         ],
         "options": [
-            "more than five",
-            "only one",
+            "three to five",
             "none",
             "two",
-            "three to five"
+            "only one",
+            "more than five"
         ]
     },
     {
@@ -233,10 +233,10 @@
             "How many lanes does the road have in single direction? "
         ],
         "options": [
-            "more than five",
-            "only one",
+            "three to five",
             "two",
-            "three to five"
+            "only one",
+            "more than five"
         ]
     },
     {
@@ -247,11 +247,11 @@
             "how many pedestrians cross the road?"
         ],
         "options": [
-            "more than five",
+            "three to five",
             "none",
-            "two",
             "only one",
-            "three to five"
+            "two",
+            "more than five"
         ]
     },
     {
@@ -262,11 +262,11 @@
             "How many traffic lights were in the video?"
         ],
         "options": [
-            "2",
             "1",
-            "4",
+            "2",
             "5",
-            "3"
+            "3",
+            "4"
         ]
     },
     {
@@ -277,11 +277,11 @@
             "how many cars stop on the crossroad?"
         ],
         "options": [
-            "more than five",
+            "three to five",
             "none",
-            "two",
             "only one",
-            "three to five"
+            "two",
+            "more than five"
         ]
     },
     {
@@ -292,11 +292,11 @@
             "Which part of the vehicle fall off?"
         ],
         "options": [
+            "Tire",
+            "parts of the body frame",
             "car plate",
             "items carried by the truck",
-            "Tire",
-            "side mirror",
-            "parts of the body frame"
+            "side mirror"
         ]
     },
     {
@@ -319,8 +319,8 @@
             "Did a person cross the road in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -332,8 +332,8 @@
             "Did a car turn right in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -345,8 +345,8 @@
             "Did an accident happen in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -357,8 +357,8 @@
             "Did a car have a collision with other cars?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -370,8 +370,8 @@
             "Is there any traffic light violation? "
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -382,8 +382,8 @@
             "Did anyone be knocked down by a car?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -394,8 +394,8 @@
             "Did a car take a U-turn in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -407,8 +407,8 @@
             "Is my car speeding up?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -420,8 +420,8 @@
             "Is my car slowing down?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -432,8 +432,8 @@
             "Was the accident caused by another vehicle?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -444,8 +444,8 @@
             "Was the driver driving in the correct direction?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -456,8 +456,8 @@
             "Did the car skid due to a slippery surface?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -468,8 +468,8 @@
             "Was there any visible hit by another vehicle caught on the camera?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -480,8 +480,8 @@
             "Was the accident a mere hit by another vehicle?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -492,8 +492,8 @@
             "Did a car surpass another car in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -504,8 +504,8 @@
             "Was the car in front moving when the collision occur?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -517,8 +517,8 @@
             "Was there fire after the collision?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -529,8 +529,8 @@
             "Did a car start moving in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -541,8 +541,8 @@
             "Did any parts of the vehicle fall off ?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -553,8 +553,8 @@
             "Did the pedestrian check for safety before crossing the traffic?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -565,8 +565,8 @@
             "Were the vehicles close to each other in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -577,8 +577,8 @@
             "Are there any pedestrians in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -589,8 +589,8 @@
             "Is there a crossroad in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -601,8 +601,8 @@
             "Are there any non-motorized vehicles occupying the driveway?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -613,8 +613,8 @@
             "Are there any cars signalling left or right turn?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -625,8 +625,8 @@
             "Are there any cars coming from opposite directions?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -637,8 +637,8 @@
             "Is there a grey car in this video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -650,8 +650,8 @@
             "Is there a red SUV in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -662,8 +662,8 @@
             "Is there a stop sign shown in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -674,8 +674,8 @@
             "Are there any cars changing lane?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -686,8 +686,8 @@
             "Are there any cars driving in reverse?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -698,8 +698,8 @@
             "Are there any red cars in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -710,8 +710,8 @@
             "Are there any white cars in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -722,8 +722,8 @@
             "Are there any black cars in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -734,8 +734,8 @@
             "Did any non-motorized vehicles appear in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -746,8 +746,8 @@
             "Is there any car rollover after crashing? "
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -759,8 +759,8 @@
             "Is there any visible person being hit by any car? "
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -771,8 +771,8 @@
             "Is there a turn on the road?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -783,8 +783,8 @@
             "Is there a person crossing my driving lane?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -795,8 +795,8 @@
             "Are there any animals in this video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -807,8 +807,8 @@
             "Did a black car turn right in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -819,8 +819,8 @@
             "Did a white car turn right in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -831,8 +831,8 @@
             "Are there any trees along the road?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -843,8 +843,8 @@
             "Is there a traffic jam in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -855,8 +855,8 @@
             "Did a car stopped in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -867,8 +867,8 @@
             "Was there any police officer nearby when the collision occur?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -879,8 +879,8 @@
             "Is there a gas station in the video? "
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -891,8 +891,8 @@
             "Are they any bicycles in the video?"
         ],
         "options": [
-            "Yes",
-            "No"
+            "No",
+            "Yes"
         ]
     }
 ]

@@ -6,31 +6,8 @@ from pathlib import Path
 from collections import abc
 from typing import List, Dict, Tuple, Set, Iterable, Union
 
-import colorlog
+from my_logger import logger as _logger
 from markkk.pyutils.check_text_encoding import ensure_no_zh_punctuation
-
-
-handler = colorlog.StreamHandler()
-handler.setFormatter(
-    colorlog.ColoredFormatter(
-        "%(log_color)s%(levelname)-8s%(reset)s %(log_color)s%(message)s",
-        datefmt=None,
-        reset=True,
-        log_colors={
-            "DEBUG": "green",
-            "INFO": "green",
-            "WARNING": "yellow",
-            "ERROR": "red",
-            "CRITICAL": "red,bg_white",
-        },
-        secondary_log_colors={},
-        style="%",
-    )
-)
-
-_logger = colorlog.getLogger()
-_logger.addHandler(handler)
-_logger.setLevel("DEBUG")
 
 
 class QASet:
@@ -70,12 +47,13 @@ class QASet:
         self._subtype: str = subtype
 
         if isinstance(qns, str):
-            qns = ensure_no_zh_punctuation(qns)
+            qns: str = ensure_no_zh_punctuation(qns)
             self.qns: List[str] = [qns]
         elif isinstance(qns, abc.Sequence):
             qns_lst = []
             for qn in qns:
-                qns_lst.append(ensure_no_zh_punctuation(qn))
+                qn = ensure_no_zh_punctuation(qn)
+                qns_lst.append(qn)
             self.qns: List[str] = qns_lst
         else:
             raise TypeError(
@@ -84,7 +62,8 @@ class QASet:
 
         options_lst = []
         for i in options:
-            options_lst.append(ensure_no_zh_punctuation(i.strip()))
+            option = ensure_no_zh_punctuation(i.strip())
+            options_lst.append(option)
         self._options: Tuple[str] = tuple(options_lst)
 
     @property
@@ -132,12 +111,17 @@ class QASet:
         """
         return random.choice(self.qns), self.options
 
-    def append_rephrase(self, qn):
-        """ Append qn into self.qns """
-        if isinstance(qn, str):
-            self.qns.append(qn)
-        elif isinstance(qn, abc.Sequence):
-            self.qns.extend(qn)
+    def append_rephrase(self, qns: Union[str, List[str]]):
+        """ Append qns into self.qns """
+        if isinstance(qns, str):
+            qns: str = ensure_no_zh_punctuation(qns)
+            self.qns.append(qns)
+        elif isinstance(qns, abc.Sequence):
+            qns_lst = []
+            for qn in qns:
+                qn = ensure_no_zh_punctuation(qn)
+                qns_lst.append(qn)
+            self.qns.extend(qns_lst)
         else:
             raise ValueError(f"can't append {qn}({qn.__class__}) to QASet")
 
@@ -183,24 +167,21 @@ class QASetPool:
         data = self.type_map[type] if type else list(self.id_map.values())
         return random.choice(data)
 
-    def random_draw_multiple(self, q_num, type=None):
-        num, iter_num = q_num, 0
+    def random_draw_multiple(self, q_num: int, type=None) -> Set[QASet]:
+        """ Randomly draw given number of QASet from self._QASetPool """
+        iter_num = 0
         res = set()
-        subtype_list = []
-        while num > 0:
+        # subtype_list = []
+        while len(res) < q_num:
             iter_num += 1
-            if iter_num > 1000:
-                raise ValueError(
-                    f"question number {q_num} is too large, " "make it smaller"
-                )
-            qa_set = self.random_draw(type)
-            _subtype = qa_set._subtype
-            if qa_set in res or _subtype in subtype_list:
-                continue
-            if _subtype is not None:
-                subtype_list.append(_subtype)
-            num -= 1
-            res.add_to_pool(qa_set)
+            qa_set: QASet = self.random_draw_one(type=type)
+            # _subtype: str = qa_set._subtype
+            # if qa_set in res or _subtype in subtype_list:
+            #     continue
+            # if _subtype:
+            #     subtype_list.append(_subtype)
+            res.add(qa_set)
+
         return res
 
     def get_by_id(self, _id: str) -> QASet:
@@ -265,7 +246,7 @@ class QASetPool:
         """
         export_fp: Path = Path(export_fp)
         if export_fp.is_file():
-            overwrite = input(f"{export_fp} already exist, overwrite it (y/n)?")
+            overwrite = input(f"{export_fp} already exist, overwrite it (y/n)? ")
             if overwrite in ("Y", "y", "yes"):
                 _logger.warning(f"Overwriting {export_fp}")
             else:

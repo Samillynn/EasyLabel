@@ -1,34 +1,7 @@
 import json
-import logging
-import colorlog
 from pathlib import Path
 from typing import List, Dict
-
-# logging.basicConfig(format="%(levelname)s - %(message)s",)
-# _logger = logging.getLogger()
-# _logger.setLevel(logging.ERROR)
-
-handler = colorlog.StreamHandler()
-handler.setFormatter(
-    colorlog.ColoredFormatter(
-        "%(log_color)s%(levelname)-8s%(reset)s %(log_color)s%(message)s",
-        datefmt=None,
-        reset=True,
-        log_colors={
-            "DEBUG": "green",
-            "INFO": "green",
-            "WARNING": "yellow",
-            "ERROR": "red",
-            "CRITICAL": "red,bg_white",
-        },
-        secondary_log_colors={},
-        style="%",
-    )
-)
-
-_logger = colorlog.getLogger()
-_logger.addHandler(handler)
-_logger.setLevel("DEBUG")
+from my_logger import logger as _logger
 
 
 def get_value(line: str) -> str:
