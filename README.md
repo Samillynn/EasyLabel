@@ -48,8 +48,11 @@
     4. Remember the `Folder Name` you picked
 - Go to this folder: [UROP_CV_2020_Shared / Video_Folders / Trimmed_All_Videos](https://drive.google.com/drive/folders/17w9hVg67dcB5aFhb-Y35tV7-EDsQjVfj?usp=sharing)
     1. Go to the `Folder Name` you picked.
-    2. there should be a `qa_label_template.txt` file inside the folder, download it and start labelling.
-    3. You can download that video folder to local all together if you wish.
+    2. **Sort the folder by `Last Modified` in descending (reverse) order.**
+    ![img](pics/last_modified.png)
+    3. Download the latest version of `qa_label_template` file inside the folder. `qa_label_template_v2.txt` is the latest version in this case.
+    4. The order of the videos inside the `qa_label_template` should be the same as Google Drive's order now, which is sorted by last modified time in descending order.
+    5. If you download all videos to local, and sort them by last modified time, the order should remain same and consistent.
 
 ### 1. To label which perspective the video is being shot at
 
@@ -177,7 +180,7 @@
 
 ### About Auto-Populated Questions and Options
 
-- To speed up the process, we have pre-populated 7 basic questions for each video randomly.
+- To speed up the process, we have pre-populated 6 basic questions for each video randomly.
 - Your job now is mainly to review these questions together with the video clip.
     1. If the question and its options are slightly off the video context.
         - you should make necessary modifications on it.
@@ -186,12 +189,12 @@
         - you need to remove the exclamation mark `!` at the start of the question line to mark that this pre-populated question has been reviewed and confirmed.
     3. If the question and its options are totally off, which does not suit the video at all.
         - you can either leave it with the exclamation mark `!` as it is, or remove it from the file.
-        - question section marked with `!` will not be processed eventually. 
+        - question section marked with `!` will not be processed eventually.
     4. If all 7 pre-populated questions can be used, keep them all.
-    5. After removing the unfit questions, you should make sure there are at least 2-3 basic questions for every video.
+    5. After removing the unfit questions, you should make sure there are at least 3 basic questions for every video.
 - `{{ auto }}` means auto generation, no change is required, just leave it as it is.
 
-### About QASet substitution
+### About QASet Substitution
 
 TODO
 
