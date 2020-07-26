@@ -17,7 +17,7 @@ def main():
         assert sublist_fp.is_file()
 
         # generate label template
-        generate_qa_template_from_json(metadata_lst_filepath=sublist_fp)
+        generate_template(metadata_lst_filepath=sublist_fp)
 
 
 if __name__ == "__main__":
