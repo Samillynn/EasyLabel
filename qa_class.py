@@ -288,9 +288,13 @@ def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
 
 if __name__ == "__main__":
     pool = QASetPool()
-    pool.load_from_excel("example/qa_bank_sample_2.xlsx")
-    pool.write_to_json("example/qa_bank_sample_2.json")
+    pool.load_from_excel("qa_bank/26July_high_quality.xlsx")
+    pool.write_to_json("qa_bank/26July_high_quality.json")
 
-    pool_2 = get_qa_pool_from_json("example/qa_bank_sample_2.json")
-    q = pool_2.random_draw_one()
-    print(q)
+    # pool = QASetPool()
+    # pool.load_from_excel("example/qa_bank_sample_2.xlsx")
+    # pool.write_to_json("example/qa_bank_sample_2.json")
+    #
+    # pool_2 = get_qa_pool_from_json("example/qa_bank_sample_2.json")
+    # q = pool_2.random_draw_one()
+    # print(q)
