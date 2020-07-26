@@ -6,7 +6,7 @@ from my_logger import logger as _logger
 from qa_class import QASet, QASetPool, get_qa_pool_from_json
 from markkk.pyutils.check_text_encoding import is_ascii, ensure_no_zh_punctuation
 
-QA_BANK_JSON_FILEPATH = "example/qa_bank_sample_2.json"
+QA_BANK_JSON_FILEPATH = "qa_bank/26July_high_quality.json"
 qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 qa_section = """
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
@@ -21,12 +21,15 @@ def auto_populated_qa_section(q_num: int, type=None) -> str:
     qa_sets: Set[QASet] = qa_pool.random_draw_multiple(q_num=q_num, type=type)
 
     for qa_set in qa_sets:
-        qa: Tuple[str, Tuple] = qa_set.get()
-        qa_sections += "!--------------------{{ auto }}\n"
+        qn, options = qa_set.get()
+        q_type_char: str = qa_set.type[0]
+        qa_sections += "!--------------------{{"
+        qa_sections += f" {q_type_char} "
+        qa_sections += "}}\n"
         qa_sections += "<QASet_ID>: {{ auto }}\n"
         qa_sections += "<ANS>: {{  }}\n"
-        qa_sections += f"{qa[0]}\n"
-        for option in qa[1]:
+        qa_sections += f"{qn}\n"
+        for option in options:
             qa_sections += f"{option}\n"
         qa_sections += "\n"
 

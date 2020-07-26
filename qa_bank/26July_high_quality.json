@@ -1,0 +1,198 @@
+[
+    {
+        "id": 6,
+        "type": "Descriptive",
+        "subtype": "Count",
+        "qns": [
+            "How many cars were involved in the accident?"
+        ],
+        "options": [
+            "more than five",
+            "None",
+            "one",
+            "three to five",
+            "two"
+        ]
+    },
+    {
+        "id": 8,
+        "type": "Descriptive",
+        "subtype": "Event Query",
+        "qns": [
+            "Did a car violate the traffic light?",
+            "Is there any traffic light violation? "
+        ],
+        "options": [
+            "No",
+            "Traffic light is not presented in the video",
+            "Yes"
+        ]
+    },
+    {
+        "id": 22,
+        "type": "Descriptive",
+        "subtype": "Attribute Query",
+        "qns": [
+            "What's the time of the day?"
+        ],
+        "options": [
+            "Nighttime",
+            "Daytime"
+        ]
+    },
+    {
+        "id": 23,
+        "type": "Descriptive",
+        "subtype": "Existence Query",
+        "qns": [
+            "Is there any car doing lane changing in the video?",
+            "Is there a car changed its lane in the video?"
+        ],
+        "options": [
+            "No",
+            "Yes"
+        ]
+    },
+    {
+        "id": 29,
+        "type": "Descriptive",
+        "subtype": "Existence Query",
+        "qns": [
+            "Is there any vehicle rollover after crashing? ",
+            "Is there any vehicle rollover after the collision occurred? "
+        ],
+        "options": [
+            "No",
+            "There is no accident.",
+            "Yes"
+        ]
+    },
+    {
+        "id": 34,
+        "type": "Descriptive",
+        "subtype": "Attribute Query",
+        "qns": [
+            "What is the condition of the cars after the accident?",
+            "How much damage has the car received after the accident?"
+        ],
+        "options": [
+            "Badly damaged",
+            "No visible deformation",
+            "A few scratches/dents",
+            "There is no accident in the video"
+        ]
+    },
+    {
+        "id": 36,
+        "type": "Descriptive",
+        "subtype": "Attribute Query",
+        "qns": [
+            "How fast is my car moving comparing to others?",
+            "What is the speed of my car comparing to other cars?"
+        ],
+        "options": [
+            "My car is not moving",
+            "Slower than other cars",
+            "Faster than other cars",
+            "Same as other cars"
+        ]
+    },
+    {
+        "id": 73,
+        "type": "Explanatory",
+        "subtype": "Reasoning",
+        "qns": [
+            "What could possibly cause this accident?"
+        ],
+        "options": [
+            "Violation of traffic rules by pedestrians",
+            "The front car braked sharply.",
+            "Extreme weather conditions",
+            "The front car was blocking the road",
+            "Violation of traffic rules by vehicles"
+        ]
+    },
+    {
+        "id": 95,
+        "type": "Descriptive",
+        "subtype": "Attribute Query",
+        "qns": [
+            "Where was the video taken?"
+        ],
+        "options": [
+            "Road in the city",
+            "A straight road",
+            "The countryside",
+            "Forest",
+            "Tunnel",
+            "A crossroad",
+            "A turning point",
+            "Expressway",
+            "Others",
+            "Mountainous area"
+        ]
+    },
+    {
+        "id": 96,
+        "type": "Descriptive",
+        "subtype": "Attribute Query",
+        "qns": [
+            "What's the condition of the road?"
+        ],
+        "options": [
+            "the road is marked clearly",
+            "congested",
+            "sparse",
+            "muddy",
+            "dry",
+            "wet",
+            "snowy",
+            "the road is unmarked",
+            "obstructed"
+        ]
+    },
+    {
+        "id": 99,
+        "type": "Explanatory",
+        "subtype": "Classify",
+        "qns": [
+            "What type of accident happened in the video?"
+        ],
+        "options": [
+            "Collision between motor vehicles",
+            "Rear-end",
+            "Collision between motor vehicle(s) and non-motor vehicle(s)",
+            "Side-collision",
+            "There is no accident in this video",
+            "Collision between non-motor vehicles",
+            "Collision between non-motor vehicle(s) and pedestrian(s)",
+            "Collision between motor vehicles(s) and pedestrian(s)",
+            "Collision against flying object(s)",
+            "Head-on",
+            "Single vehicle collision",
+            "Run-off-road collision"
+        ]
+    },
+    {
+        "id": 100,
+        "type": "Descriptive",
+        "subtype": "Reasoning",
+        "qns": [
+            "Which factors might have contributed to the accident?",
+            "Which might be the reason for this accident?"
+        ],
+        "options": [
+            "Obstructed view",
+            "Improper lane change",
+            "There is no accident in this video",
+            "Not paying attention to their surroundings or road safety",
+            "Traffic congestion",
+            "Retrograde vehicles",
+            "Others",
+            "Fatigue driving",
+            "Bad road surfaces",
+            "Speeding vehicles",
+            "Traffic light violation"
+        ]
+    }
+]
