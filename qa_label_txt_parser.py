@@ -91,65 +91,59 @@ def qa_section_parser(qa_section: List) -> Dict:
         "q_body": q_body,
         "option_lst": option_lst,
         "correct_ans": correct_ans,
-        "ans_indexes": ans_indexes,
-        "plus_indexes": plus_indexes,
+        "ans_indexes": tuple(ans_indexes),
+        "plus_indexes": tuple(plus_indexes),
     }
 
     return qa_section_data
 
 
 def vid_section_parser(vid_section: List) -> Dict:
-    # store parsed data
-    vid_section_data: Dict = {}
-    # store the indexes where a vid_section starts
-    qa_section_indexes = []
     # traverse thru vid_section line by line
+    # and store the indexes where qa_sections starts
+    qa_section_indexes = []
     for index, line in enumerate(vid_section):
-        if line.startswith("------"):
+        if line.startswith("-------"):
             qa_section_indexes.append(index)
 
-    num_qa_sections = len(qa_section_indexes)
-    _logger.info(f"Number of QA sections found: {num_qa_sections}")
-
+    ### Parsing of video info
+    # get video info section
     vid_info_section: List = vid_section[: qa_section_indexes[0]]
+    # temporary data store
+    filename = None
+    perspective = None
+    re_trim_ts = None
+    critical_ts = None
     for line in vid_info_section:
         if line.startswith("~~~~~~~~~~~~~~~~~~~~ "):
-            _logger.debug("video section")
             filename = line.strip("~").strip()
-            vid_section_data["filename"] = filename
-            _logger.debug(f"video: {filename}")
+            if not filename:
+                _logger.error(f"Missing video filename")
+            else:
+                _logger.debug(f"~~~~~~~~ video section: {filename}")
         elif line.startswith("<PERSPECTIVE>"):
             perspective = get_value(line)
-            if perspective == "":
+            if not perspective:
                 _logger.error(f"Missing required <PERSPECTIVE> for {filename}")
-            else:
-                vid_section_data["perspective"] = perspective
         elif line.startswith("<RE_TRIM>"):
             re_trim_ts = get_value(line)
             if re_trim_ts == "START_TS, END_TS":
-                _logger.debug("no re-trimming needed")
                 re_trim_ts = None
             else:
+                # TODO: time format validation
                 pass
-                # TODO: validation
-            vid_section_data["re_trim_ts"] = re_trim_ts
-
         elif line.startswith("<CRITICAL_POINT>"):
             critical_ts = get_value(line)
             if critical_ts == "TS":
-                _logger.debug("no CRITICAL POINT")
                 critical_ts = None
             else:
-                # TODO: store value
-                # TODO: time validation
+                # TODO: time format validation
                 pass
-            vid_section_data["critical_ts"] = critical_ts
 
-    # create qa list
+    ### Parsing of qa sections
     qa_list: List[Dict] = []
-    # split a video section into qa sections
     for index, section_start in enumerate(qa_section_indexes):
-        if index < num_qa_sections - 1:
+        if index < len(qa_section_indexes) - 1:
             qa_section: List = vid_section[
                 section_start : qa_section_indexes[index + 1]
             ]
@@ -158,7 +152,14 @@ def vid_section_parser(vid_section: List) -> Dict:
 
         qa_list.append(qa_section_parser(qa_section))
 
-    vid_section_data["qa_list"] = qa_list
+    vid_section_data: Dict = {
+        "filename": filename,
+        "perspective": perspective,
+        "re_trim_ts": re_trim_ts,
+        "critical_ts": critical_ts,
+        "qa_list": qa_list,
+    }
+    _logger.debug(json.dumps(vid_section_data))
 
     return vid_section_data
 
