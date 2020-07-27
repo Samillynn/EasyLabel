@@ -1,133 +1,149 @@
 import json
 from pathlib import Path
-from typing import List, Dict
+from typing import List, Dict, Set, Tuple
 from my_logger import logger as _logger
+
+ans_map = {
+    "A": 0,
+    "B": 1,
+    "C": 2,
+    "D": 3,
+    "E": 4,
+    "F": 5,
+    "G": 6,
+    "H": 7,
+    "I": 8,
+    "J": 9,
+    "K": 10,
+    "L": 11,
+}
 
 
 def get_value(line: str) -> str:
-    assert isinstance(line, str)
+    if not isinstance(line, str):
+        _logger.error("func: get_value accepts string only.")
+        return
     try:
         start = line.index("{{") + 2
         end = line.index("}}")
     except:
-        raise Exception(f"`{line}` does not satisfy expected format")
+        _logger.error(f"`{line}` does not satisfy expected format")
+        return
     value = line[start:end].strip()
+    if value in ("None", "none", "nan", "NONE", "auto"):
+        value = None
     return value
 
 
 def qa_section_parser(qa_section: List) -> Dict:
-    # store parsed data
-    qa_section_data: Dict = {}
-    # store options
-    option_lst: List = []
-    # store correct answer index
-    correct_ans: List = []
-    qn = ""
+    q_ignore = False  # wether skip this qa section
+    q_type = None  # store parsed question type
+    q_sub = None  # store parsed QASet_ID
+    q_body = ""  # store parsed question
+    option_lst: List = []  # store parsed options
+    correct_ans: List = []  # store correct answer index
+    ans_indexes: Set = set()
+    plus_indexes: Set = set()
 
     for line in qa_section:
         line: str
         if line.startswith("!"):
-            break
+            q_ignore = True
         elif line.startswith("---------"):
-            q_type = get_value(line)
+            q_type: str = get_value(line)
         elif line.startswith("<QASet_ID>"):
-            pass
-        #     q_sub = get_value(line)
-        #     if q_sub == "None":
-        #         q_sub = None
-        #     else:
-        #         # TODO: Get substitution
-        #         sub = ""
-        #         qn = sub
-        # elif line.startswith("<A-sub>"):
-        #     a_sub = get_value(line)
-        #     if a_sub == "None":
-        #         a_sub = None
-        #     else:
-        #         # TODO: Get substitution
-        #         sub = []
-        #         option_lst += sub
+            q_sub: str = get_value(line)
+            if q_sub:
+                sub = " "
+                q_body = sub
         elif line.startswith("<ANS>"):
             ans = get_value(line)
-            ans_map = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6}
             for char in ans.upper():
                 if char in ans_map:
-                    correct_ans.append(ans_map[char])
+                    ans_indexes.add(ans_map[char])
         else:
             if not q_sub and "?" in line:
-                qn = line.strip()
+                # get question line
+                q_body = line.strip()
             elif q_sub and "?" in line:
-                _logger.error("Question line detected while <Q-sub> is not None.")
+                _logger.error(
+                    "Conflict: Question line detected while <QASet_ID> also presents."
+                )
             else:
                 if line:
-                    option_lst.append(line)
+                    option_lst.append(line.strip())
 
-    if ans == "+":
-        for index, option in enumerate(option_lst):
-            if option.startswith("+"):
-                correct_ans.append(index)
-                option_lst[index] = option.strip("+").strip()
+    # check for correct ans marked with '+'
+    for index, option in enumerate(option_lst):
+        if option.startswith("+"):
+            plus_indexes.add(index)
+            option_lst[index] = option.strip("+").strip()
 
-    qa_section_data["q_type"] = q_type
-    qa_section_data["correct_ans"] = correct_ans
-    qa_section_data["qn"] = qn
-    qa_section_data["options"] = option_lst
+    # store parsed data
+    if len(ans_indexes) == 0 and len(plus_indexes) == 0:
+        q_ignore = True
+
+    # store parsed data
+    qa_section_data: Dict = {
+        "q_ignore": q_ignore,
+        "q_type": q_type,
+        "q_sub": q_sub,
+        "q_body": q_body,
+        "option_lst": option_lst,
+        "correct_ans": correct_ans,
+        "ans_indexes": tuple(ans_indexes),
+        "plus_indexes": tuple(plus_indexes),
+    }
 
     return qa_section_data
 
 
 def vid_section_parser(vid_section: List) -> Dict:
-    # store parsed data
-    vid_section_data: Dict = {}
-    # store the indexes where a vid_section starts
-    qa_section_indexes = []
     # traverse thru vid_section line by line
+    # and store the indexes where qa_sections starts
+    qa_section_indexes = []
     for index, line in enumerate(vid_section):
-        if line.startswith("--------------------"):
+        if line.startswith("-------"):
             qa_section_indexes.append(index)
 
-    num_qa_sections = len(qa_section_indexes)
-    _logger.info(f"Number of QA sections found: {num_qa_sections}")
-
+    ### Parsing of video info
+    # get video info section
     vid_info_section: List = vid_section[: qa_section_indexes[0]]
+    # temporary data store
+    filename = None
+    perspective = None
+    re_trim_ts = None
+    critical_ts = None
     for line in vid_info_section:
         if line.startswith("~~~~~~~~~~~~~~~~~~~~ "):
-            _logger.debug("video section")
             filename = line.strip("~").strip()
-            vid_section_data["filename"] = filename
-            _logger.debug(f"video: {filename}")
+            if not filename:
+                _logger.error(f"Missing video filename")
+            else:
+                _logger.debug(f"~~~~~~~~ video section: {filename}")
         elif line.startswith("<PERSPECTIVE>"):
             perspective = get_value(line)
-            if perspective == "":
+            if not perspective:
                 _logger.error(f"Missing required <PERSPECTIVE> for {filename}")
-            else:
-                vid_section_data["perspective"] = perspective
         elif line.startswith("<RE_TRIM>"):
             re_trim_ts = get_value(line)
             if re_trim_ts == "START_TS, END_TS":
-                _logger.debug("no re-trimming needed")
                 re_trim_ts = None
             else:
+                # TODO: time format validation
                 pass
-                # TODO: validation
-            vid_section_data["re_trim_ts"] = re_trim_ts
-
         elif line.startswith("<CRITICAL_POINT>"):
             critical_ts = get_value(line)
             if critical_ts == "TS":
-                _logger.debug("no CRITICAL POINT")
                 critical_ts = None
             else:
-                # TODO: store value
-                # TODO: time validation
+                # TODO: time format validation
                 pass
-            vid_section_data["critical_ts"] = critical_ts
 
-    # create qa list
+    ### Parsing of qa sections
     qa_list: List[Dict] = []
-    # split a video section into qa sections
     for index, section_start in enumerate(qa_section_indexes):
-        if index < num_qa_sections - 1:
+        if index < len(qa_section_indexes) - 1:
             qa_section: List = vid_section[
                 section_start : qa_section_indexes[index + 1]
             ]
@@ -136,7 +152,14 @@ def vid_section_parser(vid_section: List) -> Dict:
 
         qa_list.append(qa_section_parser(qa_section))
 
-    vid_section_data["qa_list"] = qa_list
+    vid_section_data: Dict = {
+        "filename": filename,
+        "perspective": perspective,
+        "re_trim_ts": re_trim_ts,
+        "critical_ts": critical_ts,
+        "qa_list": qa_list,
+    }
+    _logger.debug(json.dumps(vid_section_data))
 
     return vid_section_data
 
@@ -185,4 +208,6 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
 
 
 if __name__ == "__main__":
-    parse_qa_label_txt("example/qa_label_template.txt", writeToJson=True)
+    parse_qa_label_txt(
+        "/Volumes/T5-SSD-Markkk/bilibili_003/qa_label_template.txt", writeToJson=False
+    )

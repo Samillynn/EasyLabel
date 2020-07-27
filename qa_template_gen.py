@@ -23,9 +23,7 @@ def auto_populated_qa_section(q_num: int, type=None) -> str:
     for qa_set in qa_sets:
         qn, options = qa_set.get()
         q_type_char: str = qa_set.type[0]
-        qa_sections += "!--------------------{{"
-        qa_sections += f" {q_type_char} "
-        qa_sections += "}}\n"
+        qa_sections += "--------------------{{ " + q_type_char + " }}\n"
         qa_sections += "<QASet_ID>: {{ auto }}\n"
         qa_sections += "<ANS>: {{  }}\n"
         qa_sections += f"{qn}\n"
