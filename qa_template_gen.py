@@ -11,7 +11,7 @@ QA_BANK_JSON_FILEPATH = "qa_bank/26July_high_quality.json"
 hf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 
 # low frequency QASet pool
-QA_BANK_JSON_FILEPATH = "qa_bank/qa_bank_20_July_2020.json"
+QA_BANK_JSON_FILEPATH = "qa_bank/qa_bank_20_July_2020_new.json"
 lf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 
 
