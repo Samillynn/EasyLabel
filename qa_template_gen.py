@@ -5,6 +5,7 @@ from typing import List, Dict, Set
 from my_logger import logger as _logger
 from qa_class import QASet, QASetPool, get_qa_pool_from_json
 from markkk.pyutils.check_text_encoding import is_ascii, ensure_no_zh_punctuation
+from commonutils import *
 
 # high frequency QASet pool
 QA_BANK_JSON_FILEPATH = "qa_bank/26July_high_quality.json"
@@ -58,18 +59,6 @@ def template_video_section(filename: str, duration: str, dimension: str) -> str:
     vid_section += qa_section * 3
 
     return vid_section
-
-
-def bump_version(filepath: Path) -> Path:
-    head, tail = os.path.split(filepath)
-    name, ext = os.path.splitext(tail)
-    suffix = 1
-    while filepath.is_file():
-        _logger.info(f"{filepath} already exist")
-        suffix += 1
-        new_name = f"{name}_v{str(suffix)}{ext}"
-        filepath = Path(head) / new_name
-    return filepath
 
 
 def generate_template(folder_path: str = None, metadata_lst_filepath: str = None):

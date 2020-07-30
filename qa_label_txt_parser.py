@@ -3,44 +3,7 @@ import json
 from pathlib import Path
 from typing import List, Dict, Set, Tuple
 from my_logger import logger as _logger
-
-ans_map = {
-    "A": 0,
-    "B": 1,
-    "C": 2,
-    "D": 3,
-    "E": 4,
-    "F": 5,
-    "G": 6,
-    "H": 7,
-    "I": 8,
-    "J": 9,
-    "K": 10,
-    "L": 11,
-}
-supported_types = (
-    "Descriptive",
-    "Explanatory",
-    "Predictive",
-    "Reverse Inference",
-    "Counterfactual",
-    "Introspection",
-)
-
-abbr_to_qtype_map = {
-    "d": "Descriptive",
-    "e": "Explanatory",
-    "p": "Predictive",
-    "r": "Reverse Inference",
-    "c": "Counterfactual",
-    "i": "Introspection",
-    "1": "Descriptive",
-    "2": "Explanatory",
-    "3": "Predictive",
-    "4": "Reverse Inference",
-    "5": "Counterfactual",
-    "6": "Introspection",
-}
+from commonutils import *
 
 
 def get_value(line: str) -> str:
@@ -335,20 +298,19 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
     num_of_unique_qns = len(q_body_count_map)
 
     stats: Dict = {
-        "num_video_sections": num_video_sections,
-        "num_video_ignore": num_video_ignore,
-        "num_video_require_retrim": num_video_require_retrim,
-        "num_video_has_critical_point": num_video_has_critical_point,
-        "total_num_qns": total_num_qns,
-        "total_num_ops": total_num_ops,
-        "q_type_count_map": q_type_count_map,
-        "q_body_count_map": q_body_count_map,
-        # derived
-        "num_video_labelled": num_video_labelled,
-        "average_num_qns_per_video": average_num_qns_per_video,
-        "average_num_ops_per_qns": average_num_ops_per_qns,
-        "num_of_q_type": num_of_q_type,
-        "num_of_unique_qns": num_of_unique_qns,
+        "Number of video sections found            ": num_video_sections,
+        "Number of video sections ignored          ": num_video_ignore,
+        "Number of videos Labelled                 ": num_video_labelled,
+        "Number of videos to be re-trimmed         ": num_video_require_retrim,
+        "Number of videos has critical point       ": num_video_has_critical_point,
+        "Total number of questions                 ": total_num_qns,
+        # "total_num_ops": total_num_ops,
+        "Average Num of questions per video        ": average_num_qns_per_video,
+        "Average Num of options per questions      ": average_num_ops_per_qns,
+        "Number of question types                  ": num_of_q_type,
+        "Number of unique questions                ": num_of_unique_qns,
+        # "q_type_count_map": q_type_count_map,
+        # "q_body_count_map": q_body_count_map,
     }
     return stats
 
@@ -394,7 +356,10 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
 
     if label_file_is_valid:
         stats: Dict = get_stat(qa_label_lst)
-        _logger.info(json.dumps(stats, indent=4))
+        print()
+        _logger.debug("=====================================================\n")
+        _logger.debug(f"Stats: {json.dumps(stats, indent=9)}")
+        print()
 
     else:
         print()
@@ -404,9 +369,12 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
 
     if writeToJson and label_file_is_valid:
         export_fp: Path = txt_fp.parent / "qa_label.json"
+        export_fp: Path = bump_version(export_fp)
+
         with export_fp.open(mode="w") as f:
             f.write(json.dumps(qa_label_lst, indent=4))
-            _logger.debug(f"Successfully exported: {export_fp}")
+            print()
+            _logger.debug(f"Successfully exported: {export_fp}\n")
     elif writeToJson and not label_file_is_valid:
         print()
         _logger.warning(f"No json file is generated.")
