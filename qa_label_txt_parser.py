@@ -1,3 +1,4 @@
+import re
 import json
 from pathlib import Path
 from typing import List, Dict, Set, Tuple
@@ -99,8 +100,20 @@ def qa_section_parser(qa_section: List) -> Dict:
 
 
 def valid_time_format(time_string: str) -> bool:
-    pass
-    return True
+    # 00:00
+    p1 = "^[0-5]?[0-9]:[0-5]?[0-9]$"
+    # 00:00.000
+    p2 = "^[0-5]?[0-9]:[0-5]?[0-9]\.[0-9]{1,3}$"
+    # 000
+    p3 = "^[0-9]{1,3}$"
+    # 00.000
+    p4 = "^[0-9]{1,3}\.[0-9]{1,3}$"
+
+    for pattern in (p1, p2, p3, p4):
+        match = re.fullmatch(pattern, time_string)
+        if match:
+            return True
+    return False
 
 
 def vid_section_parser(vid_section: List) -> Dict:
