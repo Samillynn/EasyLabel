@@ -98,6 +98,11 @@ def qa_section_parser(qa_section: List) -> Dict:
     return qa_section_data
 
 
+def valid_time_format(time_string: str) -> bool:
+    pass
+    return True
+
+
 def vid_section_parser(vid_section: List) -> Dict:
     # traverse thru vid_section line by line
     # and store the indexes where qa_sections starts
@@ -120,6 +125,7 @@ def vid_section_parser(vid_section: List) -> Dict:
             if not filename:
                 _logger.error(f"Missing video filename")
             else:
+                print()
                 _logger.debug(f"~~~~~~~~ video section: {filename}")
         elif line.startswith("<PERSPECTIVE>"):
             perspective = get_value(line)
@@ -130,15 +136,41 @@ def vid_section_parser(vid_section: List) -> Dict:
             if re_trim_ts == "START_TS, END_TS":
                 re_trim_ts = None
             else:
-                # TODO: time format validation
-                pass
+                try:
+                    start_ts, end_ts = tuple(re_trim_ts.split(","))
+                except:
+                    _logger.error(f"Error parsing <RE_TRIM> timestamps: {re_trim_ts}")
+                    start_ts, end_ts = None, None
+
+                # validate start time
+                if start_ts and start_ts == "START_TS":
+                    start_ts = "0"
+                elif start_ts:
+                    if not valid_time_format(start_ts):
+                        _logger.error(
+                            f"Invalid START_TS Format for <RE_TRIM>: {start_ts}"
+                        )
+                        start_ts = None
+
+                # validate start time
+                if end_ts and end_ts == "END_TS":
+                    # leave it for now
+                    pass
+                elif end_ts:
+                    if not valid_time_format(end_ts):
+                        _logger.error(f"Invalid END_TS Format for <RE_TRIM>: {end_ts}")
+                        end_ts = None
+
         elif line.startswith("<CRITICAL_POINT>"):
             critical_ts = get_value(line)
             if critical_ts == "TS":
                 critical_ts = None
             else:
-                # TODO: time format validation
-                pass
+                if not valid_time_format(critical_ts):
+                    _logger.error(
+                        f"Invalid Time Format for <CRITICAL_POINT>: {critical_ts}"
+                    )
+                    critical_ts = None
 
     ### Parsing of qa sections
     qa_list: List[Dict] = []
@@ -159,7 +191,7 @@ def vid_section_parser(vid_section: List) -> Dict:
         "critical_ts": critical_ts,
         "qa_list": qa_list,
     }
-    _logger.debug(json.dumps(vid_section_data))
+    # _logger.debug(json.dumps(vid_section_data))
 
     return vid_section_data
 
@@ -209,5 +241,7 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
 
 if __name__ == "__main__":
     parse_qa_label_txt(
-        "/Volumes/T5-SSD-Markkk/bilibili_003/qa_label_template.txt", writeToJson=False
+        "/Volumes/T5-SSD-Markkk/bilibili_003/qa_label_template.txt",
+        # verbose=False,
+        writeToJson=False,
     )
