@@ -17,7 +17,7 @@ def get_value(line: str) -> str:
         _logger.error(f"`{line}` does not satisfy expected format")
         return
     value = line[start:end].strip()
-    if value in ("None", "none", "nan", "NONE"):
+    if value in ("None", "none", "nan", "NONE", "null"):
         value = None
     return value
 
@@ -321,7 +321,11 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
     qa_label_lst: List[Dict] = []
     # ensure txt file path is valid
     txt_fp = Path(txt_fp)
-    assert txt_fp.is_file()
+    try:
+        assert txt_fp.is_file()
+    except AssertionError:
+        _logger.error(f"File '{str(txt_fp)}' does not exist.")
+        return
 
     # reas txt as a list of lines
     with txt_fp.open() as f:
@@ -383,6 +387,14 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
 
 
 if __name__ == "__main__":
-    parse_qa_label_txt(
-        "/Volumes/T5-SSD-Markkk/bilibili_003/qa_label_template.txt", writeToJson=True,
-    )
+    import sys
+
+    LABEL_FILE = "REPLACE ME"
+
+    if len(sys.argv) == 1:
+        parse_qa_label_txt(LABEL_FILE, writeToJson=True)
+    elif len(sys.argv) == 2:
+        LABEL_FILE = sys.argv[1]
+        parse_qa_label_txt(LABEL_FILE, writeToJson=True)
+    else:
+        _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
