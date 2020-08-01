@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from typing import List, Dict, Set, Tuple
-from my_logger import logger as _logger
+from easylabeltool.my_logger import logger as _logger
 
 ans_map: Dict[str, int] = {
     "A": 0,

@@ -2,8 +2,8 @@ import re
 import json
 from pathlib import Path
 from typing import List, Dict, Set, Tuple
-from my_logger import logger as _logger
-from commonutils import *
+from easylabeltool.my_logger import logger as _logger
+from easylabeltool.commonutils import *
 
 
 def get_value(line: str) -> str:
