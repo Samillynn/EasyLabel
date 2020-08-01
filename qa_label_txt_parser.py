@@ -29,8 +29,8 @@ def qa_section_parser(qa_section: List) -> Tuple[Dict, bool]:
     q_sub = None  # store parsed QASet_ID
     q_body = ""  # store parsed question
     option_lst: List = []  # store parsed options
-    correct_ans: List = []  # store correct answer index
-    ans_indexes: Set = set()
+    correct_ans: Set = set()  # store correct answer in complete sentence
+    ans_indexes: Set = set()  # store correct answer index
     plus_indexes: Set = set()
 
     for line in qa_section:
@@ -79,7 +79,11 @@ def qa_section_parser(qa_section: List) -> Tuple[Dict, bool]:
     for index, option in enumerate(option_lst):
         if option.startswith("+"):
             plus_indexes.add(index)
-            option_lst[index] = option.strip("+").strip()
+            ans: str = option.strip("+").strip()
+            # Update option list
+            option_lst[index] = ans
+            # add full ans to correct answer list
+            correct_ans.add(ans)
 
     # store parsed data
     if len(ans_indexes) == 0 and len(plus_indexes) == 0:
@@ -100,7 +104,7 @@ def qa_section_parser(qa_section: List) -> Tuple[Dict, bool]:
         "q_sub": q_sub,
         "q_body": q_body,
         "option_lst": option_lst,
-        "correct_ans": correct_ans,
+        "correct_ans": tuple(correct_ans),
         "ans_indexes": tuple(ans_indexes),
         "plus_indexes": tuple(plus_indexes),
     }
@@ -185,14 +189,16 @@ def vid_section_parser(vid_section: List) -> Tuple[Dict, bool]:
             else:
                 try:
                     start_ts, end_ts = tuple(re_trim_ts.split(","))
+                    start_ts = start_ts.strip()
+                    end_ts = end_ts.strip()
                 except:
                     _is_valid = False
                     _logger.error(f"Error parsing <RE_TRIM> timestamps: {re_trim_ts}")
                     start_ts, end_ts = None, None
 
                 # validate start time
-                if start_ts and start_ts == "START_TS":
-                    start_ts = "0"
+                if start_ts == "START_TS":
+                    start_ts = "00:00"
                 elif start_ts:
                     if not valid_time_format(start_ts):
                         _is_valid = False
@@ -202,9 +208,8 @@ def vid_section_parser(vid_section: List) -> Tuple[Dict, bool]:
                         start_ts = None
 
                 # validate start time
-                if end_ts and end_ts == "END_TS":
-                    # leave it for now
-                    pass
+                if end_ts == "END_TS":
+                    end_ts = "END"
                 elif end_ts:
                     if not valid_time_format(end_ts):
                         _is_valid = False

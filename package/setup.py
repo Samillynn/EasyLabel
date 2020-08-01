@@ -2,7 +2,7 @@ from setuptools import setup, find_packages, find_namespace_packages
 
 MAJOR = 0
 MINOR = 1
-MICRO = 1
+MICRO = 2
 VERSION = "%d.%d.%d" % (MAJOR, MINOR, MICRO)
 
 with open("README.md", "r") as f:
@@ -13,7 +13,7 @@ setup(
     version=VERSION,
     author="Mark Huang",
     author_email="mark.h.huang@gmail.com",
-    description="Easy Label",
+    description="Easy Label Tool for internal use",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="",
