@@ -289,7 +289,8 @@ no
     parse bilibili_003/qa_label_template.txt
     ```
 
-4. Uninstall this package
-    ```bash
-    pip3 uninstall easylabeltool
-    ```
+4. Upload your Label file
+
+- Rename your `qa_label_template.txt` to `[folder_name].txt`, such as `bilibili_003.txt`
+- Rename the generated `qa_label.json` to `[folder_name].json`, such as `bilibili_003.json`
+- Upload both files into this folder: [UROP_CV_2020_Shared / Video_Folders / Label_Files](https://drive.google.com/drive/folders/1WfNHVw-acACT1GDt8s18TESTQFcIfArd?usp=sharing)
