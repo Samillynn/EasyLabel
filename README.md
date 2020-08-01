@@ -83,6 +83,8 @@
     ```
 - `START_TS` and `END_TS` should strictly follow the [Time Format](#time-format).
 - If no re-trimming is needed, leave the line `{{ START_TS, END_TS }}` as it is.
+- You can only provide one timestamp, either `START_TS` or `END_TS`.
+    - E.g. You can only replace `START_TS` to `00:03`, and leave `END_TS` as it is. In this way, you are telling the script that you want to trim and keep the video from `00:03` till the end of the video.
 
 ### Time Format
 
@@ -180,19 +182,18 @@
 
 ### About Auto-Populated Questions and Options
 
-- To speed up the process, we have pre-populated 6 basic questions for each video randomly.
+- To speed up the process, we have pre-populated 7 basic questions for each video randomly.
 - Your job now is mainly to review these questions together with the video clip.
     1. If the question and its options are slightly off the video context.
         - you should make necessary modifications on it.
     2. After you made the modifications, or, if the question and its options fits the video context perfectly at the first place.
         - you need to label the correct answer for that question using either `<ANS>` or `+` as you wish.
-        - you need to remove the exclamation mark `!` at the start of the question line to mark that this pre-populated question has been reviewed and confirmed.
+        - As long as you labelled the correct answer, that question will be deemed reviewed and confirmed, so it will be picked up by our parser in later stage.
     3. If the question and its options are totally off, which does not suit the video at all.
-        - you can either leave it with the exclamation mark `!` as it is, or remove it from the file.
-        - question section marked with `!` will not be processed eventually.
+        - you can remove the question section from the label file.
+        - Alternatively, you can leave it as it is, because a question with no correct answer labelled will be ignored anyway.
     4. If all 7 pre-populated questions can be used, keep them all.
     5. After removing the unfit questions, you should make sure there are at least 3 basic questions for every video.
-- `{{ auto }}` means auto generation, no change is required, just leave it as it is.
 
 ### About QASet Substitution
 
@@ -252,6 +253,43 @@ no
 
 ```
 
-### Label `.txt` Validation and Error Finding after completion
+### Label File Checking and Parsing After Labelling Done
 
-TODO
+- We have packaged the validation tool into a python package, so you just need to `pip install` it.
+- You can install it in a python `virtualenv`, but installing it globally is also fine, because it is pretty lightweight, and you can uninstall it after we are done with it.
+
+#### Usage
+
+1. Install the package
+    ```bash
+    pip3 install --upgrade easylabeltool
+    ```
+
+2. Check your Label file
+    ```bash
+    check "YOUR LABEL FILE PATH HERE"
+    ```
+
+    *Example*
+
+    This will validate your label file `qa_label_template.txt`
+    ```bash
+    check bilibili_003/qa_label_template.txt
+    ```
+
+3. Parse your Label file
+    ```bash
+    parse "YOUR LABEL FILE PATH HERE"
+    ```
+
+    *Example*
+
+    This will validate and export your label file `qa_label_template.txt` into `.json` format
+    ```bash
+    parse bilibili_003/qa_label_template.txt
+    ```
+
+4. Uninstall this package
+    ```bash
+    pip3 uninstall easylabeltool
+    ```
