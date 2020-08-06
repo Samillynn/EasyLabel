@@ -8,6 +8,7 @@ from typing import List, Dict, Tuple, Set, Iterable, Union
 
 from my_logger import logger as _logger
 from markkk.pyutils.check_text_encoding import ensure_no_zh_punctuation
+from orderedset import OrderedSet
 
 
 class QASet:
@@ -217,7 +218,7 @@ class QASetPool:
                 qa_set_subtype: str = qa_sheet.iloc[i][1]
                 _logger.debug(f"qa_set_subtype: {qa_set_subtype}")
 
-                qa_set_options: Set = set(
+                qa_set_options: OrderedSet = OrderedSet(
                     str(qa_sheet.iloc[i][j]) for j in range(4, cols_num)
                 )
                 # remove emtpy option, which is 'nan' in pandas
@@ -288,8 +289,8 @@ def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
 
 if __name__ == "__main__":
     pool = QASetPool()
-    pool.load_from_excel("qa_bank/7_AUG_low.xlsx")
-    pool.write_to_json("qa_bank/7_AUG_low.json")
+    pool.load_from_excel("qa_bank/7_AUG_high.xlsx")
+    pool.write_to_json("qa_bank/7_AUG_high.json")
 
     # pool = QASetPool()
     # pool.load_from_excel("example/qa_bank_sample_2.xlsx")
