@@ -8,11 +8,11 @@ from markkk.pyutils.check_text_encoding import is_ascii, ensure_no_zh_punctuatio
 from commonutils import *
 
 # high frequency QASet pool
-QA_BANK_JSON_FILEPATH = "qa_bank/26July_high_quality.json"
+QA_BANK_JSON_FILEPATH = "qa_bank/7_AUG_high.json"
 hf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 
 # low frequency QASet pool
-QA_BANK_JSON_FILEPATH = "qa_bank/qa_bank_20_July_2020_new.json"
+QA_BANK_JSON_FILEPATH = "qa_bank/7_AUG_low.json"
 lf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 
 
@@ -54,8 +54,8 @@ def template_video_section(filename: str, duration: str, dimension: str) -> str:
     vid_section += "<PERSPECTIVE>: {{  }}\n"
     vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}\n"
     vid_section += "<CRITICAL_POINT>: {{ TS }}\n\n"
-    vid_section += auto_populated_qa_section(qa_pool=hf_qa_pool, q_num=4)
-    vid_section += auto_populated_qa_section(qa_pool=lf_qa_pool, q_num=3)
+    vid_section += auto_populated_qa_section(qa_pool=hf_qa_pool, q_num=5)
+    vid_section += auto_populated_qa_section(qa_pool=lf_qa_pool, q_num=2)
     vid_section += qa_section * 3
 
     return vid_section
