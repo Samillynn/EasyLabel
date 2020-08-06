@@ -288,8 +288,8 @@ def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
 
 if __name__ == "__main__":
     pool = QASetPool()
-    pool.load_from_excel("qa_bank/qa_bank_20_July_2020.xlsx")
-    pool.write_to_json("qa_bank/qa_bank_20_July_2020_new.json")
+    pool.load_from_excel("qa_bank/7_AUG_low.xlsx")
+    pool.write_to_json("qa_bank/7_AUG_low.json")
 
     # pool = QASetPool()
     # pool.load_from_excel("example/qa_bank_sample_2.xlsx")
