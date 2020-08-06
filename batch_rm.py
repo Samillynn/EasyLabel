@@ -1,5 +1,4 @@
-from shutil import rmtree
-from os import remove
+import os
 from pathlib import Path
 from my_logger import logger
 
@@ -13,7 +12,7 @@ def main():
 
         to_delete_fp: Path = folder_path / "qa_label_template_v5.txt"
         if to_delete_fp.is_file():
-            remove(to_delete_fp)
+            os.remove(to_delete_fp)
             logger.debug(f"Removed {to_delete_fp}")
         else:
             logger.warning(f"{to_delete_fp} not found")
