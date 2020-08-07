@@ -56,7 +56,7 @@
     {
         "id": 205,
         "type": "Descriptive",
-        "subtype": "Existence Query (bool)",
+        "subtype": "Existence Query",
         "qns": [
             "Was anyone visibly injured by the collision?",
             "Is there any visible person being hit by any vehicle? "
@@ -105,6 +105,34 @@
     {
         "id": 208,
         "type": "Descriptive",
+        "subtype": "Attribute Query",
+        "qns": [
+            "What's the time of the day?",
+            "Is the video recorded during the daytime or nighttime?"
+        ],
+        "options": [
+            "Daytime",
+            "Nighttime"
+        ]
+    },
+    {
+        "id": 209,
+        "type": "Descriptive",
+        "subtype": "Attribute Query",
+        "qns": [
+            "How fast is my car moving comparing to others?",
+            "What is the speed of my car comparing to other cars?"
+        ],
+        "options": [
+            "Faster than other cars",
+            "Roughly the same as other cars",
+            "Slower than other cars",
+            "My car is not moving"
+        ]
+    },
+    {
+        "id": 210,
+        "type": "Descriptive",
         "subtype": "Count",
         "qns": [
             "How many vehicles appeared in this video?"
@@ -118,7 +146,7 @@
         ]
     },
     {
-        "id": 209,
+        "id": 211,
         "type": "Descriptive",
         "subtype": "Count",
         "qns": [
@@ -133,7 +161,7 @@
         ]
     },
     {
-        "id": 210,
+        "id": 212,
         "type": "Descriptive",
         "subtype": "Count",
         "qns": [
@@ -149,51 +177,30 @@
         ]
     },
     {
-        "id": 211,
-        "type": "Descriptive",
-        "subtype": "Attribute Query",
-        "qns": [
-            "What's the time of the day?"
-        ],
-        "options": [
-            "Daytime",
-            "Nighttime"
-        ]
-    },
-    {
-        "id": 212,
-        "type": "Descriptive",
-        "subtype": "Attribute Query",
-        "qns": [
-            "How fast is my car moving comparing to others?"
-        ],
-        "options": [
-            "Faster than other cars",
-            "Roughly the same as other cars",
-            "Slower than other cars",
-            "My car is not moving"
-        ]
-    },
-    {
         "id": 213,
         "type": "Descriptive",
         "subtype": "Attribute Query",
         "qns": [
-            "What is the speed of my car comparing to other cars?"
+            "What are the types of vehicles appeared in the video?"
         ],
         "options": [
-            "Faster than other cars",
-            "Roughly the same as other cars",
-            "Slower than other cars",
-            "My car is not moving"
+            "Bicycle / Tricycle / Non-motor Vehicles",
+            "Sedan / General Car",
+            "Motorcycle / Scooter",
+            "SUV / CUV",
+            "Bus",
+            "Pickup Truck / Light Truck",
+            "Trailer Truck / Heavy Truck",
+            "Sports Car / Convertible",
+            "Others"
         ]
     },
     {
         "id": 214,
-        "type": "Descriptive",
-        "subtype": "Attribute Query",
+        "type": "Explanatory",
+        "subtype": "Classify",
         "qns": [
-            "What are the types of vehicles appeared in the video?"
+            "What type of vehicle involved in the accident? "
         ],
         "options": [
             "Bicycle / Tricycle / Non-motor Vehicles",
@@ -314,19 +321,7 @@
         "type": "Descriptive",
         "subtype": "Attribute Query",
         "qns": [
-            "Is the video recorded during the daytime or nighttime?"
-        ],
-        "options": [
-            "Daytime",
-            "Nighttime"
-        ]
-    },
-    {
-        "id": 223,
-        "type": "Descriptive",
-        "subtype": "Attribute Query",
-        "qns": [
-            "What's the surface condition of the road?\n"
+            "What's the condition of the road surface?\n"
         ],
         "options": [
             "The road is dry.",
@@ -338,7 +333,7 @@
         ]
     },
     {
-        "id": 224,
+        "id": 223,
         "type": "Descriptive",
         "subtype": "Attribute Query",
         "qns": [
@@ -353,7 +348,7 @@
         ]
     },
     {
-        "id": 225,
+        "id": 224,
         "type": "Explanatory",
         "subtype": "Attribute Query",
         "qns": [
@@ -366,25 +361,6 @@
             "The accident happened around a parking lot.",
             "The accident happened on private land.",
             "The accident happened at a highway entrance.",
-            "Others"
-        ]
-    },
-    {
-        "id": 226,
-        "type": "Explanatory",
-        "subtype": "Classify",
-        "qns": [
-            "What type of vehicle involved in the accident? "
-        ],
-        "options": [
-            "Bicycle / Tricycle / Non-motor Vehicles",
-            "Sedan / General Car",
-            "Motorcycle / Scooter",
-            "SUV / CUV",
-            "Bus",
-            "Pickup Truck / Light Truck",
-            "Trailer Truck / Heavy Truck",
-            "Sports Car / Convertible",
             "Others"
         ]
     }
