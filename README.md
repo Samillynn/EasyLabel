@@ -195,6 +195,11 @@
     4. If all 7 pre-populated questions can be used, keep them all.
     5. After removing the unfit questions, you should make sure there are at least 3 basic questions for every video.
 
+### Label Option Disambiguation
+
+- Please refer to [this](disambiguation.md) document for details.
+
+
 ### About QASet Substitution
 
 TODO
