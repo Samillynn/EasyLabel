@@ -58,10 +58,10 @@
             "How many vehicle appeared in this video?"
         ],
         "options": [
-            "more than five",
             "only one",
             "two",
-            "three to five"
+            "three to five",
+            "more than five"
         ]
     },
     {
@@ -132,11 +132,11 @@
             "how many cars turned right in the video?"
         ],
         "options": [
-            "more than five",
             "only one",
-            "none",
             "two",
-            "three to five"
+            "three to five",
+            "more than five",
+            "none"
         ]
     },
     {
@@ -147,10 +147,10 @@
             "What's the colour of the traffic light when the car pass under?"
         ],
         "options": [
-            "red",
             "green",
-            "no traffic light",
-            "yellow"
+            "yellow",
+            "red",
+            "no traffic light"
         ]
     },
     {
@@ -161,11 +161,11 @@
             "how many cars turned left in the video?"
         ],
         "options": [
-            "more than five",
             "only one",
-            "none",
             "two",
-            "three to five"
+            "three to five",
+            "more than five",
+            "none"
         ]
     },
     {
@@ -200,10 +200,10 @@
             "How many lanes does the road have in single direction? "
         ],
         "options": [
-            "more than five",
             "only one",
             "two",
-            "three to five"
+            "three to five",
+            "more than five"
         ]
     },
     {
@@ -336,9 +336,9 @@
             "which area has been damaged on the vehicle being hit?"
         ],
         "options": [
-            "Back",
             "Front",
-            "Side"
+            "Side",
+            "Back"
         ]
     },
     {
@@ -387,14 +387,14 @@
             "What are the types of vehicles appeared in the video?"
         ],
         "options": [
-            "Motorcycle",
             "Sedan",
-            "Truck",
-            "Sports car",
             "Pickup Truck",
-            "Electric Bikes",
+            "Truck",
             "SUV",
-            "Bus"
+            "Bus",
+            "Sports car",
+            "Motorcycle",
+            "Electric Bikes"
         ]
     },
     {
@@ -465,11 +465,11 @@
             "how many pedestrians cross the road?"
         ],
         "options": [
-            "more than five",
             "none",
-            "two",
             "only one",
-            "three to five"
+            "two",
+            "three to five",
+            "more than five"
         ]
     },
     {
@@ -637,11 +637,11 @@
             "Which part of the vehicle fall off?"
         ],
         "options": [
-            "car plate",
-            "parts of the body frame",
             "Tire",
+            "parts of the body frame",
             "items carried by the truck",
-            "side mirror"
+            "side mirror",
+            "car plate"
         ]
     },
     {
@@ -664,9 +664,9 @@
             "Were the motorcyclists wearing helmet in the video?"
         ],
         "options": [
-            "There is no motorcyclists",
             "Yes",
-            "No"
+            "No",
+            "There is no motorcyclists"
         ]
     },
     {
@@ -703,11 +703,11 @@
         "options": [
             "Stop sign",
             "Speed limit",
-            "Danger sign",
+            "Slow down",
             "Pedestrian crossing",
-            "Direction sign",
+            "Danger sign",
             "There is no visible traffic sign",
-            "Slow down"
+            "Direction sign"
         ]
     },
     {
@@ -718,11 +718,11 @@
             "How many traffic lights were in the video?"
         ],
         "options": [
+            "1",
             "2",
-            "more than 5",
-            "4",
             "3",
-            "1"
+            "4",
+            "more than 5"
         ]
     },
     {
@@ -733,11 +733,11 @@
             "how many cars stop on the crossroad?"
         ],
         "options": [
-            "more than five",
             "none",
-            "two",
             "only one",
-            "three to five"
+            "two",
+            "three to five",
+            "more than five"
         ]
     },
     {
@@ -748,14 +748,14 @@
             "Which party should be responsible for the car accident?"
         ],
         "options": [
-            "The car behind",
-            "The cyclist",
             "The pedestrian",
-            "The closer car",
-            "The motorcyclist",
-            "My car",
             "The front car",
-            "Nobody"
+            "The closer car",
+            "The cyclist",
+            "Nobody",
+            "The motorcyclist",
+            "The car behind",
+            "My car"
         ]
     },
     {
@@ -790,10 +790,10 @@
             "How did the truck get involved in the accident? "
         ],
         "options": [
-            "The truck is causing the accident",
             "The truck is being hit from behind.",
             "The truck is being hit from the side.",
-            "The truck is not involved in the accident."
+            "The truck is not involved in the accident.",
+            "The truck is causing the accident"
         ]
     },
     {
@@ -806,8 +806,8 @@
         "options": [
             "Car hit car",
             "Car hit bicycle",
-            "Car hit motorcycle",
-            "Car hit person"
+            "Car hit person",
+            "Car hit motorcycle"
         ]
     },
     {
@@ -855,11 +855,11 @@
             "Did anyone offer to help after the incident?"
         ],
         "options": [
-            "Yes, other pedestrian came to help",
-            "No, the road is too busy and dangerous for anyone to stop and help",
-            "No, the involved party hit and and flee the scene",
             "Yes, the person involved in the accident came out of their vehicle to help",
-            "Yes, other drivers came out of their vehicles to help"
+            "No, the road is too busy and dangerous for anyone to stop and help",
+            "Yes, other drivers came out of their vehicles to help",
+            "No, the involved party hit and and flee the scene",
+            "Yes, other pedestrian came to help"
         ]
     },
     {
@@ -907,9 +907,9 @@
         ],
         "options": [
             "Run across the road without using the pedestrian crossing",
-            "Pedestrian ran into the road and driver not able to see nor predict due to blindspot",
+            "The vehicle did not stop in time at the pedestrian crossing",
             "Both the pedestrian and the vehicle were not paying attention for safety",
-            "The vehicle did not stop in time at the pedestrian crossing"
+            "Pedestrian ran into the road and driver not able to see nor predict due to blindspot"
         ]
     },
     {
@@ -920,11 +920,11 @@
             "How did the vehicles crash into each other?"
         ],
         "options": [
+            "Driving closely along each other trying to change lane",
             "Front vehicle stopped abruptly causing the vehicle from the back to crash into it",
             "Vehicle lost control due to slippery surface or vehicle malfunction",
-            "Driving closely along each other trying to change lane",
-            "Vehicles crashed when turning",
-            "Vehicles crashed due to neglection of traffic rules"
+            "Vehicles crashed due to neglection of traffic rules",
+            "Vehicles crashed when turning"
         ]
     },
     {
@@ -936,10 +936,10 @@
         ],
         "options": [
             "Slippery surface due to snow or rain",
-            "Driver was not paying attention to the road",
-            "Trying to avoid something on the road",
             "Uneven road, full of potholes",
-            "Vehicle malfunction"
+            "Vehicle malfunction",
+            "Driver was not paying attention to the road",
+            "Trying to avoid something on the road"
         ]
     },
     {
@@ -950,10 +950,10 @@
             "Why did the accident occur at night?"
         ],
         "options": [
-            "Other party violated traffic rules",
+            "Bad or low lighting on the road",
             "Speeding vehicles as there were little vehicles on the road",
             "Drivers were tired and not paying close attention to safety",
-            "Bad or low lighting on the road"
+            "Other party violated traffic rules"
         ]
     },
     {
@@ -976,10 +976,10 @@
             "What would be considered a high potential traffic hazard?"
         ],
         "options": [
-            "Not paying attention to hazards",
             "Narrow roads",
             "Not obeying the traffic rules and regulations",
-            "Speeding vehicles"
+            "Speeding vehicles",
+            "Not paying attention to hazards"
         ]
     },
     {
@@ -990,11 +990,11 @@
             "How many pedestrians crossed the road?"
         ],
         "options": [
-            "more than five",
             "only one",
-            "none",
             "two",
-            "three to five"
+            "three to five",
+            "more than five",
+            "none"
         ]
     },
     {
