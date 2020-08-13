@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import List, Dict, Set, Tuple
 from my_logger import logger as _logger
 from commonutils import *
+from qa_class import QASet, QASetPool, get_qa_pool_from_json
 
 
 def get_value(line: str) -> str:
@@ -22,7 +23,9 @@ def get_value(line: str) -> str:
     return value
 
 
-def qa_section_parser(qa_section: List) -> Tuple[Dict, bool]:
+def qa_section_parser(
+    qa_section: List, local_qa_pool: QASetPool = None
+) -> Tuple[Dict, bool]:
     _is_valid = True
     q_ignore = False  # wether skip this qa section
     q_type = None  # store parsed question type
@@ -134,7 +137,9 @@ def valid_time_format(time_string: str) -> bool:
     return False
 
 
-def vid_section_parser(vid_section: List) -> Tuple[Dict, bool]:
+def vid_section_parser(
+    vid_section: List, local_qa_pool: QASetPool = None
+) -> Tuple[Dict, bool]:
     _is_valid = True
     v_ignore = False
     # traverse thru vid_section line by line
@@ -239,7 +244,9 @@ def vid_section_parser(vid_section: List) -> Tuple[Dict, bool]:
             else:
                 qa_section: List = vid_section[section_start:]
 
-            qa_section_data, valid_qa_section = qa_section_parser(qa_section)
+            qa_section_data, valid_qa_section = qa_section_parser(
+                qa_section, local_qa_pool=local_qa_pool
+            )
             qa_list.append(qa_section_data)
             if not valid_qa_section:
                 _is_valid = False
@@ -320,19 +327,44 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
     return stats
 
 
-def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
+def parse_qa_label_txt(
+    txt_fp: str, writeToJson: bool = False, local_qa_bank_fp: str = ""
+) -> List[Dict]:
+    """Entry point of parsing of txt file"""
     label_file_is_valid = True
     # store parsed result
     qa_label_lst: List[Dict] = []
     # ensure txt file path is valid
     txt_fp = Path(txt_fp)
-    try:
-        assert txt_fp.is_file()
-    except AssertionError:
-        _logger.error(f"File '{str(txt_fp)}' does not exist.")
+
+    if local_qa_bank_fp != "":
+        local_qa_bank_fp = Path(local_qa_bank_fp)
+    else:
+        local_qa_bank_fp = None
+
+    if not txt_fp.is_file():
+        _logger.error(f"txt_fp '{str(txt_fp)}' does not exist.")
+        return
+    if str(txt_fp)[-4:] != ".txt":
+        _logger.error(f"Argument txt_fp requires a txt filepath")
         return
 
-    # reas txt as a list of lines
+    if local_qa_bank_fp:
+        if not local_qa_bank_fp.is_file():
+            _logger.error(f"local_qa_bank_fp '{str(local_qa_bank_fp)}' does not exist.")
+            return
+        if str(local_qa_bank_fp)[-5:] != ".json":
+            _logger.error(f"Argument local_qa_bank_fp requires a json filepath")
+            return
+        # try to load qa bank
+        try:
+            local_qa_pool: QASetPool = get_qa_pool_from_json(local_qa_bank_fp)
+        except Exception as err:
+            _logger.error("Encounter error while loading your local QA Bank")
+            _logger.error(str(err))
+            return
+
+    # read txt as a list of lines
     with txt_fp.open() as f:
         lines: List = f.readlines()
 
@@ -344,7 +376,6 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
     # look for video sections
     for index, line in enumerate(lines):
         line: str = line.strip()
-        # if line.startswith("~~~~~~~~~~~~~~~~~~~~ "):
         if "~~~~~~~~~~~~~~~~~" in line:
             vid_section_indexes.append(index)
 
@@ -358,7 +389,9 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
         else:
             vid_section: List = lines[section_start:]
 
-        vid_section_data, _valid = vid_section_parser(vid_section)
+        vid_section_data, _valid = vid_section_parser(
+            vid_section, local_qa_pool=local_qa_pool
+        )
         qa_label_lst.append(vid_section_data)
         if not _valid:
             label_file_is_valid = False
@@ -394,12 +427,15 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
 if __name__ == "__main__":
     import sys
 
-    LABEL_FILE = "REPLACE ME"
+    LABEL_FILE = "/Users/mark/Downloads/bilibili_003.txt"
+    LOCAL_QA_BANK = "qa_bank/7_AUG_high.json"
 
-    if len(sys.argv) == 1:
-        parse_qa_label_txt(LABEL_FILE, writeToJson=True)
-    elif len(sys.argv) == 2:
-        LABEL_FILE = sys.argv[1]
-        parse_qa_label_txt(LABEL_FILE, writeToJson=True)
-    else:
-        _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
+    parse_qa_label_txt(LABEL_FILE, writeToJson=False, local_qa_bank_fp=LOCAL_QA_BANK)
+
+    # if len(sys.argv) == 1:
+    #     parse_qa_label_txt(LABEL_FILE, writeToJson=True)
+    # elif len(sys.argv) == 2:
+    #     LABEL_FILE = sys.argv[1]
+    #     parse_qa_label_txt(LABEL_FILE, writeToJson=True)
+    # else:
+    #     _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
