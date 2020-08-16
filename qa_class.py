@@ -130,7 +130,7 @@ class QASet:
 class QASetPool:
     def __init__(self):
         self._pool: List[QASet] = []
-        self._id_map: Dict[str:QASet] = {}
+        self._id_map: Dict[int:QASet] = {}
         self._type_map: Dict = {}
 
     @property
@@ -151,9 +151,9 @@ class QASetPool:
 
         # add qa_set to pool and id_map
         try:
-            self.id_map[qa_set._id].append_rephrase(qa_set.qns)
+            self.id_map[qa_set.id].append_rephrase(qa_set.qns)
         except KeyError:
-            self.id_map[qa_set._id] = qa_set
+            self.id_map[qa_set.id] = qa_set
             self.pool.append(qa_set)
 
             # add qa_set to type_map

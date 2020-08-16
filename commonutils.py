@@ -16,6 +16,7 @@ ans_map: Dict[str, int] = {
     "J": 9,
     "K": 10,
     "L": 11,
+    "M": 12,
 }
 supported_types: Tuple[str] = (
     "Descriptive",

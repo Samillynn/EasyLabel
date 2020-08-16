@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import List, Dict, Set, Tuple
 from my_logger import logger as _logger
 from commonutils import *
+from qa_class import QASet, QASetPool, get_qa_pool_from_json
 
 
 def get_value(line: str) -> str:
@@ -17,96 +18,127 @@ def get_value(line: str) -> str:
         _logger.error(f"`{line}` does not satisfy expected format")
         return
     value = line[start:end].strip()
-    if value in ("None", "none", "nan", "NONE", "null"):
+    if value in ("None", "none", "nan", "NONE", "null", ""):
         value = None
     return value
 
 
-def qa_section_parser(qa_section: List) -> Tuple[Dict, bool]:
+def qa_section_parser(
+    qa_section: List, local_qa_pool: QASetPool = None
+) -> Tuple[Dict, bool]:
     _is_valid = True
     q_ignore = False  # wether skip this qa section
     q_type = None  # store parsed question type
-    q_sub = None  # store parsed QASet_ID
+    q_sub_id = None  # store parsed QASet_ID
     q_body = ""  # store parsed question
     option_lst: List = []  # store parsed options
     correct_ans: Set = set()  # store correct answer in complete sentence
     ans_indexes: Set = set()  # store correct answer index
-    plus_indexes: Set = set()
 
     for line in qa_section:
         line: str
         if line.startswith("!"):
             q_ignore = True
-        elif line.startswith("---------"):
-            q_type: str = get_value(line)
-            if q_type and q_type == "auto":
-                q_type = abbr_to_qtype_map.get("d")
 
-            elif q_type and q_type != "auto":
-                q_type = abbr_to_qtype_map.get(q_type.lower(), None)
-                if not q_type:
-                    _is_valid = False
-                    _logger.error("Invalid Question Type")
-                    q_type = "error"
+        elif line.startswith("---------"):
+            q_type_value: str = get_value(line)
+
+            if q_type_value:
+                if q_type_value == "auto":
+                    # hard code
+                    q_type = abbr_to_qtype_map.get("d")
+                else:
+                    q_type = abbr_to_qtype_map.get(q_type_value.lower())
+                    if not q_type:
+                        _is_valid = False
+                        _logger.error(f"Invalid Question Type: '{q_type_value}'")
 
         elif line.startswith("<QASet_ID>"):
-            q_sub: str = get_value(line)
-            if q_sub in ("auto", "Auto", "AUTO"):
-                q_sub = None
-            if q_sub:
-                sub = " "
-                q_body = sub
+            q_sub_id: str = get_value(line)
+            if q_sub_id in ("auto", "Auto", "AUTO"):
+                q_sub_id = None
+            if q_sub_id:
+                try:
+                    q_sub_id = int(q_sub_id)
+                except:
+                    _logger.error(
+                        f"Unexpected value for <QASet_ID>: '{q_sub_id}'. QASet_ID should be an integer value."
+                    )
+                    _is_valid = False
+                qa_set: QASet = local_qa_pool.get_by_id(q_sub_id)
+                if qa_set:
+                    _logger.debug(qa_set)
+                    # get body and optiosn from a QASet object
+                    q_sub_body, q_sub_options = qa_set.get()
+                    # assign them to reserved variables respectively
+                    q_body = q_sub_body
+                    option_lst.extend(q_sub_options)
+                    # get q type
+                    q_type = qa_set.type
+                else:
+                    _is_valid = False
+                    _logger.error(f"QASet_ID: '{q_sub_id}' not found in the QA Bank.")
+
         elif line.startswith("<ANS>"):
             ans = get_value(line)
-            for char in ans.upper():
-                if char in ans_map:
-                    ans_indexes.add(ans_map[char])
+            if ans:
+                for char in ans.upper():
+                    if char in ans_map:
+                        ans_indexes.add(ans_map[char])
 
         else:
-            if not q_sub and "?" in line:
-                # get question line
+            if not q_sub_id and "?" in line:
+                # non-empty line with a question mark, this should be the question line
                 q_body = line.strip()
-            elif q_sub and "?" in line:
+            elif q_sub_id and "?" in line:
+                # something is wrong
                 _is_valid = False
                 _logger.error(
                     "Conflict: Question line detected while <QASet_ID> also presents."
                 )
             else:
+                # non-empty line: this should be an option to the question
                 if line:
                     option_lst.append(line.strip())
 
     # check for correct ans marked with '+'
     for index, option in enumerate(option_lst):
         if option.startswith("+"):
-            plus_indexes.add(index)
+            ans_indexes.add(index)
+            # remove "+" sign from line
             ans: str = option.strip("+").strip()
-            # Update option list
+            # Update option
             option_lst[index] = ans
-            # add full ans to correct answer list
-            correct_ans.add(ans)
+
+    # check once again
+    for index in ans_indexes:
+        try:
+            an_answer = option_lst[int(index)]
+            correct_ans.add(an_answer)
+        except IndexError:
+            _is_valid = False
+            _logger.error("Given correct answer out of range.")
 
     # store parsed data
-    if len(ans_indexes) == 0 and len(plus_indexes) == 0:
+    if len(ans_indexes) == 0:
         q_ignore = True
 
     if not q_ignore:
         if not q_type:
             _is_valid = False
             _logger.error("Missing Question Type")
-        if not q_sub and not q_body:
+        if not q_sub_id and not q_body:
             _is_valid = False
             _logger.error("Missing Question Line")
 
     # store parsed data
     qa_section_data: Dict = {
-        "q_ignore": q_ignore,
-        "q_type": q_type,
-        "q_sub": q_sub,
-        "q_body": q_body,
-        "option_lst": option_lst,
+        "q_ignore": q_ignore,  # bool
+        "q_type": q_type,  # string
+        "q_body": q_body,  # string
+        "option_lst": option_lst,  # List[str]
         "correct_ans": tuple(correct_ans),
         "ans_indexes": tuple(ans_indexes),
-        "plus_indexes": tuple(plus_indexes),
     }
 
     if not q_ignore and not _is_valid:
@@ -134,7 +166,9 @@ def valid_time_format(time_string: str) -> bool:
     return False
 
 
-def vid_section_parser(vid_section: List) -> Tuple[Dict, bool]:
+def vid_section_parser(
+    vid_section: List, local_qa_pool: QASetPool = None
+) -> Tuple[Dict, bool]:
     _is_valid = True
     v_ignore = False
     # traverse thru vid_section line by line
@@ -239,7 +273,9 @@ def vid_section_parser(vid_section: List) -> Tuple[Dict, bool]:
             else:
                 qa_section: List = vid_section[section_start:]
 
-            qa_section_data, valid_qa_section = qa_section_parser(qa_section)
+            qa_section_data, valid_qa_section = qa_section_parser(
+                qa_section, local_qa_pool=local_qa_pool
+            )
             qa_list.append(qa_section_data)
             if not valid_qa_section:
                 _is_valid = False
@@ -261,6 +297,8 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
     num_video_ignore = 0
     num_video_require_retrim = 0
     num_video_has_critical_point = 0
+    total_num_of_chars_in_qn_body = 0
+    total_num_of_words_in_qn_body = 0
     total_num_qns = 0
     total_num_ops = 0
     q_type_count_map: Dict = {}
@@ -286,6 +324,8 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
                     q_type_count_map[q_type] = 1
 
                 q_body = qa_section.get("q_body")
+                total_num_of_chars_in_qn_body += len(q_body)
+                total_num_of_words_in_qn_body += len(q_body.split())
                 if q_body in q_body_count_map:
                     q_body_count_map[q_body] += 1
                 else:
@@ -295,10 +335,25 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
 
     # derived values
     num_video_labelled = num_video_sections - num_video_ignore
+
     average_num_qns_per_video = (
         total_num_qns / num_video_labelled if num_video_labelled != 0 else 0
     )
-    average_num_ops_per_qns = total_num_ops / total_num_qns if total_num_qns != 0 else 0
+    average_num_qns_per_video = round(average_num_qns_per_video, 1)
+
+    average_num_ops_per_qn = total_num_ops / total_num_qns if total_num_qns != 0 else 0
+    average_num_ops_per_qn = round(average_num_ops_per_qn, 1)
+
+    average_num_chars_per_qn = (
+        total_num_of_chars_in_qn_body / total_num_qns if total_num_qns != 0 else 0
+    )
+    average_num_chars_per_qn = int(average_num_chars_per_qn)
+
+    average_num_words_per_qn = (
+        total_num_of_words_in_qn_body / total_num_qns if total_num_qns != 0 else 0
+    )
+    average_num_words_per_qn = int(average_num_words_per_qn)
+
     num_of_q_type = len(q_type_count_map)
     num_of_unique_qns = len(q_body_count_map)
 
@@ -311,28 +366,56 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
         "Total number of questions                 ": total_num_qns,
         # "total_num_ops": total_num_ops,
         "Average Num of questions per video        ": average_num_qns_per_video,
-        "Average Num of options per questions      ": average_num_ops_per_qns,
+        "Average Num of options per question       ": average_num_ops_per_qn,
+        "Average Num of characters per question    ": average_num_chars_per_qn,
+        "Average Num of words per question         ": average_num_words_per_qn,
         "Number of question types                  ": num_of_q_type,
         "Number of unique questions                ": num_of_unique_qns,
-        # "q_type_count_map": q_type_count_map,
+        "Question Count per question types": q_type_count_map,
         # "q_body_count_map": q_body_count_map,
     }
     return stats
 
 
-def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
+def parse_qa_label_txt(
+    txt_fp: str, writeToJson: bool = False, local_qa_bank_fp: str = ""
+) -> List[Dict]:
+    """Entry point of parsing of txt file"""
     label_file_is_valid = True
     # store parsed result
     qa_label_lst: List[Dict] = []
     # ensure txt file path is valid
     txt_fp = Path(txt_fp)
-    try:
-        assert txt_fp.is_file()
-    except AssertionError:
-        _logger.error(f"File '{str(txt_fp)}' does not exist.")
+
+    if local_qa_bank_fp and local_qa_bank_fp != "":
+        local_qa_bank_fp = Path(local_qa_bank_fp)
+    else:
+        local_qa_bank_fp = None
+
+    if not txt_fp.is_file():
+        _logger.error(f"Label File: '{str(txt_fp)}' does not exist.")
+        return
+    if str(txt_fp)[-4:] != ".txt":
+        _logger.error(f"Argument txt_fp requires a txt filepath")
         return
 
-    # reas txt as a list of lines
+    local_qa_pool = None
+    if local_qa_bank_fp:
+        if not local_qa_bank_fp.is_file():
+            _logger.error(f"local_qa_bank_fp '{str(local_qa_bank_fp)}' does not exist.")
+            return
+        if str(local_qa_bank_fp)[-5:] != ".json":
+            _logger.error(f"Argument local_qa_bank_fp requires a json filepath")
+            return
+        # try to load qa bank
+        try:
+            local_qa_pool: QASetPool = get_qa_pool_from_json(local_qa_bank_fp)
+        except Exception as err:
+            _logger.error("Encounter error while loading your local QA Bank")
+            _logger.error(str(err))
+            return
+
+    # read txt as a list of lines
     with txt_fp.open() as f:
         lines: List = f.readlines()
 
@@ -344,7 +427,6 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
     # look for video sections
     for index, line in enumerate(lines):
         line: str = line.strip()
-        # if line.startswith("~~~~~~~~~~~~~~~~~~~~ "):
         if "~~~~~~~~~~~~~~~~~" in line:
             vid_section_indexes.append(index)
 
@@ -358,7 +440,9 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
         else:
             vid_section: List = lines[section_start:]
 
-        vid_section_data, _valid = vid_section_parser(vid_section)
+        vid_section_data, _valid = vid_section_parser(
+            vid_section, local_qa_pool=local_qa_pool
+        )
         qa_label_lst.append(vid_section_data)
         if not _valid:
             label_file_is_valid = False
@@ -367,7 +451,10 @@ def parse_qa_label_txt(txt_fp: str, writeToJson=False) -> List[Dict]:
         stats: Dict = get_stat(qa_label_lst)
         print()
         _logger.debug("=====================================================\n")
+        _logger.debug("Status: OK\n")
         _logger.debug(f"Stats: {json.dumps(stats, indent=9)}")
+        if stats["Average Num of questions per video        "] <= 3:
+            _logger.warning("Average Num of questions per video is too low.")
         print()
 
     else:
@@ -395,11 +482,20 @@ if __name__ == "__main__":
     import sys
 
     LABEL_FILE = "REPLACE ME"
+    QA_BANK_JSON_FILE = None  # Optional
 
     if len(sys.argv) == 1:
-        parse_qa_label_txt(LABEL_FILE, writeToJson=True)
+        parse_qa_label_txt(
+            LABEL_FILE, writeToJson=True, local_qa_bank_fp=QA_BANK_JSON_FILE
+        )
     elif len(sys.argv) == 2:
         LABEL_FILE = sys.argv[1]
         parse_qa_label_txt(LABEL_FILE, writeToJson=True)
+    elif len(sys.argv) == 3:
+        LABEL_FILE = sys.argv[1]
+        QA_BANK_JSON_FILE = sys.argv[2]
+        parse_qa_label_txt(
+            LABEL_FILE, writeToJson=True, local_qa_bank_fp=QA_BANK_JSON_FILE
+        )
     else:
         _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
