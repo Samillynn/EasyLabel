@@ -18,7 +18,7 @@ def get_value(line: str) -> str:
         _logger.error(f"`{line}` does not satisfy expected format")
         return
     value = line[start:end].strip()
-    if value in ("None", "none", "nan", "NONE", "null"):
+    if value in ("None", "none", "nan", "NONE", "null", ""):
         value = None
     return value
 
@@ -29,87 +29,116 @@ def qa_section_parser(
     _is_valid = True
     q_ignore = False  # wether skip this qa section
     q_type = None  # store parsed question type
-    q_sub = None  # store parsed QASet_ID
+    q_sub_id = None  # store parsed QASet_ID
     q_body = ""  # store parsed question
     option_lst: List = []  # store parsed options
     correct_ans: Set = set()  # store correct answer in complete sentence
     ans_indexes: Set = set()  # store correct answer index
-    plus_indexes: Set = set()
 
     for line in qa_section:
         line: str
         if line.startswith("!"):
             q_ignore = True
-        elif line.startswith("---------"):
-            q_type: str = get_value(line)
-            if q_type and q_type == "auto":
-                q_type = abbr_to_qtype_map.get("d")
 
-            elif q_type and q_type != "auto":
-                q_type = abbr_to_qtype_map.get(q_type.lower(), None)
-                if not q_type:
-                    _is_valid = False
-                    _logger.error("Invalid Question Type")
-                    q_type = "error"
+        elif line.startswith("---------"):
+            q_type_value: str = get_value(line)
+
+            if q_type_value:
+                if q_type_value == "auto":
+                    # hard code
+                    q_type = abbr_to_qtype_map.get("d")
+                else:
+                    q_type = abbr_to_qtype_map.get(q_type_value.lower())
+                    if not q_type:
+                        _is_valid = False
+                        _logger.error(f"Invalid Question Type: '{q_type_value}'")
 
         elif line.startswith("<QASet_ID>"):
-            q_sub: str = get_value(line)
-            if q_sub in ("auto", "Auto", "AUTO"):
-                q_sub = None
-            if q_sub:
-                sub = " "
-                q_body = sub
+            q_sub_id: str = get_value(line)
+            if q_sub_id in ("auto", "Auto", "AUTO"):
+                q_sub_id = None
+            if q_sub_id:
+                try:
+                    q_sub_id = int(q_sub_id)
+                except:
+                    _logger.error(
+                        f"Unexpected value for <QASet_ID>: '{q_sub_id}'. QASet_ID should be an integer value."
+                    )
+                    _is_valid = False
+                qa_set: QASet = local_qa_pool.get_by_id(q_sub_id)
+                if qa_set:
+                    _logger.debug(qa_set)
+                    # get body and optiosn from a QASet object
+                    q_sub_body, q_sub_options = qa_set.get()
+                    # assign them to reserved variables respectively
+                    q_body = q_sub_body
+                    option_lst.extend(q_sub_options)
+                    # get q type
+                    q_type = qa_set.type
+                else:
+                    _is_valid = False
+                    _logger.error(f"QASet_ID: '{q_sub_id}' not found in the QA Bank.")
+
         elif line.startswith("<ANS>"):
             ans = get_value(line)
-            for char in ans.upper():
-                if char in ans_map:
-                    ans_indexes.add(ans_map[char])
+            if ans:
+                for char in ans.upper():
+                    if char in ans_map:
+                        ans_indexes.add(ans_map[char])
 
         else:
-            if not q_sub and "?" in line:
-                # get question line
+            if not q_sub_id and "?" in line:
+                # non-empty line with a question mark, this should be the question line
                 q_body = line.strip()
-            elif q_sub and "?" in line:
+            elif q_sub_id and "?" in line:
+                # something is wrong
                 _is_valid = False
                 _logger.error(
                     "Conflict: Question line detected while <QASet_ID> also presents."
                 )
             else:
+                # non-empty line: this should be an option to the question
                 if line:
                     option_lst.append(line.strip())
 
     # check for correct ans marked with '+'
     for index, option in enumerate(option_lst):
         if option.startswith("+"):
-            plus_indexes.add(index)
+            ans_indexes.add(index)
+            # remove "+" sign from line
             ans: str = option.strip("+").strip()
-            # Update option list
+            # Update option
             option_lst[index] = ans
-            # add full ans to correct answer list
-            correct_ans.add(ans)
+
+    # check once again
+    for index in ans_indexes:
+        try:
+            an_answer = option_lst[int(index)]
+            correct_ans.add(an_answer)
+        except IndexError:
+            _is_valid = False
+            _logger.error("Given correct answer out of range.")
 
     # store parsed data
-    if len(ans_indexes) == 0 and len(plus_indexes) == 0:
+    if len(ans_indexes) == 0:
         q_ignore = True
 
     if not q_ignore:
         if not q_type:
             _is_valid = False
             _logger.error("Missing Question Type")
-        if not q_sub and not q_body:
+        if not q_sub_id and not q_body:
             _is_valid = False
             _logger.error("Missing Question Line")
 
     # store parsed data
     qa_section_data: Dict = {
-        "q_ignore": q_ignore,
-        "q_type": q_type,
-        "q_sub": q_sub,
-        "q_body": q_body,
-        "option_lst": option_lst,
+        "q_ignore": q_ignore,  # bool
+        "q_type": q_type,  # string
+        "q_body": q_body,  # string
+        "option_lst": option_lst,  # List[str]
         "correct_ans": tuple(correct_ans),
         "ans_indexes": tuple(ans_indexes),
-        "plus_indexes": tuple(plus_indexes),
     }
 
     if not q_ignore and not _is_valid:
@@ -302,10 +331,15 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
 
     # derived values
     num_video_labelled = num_video_sections - num_video_ignore
+
     average_num_qns_per_video = (
         total_num_qns / num_video_labelled if num_video_labelled != 0 else 0
     )
+    average_num_qns_per_video = round(average_num_qns_per_video, 1)
+
     average_num_ops_per_qns = total_num_ops / total_num_qns if total_num_qns != 0 else 0
+    average_num_ops_per_qns = round(average_num_ops_per_qns, 1)
+
     num_of_q_type = len(q_type_count_map)
     num_of_unique_qns = len(q_body_count_map)
 
@@ -400,6 +434,7 @@ def parse_qa_label_txt(
         stats: Dict = get_stat(qa_label_lst)
         print()
         _logger.debug("=====================================================\n")
+        _logger.debug("Status: OK\n")
         _logger.debug(f"Stats: {json.dumps(stats, indent=9)}")
         print()
 
@@ -427,7 +462,7 @@ def parse_qa_label_txt(
 if __name__ == "__main__":
     import sys
 
-    LABEL_FILE = "/Users/mark/Downloads/bilibili_003.txt"
+    LABEL_FILE = "/Volumes/T5-HFS+/UROP/bilibili_003/bilibili_003.txt"
     LOCAL_QA_BANK = "qa_bank/7_AUG_high.json"
 
     parse_qa_label_txt(LABEL_FILE, writeToJson=False, local_qa_bank_fp=LOCAL_QA_BANK)
