@@ -297,6 +297,8 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
     num_video_ignore = 0
     num_video_require_retrim = 0
     num_video_has_critical_point = 0
+    total_num_of_chars_in_qn_body = 0
+    total_num_of_words_in_qn_body = 0
     total_num_qns = 0
     total_num_ops = 0
     q_type_count_map: Dict = {}
@@ -322,6 +324,8 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
                     q_type_count_map[q_type] = 1
 
                 q_body = qa_section.get("q_body")
+                total_num_of_chars_in_qn_body += len(q_body)
+                total_num_of_words_in_qn_body += len(q_body.split())
                 if q_body in q_body_count_map:
                     q_body_count_map[q_body] += 1
                 else:
@@ -337,8 +341,18 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
     )
     average_num_qns_per_video = round(average_num_qns_per_video, 1)
 
-    average_num_ops_per_qns = total_num_ops / total_num_qns if total_num_qns != 0 else 0
-    average_num_ops_per_qns = round(average_num_ops_per_qns, 1)
+    average_num_ops_per_qn = total_num_ops / total_num_qns if total_num_qns != 0 else 0
+    average_num_ops_per_qn = round(average_num_ops_per_qn, 1)
+
+    average_num_chars_per_qn = (
+        total_num_of_chars_in_qn_body / total_num_qns if total_num_qns != 0 else 0
+    )
+    average_num_chars_per_qn = int(average_num_chars_per_qn)
+
+    average_num_words_per_qn = (
+        total_num_of_words_in_qn_body / total_num_qns if total_num_qns != 0 else 0
+    )
+    average_num_words_per_qn = int(average_num_words_per_qn)
 
     num_of_q_type = len(q_type_count_map)
     num_of_unique_qns = len(q_body_count_map)
@@ -352,10 +366,12 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
         "Total number of questions                 ": total_num_qns,
         # "total_num_ops": total_num_ops,
         "Average Num of questions per video        ": average_num_qns_per_video,
-        "Average Num of options per questions      ": average_num_ops_per_qns,
+        "Average Num of options per question       ": average_num_ops_per_qn,
+        "Average Num of characters per question    ": average_num_chars_per_qn,
+        "Average Num of words per question         ": average_num_words_per_qn,
         "Number of question types                  ": num_of_q_type,
         "Number of unique questions                ": num_of_unique_qns,
-        # "q_type_count_map": q_type_count_map,
+        "Question Count per question types": q_type_count_map,
         # "q_body_count_map": q_body_count_map,
     }
     return stats
@@ -371,18 +387,19 @@ def parse_qa_label_txt(
     # ensure txt file path is valid
     txt_fp = Path(txt_fp)
 
-    if local_qa_bank_fp != "":
+    if local_qa_bank_fp and local_qa_bank_fp != "":
         local_qa_bank_fp = Path(local_qa_bank_fp)
     else:
         local_qa_bank_fp = None
 
     if not txt_fp.is_file():
-        _logger.error(f"txt_fp '{str(txt_fp)}' does not exist.")
+        _logger.error(f"Label File: '{str(txt_fp)}' does not exist.")
         return
     if str(txt_fp)[-4:] != ".txt":
         _logger.error(f"Argument txt_fp requires a txt filepath")
         return
 
+    local_qa_pool = None
     if local_qa_bank_fp:
         if not local_qa_bank_fp.is_file():
             _logger.error(f"local_qa_bank_fp '{str(local_qa_bank_fp)}' does not exist.")
@@ -436,6 +453,8 @@ def parse_qa_label_txt(
         _logger.debug("=====================================================\n")
         _logger.debug("Status: OK\n")
         _logger.debug(f"Stats: {json.dumps(stats, indent=9)}")
+        if stats["Average Num of questions per video        "] <= 3:
+            _logger.warning("Average Num of questions per video is too low.")
         print()
 
     else:
@@ -462,15 +481,21 @@ def parse_qa_label_txt(
 if __name__ == "__main__":
     import sys
 
-    LABEL_FILE = "/Volumes/T5-HFS+/UROP/bilibili_003/bilibili_003.txt"
-    LOCAL_QA_BANK = "qa_bank/7_AUG_high.json"
+    LABEL_FILE = "REPLACE ME"
+    QA_BANK_JSON_FILE = None  # Optional
 
-    parse_qa_label_txt(LABEL_FILE, writeToJson=False, local_qa_bank_fp=LOCAL_QA_BANK)
-
-    # if len(sys.argv) == 1:
-    #     parse_qa_label_txt(LABEL_FILE, writeToJson=True)
-    # elif len(sys.argv) == 2:
-    #     LABEL_FILE = sys.argv[1]
-    #     parse_qa_label_txt(LABEL_FILE, writeToJson=True)
-    # else:
-    #     _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
+    if len(sys.argv) == 1:
+        parse_qa_label_txt(
+            LABEL_FILE, writeToJson=True, local_qa_bank_fp=QA_BANK_JSON_FILE
+        )
+    elif len(sys.argv) == 2:
+        LABEL_FILE = sys.argv[1]
+        parse_qa_label_txt(LABEL_FILE, writeToJson=True)
+    elif len(sys.argv) == 3:
+        LABEL_FILE = sys.argv[1]
+        QA_BANK_JSON_FILE = sys.argv[2]
+        parse_qa_label_txt(
+            LABEL_FILE, writeToJson=True, local_qa_bank_fp=QA_BANK_JSON_FILE
+        )
+    else:
+        _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
