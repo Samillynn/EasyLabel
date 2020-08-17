@@ -4,11 +4,11 @@ import pandas
 import numpy as np
 from pathlib import Path
 from collections import abc
+from orderedset import OrderedSet
 from typing import List, Dict, Tuple, Set, Iterable, Union
 
-from my_logger import logger as _logger
+from commonutils import logger
 from markkk.pyutils.check_text_encoding import ensure_no_zh_punctuation
-from orderedset import OrderedSet
 
 
 class QASet:
@@ -73,7 +73,7 @@ class QASet:
 
     @id.setter
     def id(self, value):
-        _logger.error(f"QASet ID is immutable, and it remains as {self._id}")
+        logger.error(f"QASet ID is immutable, and it remains as {self._id}")
         return
 
     @property
@@ -82,7 +82,7 @@ class QASet:
 
     @type.setter
     def type(self, value):
-        _logger.error(f"QASet type is immutable, and it remains as {self._type}")
+        logger.error(f"QASet type is immutable, and it remains as {self._type}")
         return
 
     @property
@@ -91,7 +91,7 @@ class QASet:
 
     @subtype.setter
     def subtype(self, value):
-        _logger.error(f"QASet subtype is immutable, and it remains as {self._subtype}")
+        logger.error(f"QASet subtype is immutable, and it remains as {self._subtype}")
         return
 
     @property
@@ -100,7 +100,7 @@ class QASet:
 
     @options.setter
     def options(self, value):
-        _logger.error(f"QASet options is immutable, and it remains as {self._options}")
+        logger.error(f"QASet options is immutable, and it remains as {self._options}")
         return
 
     def __repr__(self):
@@ -197,33 +197,33 @@ class QASetPool:
         """
         qa_sheet = pandas.read_excel(excel_fp)
         rows_num, cols_num = qa_sheet.shape
-        _logger.debug(f"rows_num: {rows_num}")
-        _logger.debug(f"cols_num: {cols_num}\n")
+        logger.debug(f"rows_num: {rows_num}")
+        logger.debug(f"cols_num: {cols_num}\n")
 
         for i in range(0, rows_num):
             try:
                 qa_set_id = int(qa_sheet.iloc[i][2])
-                _logger.debug(f"ID: {qa_set_id}")
+                logger.debug(f"ID: {qa_set_id}")
             except Exception as e:
-                _logger.error("Failed getting QASet ID from excel row")
+                logger.error("Failed getting QASet ID from excel row")
                 continue
 
             qa_set_qn: str = qa_sheet.iloc[i][3]
-            _logger.debug(f"qa_set_qn: {qa_set_qn}")
+            logger.debug(f"qa_set_qn: {qa_set_qn}")
 
             if not self.get_by_id(qa_set_id):
                 qa_set_type: str = qa_sheet.iloc[i][0]
-                _logger.debug(f"qa_set_type: {qa_set_type}")
+                logger.debug(f"qa_set_type: {qa_set_type}")
 
                 qa_set_subtype: str = qa_sheet.iloc[i][1]
-                _logger.debug(f"qa_set_subtype: {qa_set_subtype}")
+                logger.debug(f"qa_set_subtype: {qa_set_subtype}")
 
                 qa_set_options: OrderedSet = OrderedSet(
                     str(qa_sheet.iloc[i][j]) for j in range(4, cols_num)
                 )
                 # remove emtpy option, which is 'nan' in pandas
                 qa_set_options.discard("nan")
-                _logger.debug(f"qa_set_options: {qa_set_options}")
+                logger.debug(f"qa_set_options: {qa_set_options}")
 
                 qa_set: QASet = QASet(
                     id=qa_set_id,
@@ -233,11 +233,11 @@ class QASetPool:
                     options=qa_set_options,
                 )
                 self.add_to_pool(qa_set)
-                _logger.debug(">>> Added new QASet into pool\n")
-                # _logger.debug(qa_set)
+                logger.debug(">>> Added new QASet into pool\n")
+                # logger.debug(qa_set)
             else:
                 self.get_by_id(qa_set_id).append_rephrase(qa_set_qn)
-                _logger.debug("### Added new rephrased version into existing QASet\n")
+                logger.debug("### Added new rephrased version into existing QASet\n")
 
     def write_to_json(self, export_fp: str):
         """
@@ -249,9 +249,9 @@ class QASetPool:
         if export_fp.is_file():
             overwrite = input(f"{export_fp} already exist, overwrite it (y/n)? ")
             if overwrite in ("Y", "y", "yes"):
-                _logger.warning(f"Overwriting {export_fp}")
+                logger.warning(f"Overwriting {export_fp}")
             else:
-                _logger.error(f"Export aborted")
+                logger.error(f"Export aborted")
                 return
 
         lst = []
@@ -270,9 +270,9 @@ class QASetPool:
         assert Path(json_fp).is_file()
         try:
             qadict_lst = json.load(open(json_fp))
-            _logger.debug(f"{json_fp} has been loaded")
+            logger.debug(f"{json_fp} has been loaded")
         except:
-            _logger.error(f"Failed loading {json_fp}")
+            logger.error(f"Failed loading {json_fp}")
             return
 
         for qa_dict in qadict_lst:

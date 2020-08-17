@@ -2,10 +2,12 @@ import os
 import json
 from pathlib import Path
 from typing import List, Dict, Set
-from my_logger import logger as _logger
-from qa_class import QASet, QASetPool, get_qa_pool_from_json
+
 from markkk.pyutils.check_text_encoding import is_ascii, ensure_no_zh_punctuation
+
 from commonutils import *
+from commonutils import logger
+from qa_class import QASet, QASetPool, get_qa_pool_from_json
 
 # high frequency QASet pool
 QA_BANK_JSON_FILEPATH = "qa_bank/7_AUG_high.json"
@@ -63,12 +65,12 @@ def template_video_section(filename: str, duration: str, dimension: str) -> str:
 
 def generate_template(folder_path: str = None, metadata_lst_filepath: str = None):
     if folder_path and metadata_lst_filepath:
-        _logger.error(
+        logger.error(
             "Extra Argument. You should supply either `folder_path` or `metadata_lst_filepath`, not both."
         )
         return
     elif not folder_path and not metadata_lst_filepath:
-        _logger.error(
+        logger.error(
             "Missing argument. You should supply either `folder_path` or `metadata_lst_filepath`, not both."
         )
         return
@@ -76,7 +78,7 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
     if folder_path:
         folder_path = Path(folder_path)
         if not folder_path.is_dir():
-            _logger.error(f"Directory: `{folder_path}` does not exist")
+            logger.error(f"Directory: `{folder_path}` does not exist")
             return
 
         head = folder_path.resolve()
@@ -86,11 +88,11 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
                 key=lambda x: os.path.getmtime(head / x),
                 reverse=True,
             )
-            _logger.debug(
+            logger.debug(
                 "Videos successfully sorted by `Last modified time` in descending order."
             )
         except Exception as err:
-            _logger.error(
+            logger.error(
                 "Encounter an error while getting and sorting vid_lst from folder, Error:\n{err}"
             )
             return
@@ -99,7 +101,7 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
             if name[-4:] == ".mp4":
                 vid_lst.append({"filename": name[:-4]})
         if not vid_lst:
-            _logger.error(
+            logger.error(
                 f"Directory: `{folder_path.resolve()}` does not contain any video (.mp4) file."
             )
             return
@@ -107,21 +109,21 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
     else:
         metadata_lst_filepath = Path(metadata_lst_filepath)
         if not metadata_lst_filepath.is_file():
-            _logger.error(f"`{metadata_lst_filepath}` does not exist")
+            logger.error(f"`{metadata_lst_filepath}` does not exist")
             raise Exception(f"ERR: `{metadata_lst_filepath}` does not exist")
 
         head, tail = os.path.split(metadata_lst_filepath)
         head: Path = Path(head).resolve()
         name, ext = os.path.splitext(tail)
         if ext != ".json":
-            _logger.error(f"`{metadata_lst_filepath}` is not a json file")
+            logger.error(f"`{metadata_lst_filepath}` is not a json file")
             raise Exception(f"ERR: `{metadata_lst_filepath}` is not a json file")
 
         with metadata_lst_filepath.open() as f:
             vid_lst: List[Dict] = json.load(f)
 
         if not vid_lst:
-            _logger.error(f"`{metadata_lst_filepath}` has no video information.")
+            logger.error(f"`{metadata_lst_filepath}` has no video information.")
             return
 
         # check video file existence
@@ -129,7 +131,7 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
         for vid in vid_lst:
             vid_path: Path = head / f"{vid['filename'] + vid['ext']}"
             if not vid_path.is_file():
-                _logger.warning(
+                logger.warning(
                     f"{vid['filename'] + vid['ext']} is listed inside metadata_lst json file, but does NOT exist in the files system."
                 )
             else:
@@ -138,7 +140,7 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
         _skip_sorting = False
 
         if not vid_lst_new:
-            _logger.warning(
+            logger.warning(
                 f"All videos listed in the metadata_lst json file are not found locally."
             )
             _continue = input(
@@ -146,13 +148,13 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
             )
             if _continue in ("Y", "y", "yes"):
                 vid_lst_new = vid_lst
-                _logger.info(f"Template generation will continue...")
-                _logger.warning(
+                logger.info(f"Template generation will continue...")
+                logger.warning(
                     f"Sorting of videos will be skipped, order of videos in the output file will follow metadata_lst"
                 )
                 _skip_sorting = True
             else:
-                _logger.error(f"Template generation aborted")
+                logger.error(f"Template generation aborted")
                 return
 
         # sort vide_lst by last modified time
@@ -165,11 +167,11 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
                     ),
                     reverse=True,
                 )
-                _logger.debug(
+                logger.debug(
                     "Videos successfully sorted by `Last modified time` in descending order."
                 )
         except Exception as err:
-            _logger.error(
+            logger.error(
                 "Encounter an error while getting and sorting vid_lst, Error:\n{err}"
             )
             return
@@ -190,16 +192,16 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
     with export_fp.open(mode="w") as f:
         to_write = "\n\n".join(string_lst_to_write)
         if not is_ascii(to_write):
-            _logger.warning("Text to write contains non-ASCII characters.")
-            _logger.warning("Template generation may fail.")
+            logger.warning("Text to write contains non-ASCII characters.")
+            logger.warning("Template generation may fail.")
             to_write = ensure_no_zh_punctuation(to_write)
         try:
             f.write(to_write)
-            _logger.debug(
+            logger.debug(
                 f"Successfully generated QA Label Template:\n         {export_fp.resolve()}"
             )
         except Exception as err:
-            _logger.error(
+            logger.error(
                 f"Encounter an error while generating template, details:\n{err}"
             )
 
