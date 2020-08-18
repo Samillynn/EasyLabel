@@ -294,7 +294,15 @@ def get_qa_pool_from_json(qa_bank_json: str) -> QASetPool:
 
 
 def export_excel_to_json(qa_bank_excel: str):
-    assert Path(qa_bank_excel).is_file()
+    qa_bank_excel = Path(qa_bank_excel)
+    if not qa_bank_excel.is_file():
+        logger.error(f"Filepath '{str(qa_bank_excel)}' does not exist.")
+        return
+    if str(qa_bank_excel)[-5:] != ".xlsx":
+        logger.error(
+            f"QA Bank Filepath requires an Excel file. '{str(qa_bank_excel)}' doesn't match with '*.xlsx'."
+        )
+        return
     pool = QASetPool()
     pool.load_from_excel(qa_bank_excel)
     export_fp = qa_bank_excel.parent / f"{qa_bank_excel.stem}.json"

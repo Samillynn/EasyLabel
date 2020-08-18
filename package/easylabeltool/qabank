@@ -2,10 +2,10 @@
 
 import sys
 from easylabeltool.qa_class import export_excel_to_json
-from easylabeltool.my_logger import logger as _logger
+from easylabeltool.commonutils import logger
 
 if len(sys.argv) == 1:
-    _logger.error(
+    logger.error(
         """Missing argument.
          Usage:
             qabank 'QA Bank Excel Filepath'  """
@@ -14,8 +14,8 @@ elif len(sys.argv) == 2:
     qa_bank_excel = sys.argv[1]
     export_excel_to_json(qa_bank_excel)
 else:
-    _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
-    _logger.error(
+    logger.error(f"Unexpected arguments: {sys.argv[1:]}")
+    logger.error(
         """Usage:
             qabank 'QA Bank Excel Filepath'  """
     )

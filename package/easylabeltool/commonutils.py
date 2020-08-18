@@ -1,7 +1,30 @@
 import os
 from pathlib import Path
 from typing import List, Dict, Set, Tuple
-from easylabeltool.my_logger import logger as _logger
+
+import colorlog
+
+handler = colorlog.StreamHandler()
+handler.setFormatter(
+    colorlog.ColoredFormatter(
+        "%(log_color)s%(levelname)-8s%(reset)s %(log_color)s%(message)s",
+        datefmt=None,
+        reset=True,
+        log_colors={
+            "DEBUG": "green",
+            "INFO": "green",
+            "WARNING": "yellow",
+            "ERROR": "red",
+            "CRITICAL": "red,bg_white",
+        },
+        secondary_log_colors={},
+        style="%",
+    )
+)
+
+logger = colorlog.getLogger()
+logger.addHandler(handler)
+logger.setLevel("DEBUG")
 
 ans_map: Dict[str, int] = {
     "A": 0,
@@ -48,7 +71,7 @@ def bump_version(filepath: Path) -> Path:
     name, ext = os.path.splitext(tail)
     suffix = 1
     while filepath.is_file():
-        _logger.info(f"{filepath} already exist")
+        logger.info(f"{filepath} already exist")
         suffix += 1
         new_name = f"{name}_v{str(suffix)}{ext}"
         filepath = Path(head) / new_name

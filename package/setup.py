@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages, find_namespace_packages
 
 MAJOR = 0
-MINOR = 1
-MICRO = 9
+MINOR = 2
+MICRO = 0
 VERSION = "%d.%d.%d" % (MAJOR, MINOR, MICRO)
 
 with open("README.md", "r") as f:
@@ -20,7 +20,13 @@ setup(
     # package_dir=({"": "src"}),
     packages=find_namespace_packages(include=["easylabeltool"]),
     scripts=["easylabeltool/parse", "easylabeltool/qabank"],
-    install_requires=["colorlog>=4.1.0", "markkk", "orderedset", "numpy", "pandas"],
+    install_requires=[
+        "colorlog>=4.1.0",
+        "markkk==0.0.7",
+        "orderedset>=2.0.0",
+        "numpy>=1.19.0",
+        "pandas>=1.0.0",
+    ],
     # extras_require={"dev": ["pytest", "tox", "wheel"]},
     # Classifiers ref: https://pypi.org/classifiers/
     classifiers=[

@@ -2,11 +2,11 @@
 
 import sys
 from easylabeltool.label_file_parser import parse_qa_label_txt
-from easylabeltool.my_logger import logger as _logger
+from easylabeltool.commonutils import logger
 
 
 if len(sys.argv) == 1:
-    _logger.error(
+    logger.error(
         """Missing argument.
          Usage:
             parse 'Label Filepath'
@@ -20,8 +20,8 @@ elif len(sys.argv) == 3:
     QA_BANK_JSON_FILE = sys.argv[2]
     parse_qa_label_txt(LABEL_FILE, writeToJson=True, local_qa_bank_fp=QA_BANK_JSON_FILE)
 else:
-    _logger.error(f"Unexpected arguments: {sys.argv[1:]}")
-    _logger.error(
+    logger.error(f"Unexpected arguments: {sys.argv[1:]}")
+    logger.error(
         """Usage:
             parse 'Label Filepath'
             parse 'Label Filepath' 'QA Bank Filepath'"""
