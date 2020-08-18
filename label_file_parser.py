@@ -58,6 +58,21 @@ def qa_section_parser(
             if q_sub_id in ("auto", "Auto", "AUTO"):
                 q_sub_id = None
             if q_sub_id:
+                if not local_qa_pool:
+                    logger.error(
+                        "This Label File uses QA substitution, but no QA bank is provided."
+                    )
+                    raise Exception(
+                        "This Label File uses QA substitution, but no QA bank is provided."
+                    )
+                if not isinstance(local_qa_pool, QASetPool):
+                    logger.error(
+                        "This Label File uses QA substitution, but QA bank is not valid."
+                    )
+                    raise Exception(
+                        "This Label File uses QA substitution, but QA bank is not valid."
+                    )
+
                 try:
                     q_sub_id = int(q_sub_id)
                 except:
@@ -398,7 +413,7 @@ def parse_qa_label_txt(
 if __name__ == "__main__":
     import sys
 
-    LABEL_FILE = "/Volumes/T5-HFS+/UROP/Label_Files/bilibili_022.txt"
+    LABEL_FILE = "REPLACE ME"
     QA_BANK_JSON_FILE = None  # Optional
 
     if len(sys.argv) == 1:

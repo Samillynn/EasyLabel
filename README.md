@@ -202,7 +202,66 @@
 
 ### About QASet Substitution
 
-TODO
+##### Labelling Process
+
+- You need to maintain a local QA Bank for your own use.
+    - Download QA Bank Template as excel from [here](https://docs.google.com/spreadsheets/d/1PhhQFOBWPwpAsuHzdv8W1L4vT3FrS9pA7363CM2dVgg/edit?usp=sharing).
+    - Populate and maintain this QA Bank excel sheet at your local, **be careful not to overwrite/ update questions that have been referenced by your label files**.
+    - Key points to note:
+        - This excel sheet should have only one tab.
+        - The header row (first row) must not be changed.
+        - Each question should have a unique ID (positive integer), except rephrased questions.
+- To label a video using your local QA Bank
+    - simply provide the question ID in your label file at `<QASet_ID>: {{  }}`, then label the correct answer at `<ANS>: {{  }}`. Example:
+        ```
+        --------------------{{  }}
+        <QASet_ID>: {{ 5 }}
+        <ANS>: {{ a }}
+
+        ```
+    - you don't need to provide the question type, since the parser will get the question type info from your QA bank later.
+    - If you want to add additional options to the QA, you may do so below the `<ANS>: {{  }}` line, these additional options will be appended to the existing options list from your QA bank for this particular question.
+    - If the correct answer is among the additional options, you may use either `<ANS>` or `+` as you wish, or even in combination. **But**, note that if the QASet from your QA Bank has 4 options, and you have provided two additional options, the indexes for the two additional options are `E` & `F`. Example:
+        ```
+        --------------------{{  }}
+        <QASet_ID>: {{ 5 }}
+        <ANS>: {{  }}
+        red
+        +green
+
+        --------------------{{  }}
+        <QASet_ID>: {{ 19 }}
+        <ANS>: {{ ab }}
+        Stop sign
+        +Merging lane sign
+        Speed sign
+
+        ```
+
+##### Parsing Process
+
+- **Step 1**: Export your QA Bank excel sheet to `json` format.
+    ```bash
+    qabank "YOUR_QA_BANK_EXCEL_FILE _ATH_HERE"
+    ```
+    *Example*
+
+    This will validate and export your QA Bank `QA_BANK.xlsx` to `QA_BANK.json`.
+    ```bash
+    qabank "QA_BANK.xlsx"
+    ```
+
+- **Step 2**: Parse your Label File with QASet Substitution
+    ```bash
+    parse "YOUR_LABEL_FILE_PATH_HERE" "YOUR_QA_BANK_JSON_FILE_PATH_HERE"
+    ```
+    *Example*
+
+    This will validate and export your label file `qa_label.txt` into `.json` format.
+    ```bash
+    parse "qa_label.txt" "QA_BANK.json"
+    ```
+
 
 ### Completed Label `.txt` File Example
 
@@ -270,31 +329,19 @@ no
     pip3 install --upgrade easylabeltool
     ```
 
-2. Check your Label file
+2. Parse your Label file
     ```bash
-    check "YOUR LABEL FILE PATH HERE"
-    ```
-
-    *Example*
-
-    This will validate your label file `qa_label_template.txt`
-    ```bash
-    check bilibili_003/qa_label_template.txt
-    ```
-
-3. Parse your Label file
-    ```bash
-    parse "YOUR LABEL FILE PATH HERE"
+    parse "YOUR_LABEL_FILE_PATH_HERE"
     ```
 
     *Example*
 
     This will validate and export your label file `qa_label_template.txt` into `.json` format
     ```bash
-    parse bilibili_003/qa_label_template.txt
+    parse "bilibili_003/qa_label_template.txt"
     ```
 
-4. Upload your Label file
+3. Upload your Label file
 
 - Rename your `qa_label_template.txt` to `[folder_name].txt`, such as `bilibili_003.txt`
 - Rename the generated `qa_label.json` to `[folder_name].json`, such as `bilibili_003.json`
