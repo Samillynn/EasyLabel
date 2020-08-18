@@ -7,7 +7,7 @@ here = Path(__file__).parent.resolve().parent
 
 sys.path.insert(0, str(here))
 
-from qa_label_txt_parser import valid_time_format
+from label_file_parser import valid_time_format
 
 
 class test_time(TestCase):
