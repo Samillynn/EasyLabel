@@ -211,6 +211,7 @@
         - This excel sheet should have only one tab.
         - The header row (first row) must not be changed.
         - Each question should have a unique ID (positive integer), except rephrased questions.
+        - You just need to make sure the ID is unique for your excel sheet only.
 - To label a video using your local QA Bank
     - simply provide the question ID in your label file at `<QASet_ID>: {{  }}`, then label the correct answer at `<ANS>: {{  }}`. Example:
         ```
@@ -242,6 +243,9 @@
 
 - **Step 1**: Export your QA Bank excel sheet to `json` format.
     ```bash
+    pip3 install --upgrade easylabeltool
+    ```
+    ```bash
     qabank "YOUR_QA_BANK_EXCEL_FILE _ATH_HERE"
     ```
     *Example*
@@ -257,7 +261,7 @@
     ```
     *Example*
 
-    This will validate and export your label file `qa_label.txt` into `.json` format.
+    This will validate and export your label file `qa_label.txt` into `.json` format with substituted QASets from your local QA Bank. Please double check the genertated json file to make sure the substitution has been done as you expected.  
     ```bash
     parse "qa_label.txt" "QA_BANK.json"
     ```
