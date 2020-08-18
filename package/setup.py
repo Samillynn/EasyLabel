@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages, find_namespace_packages
 
 MAJOR = 0
-MINOR = 1
+MINOR = 2
 MICRO = 2
 VERSION = "%d.%d.%d" % (MAJOR, MINOR, MICRO)
 
@@ -19,8 +19,15 @@ setup(
     url="",
     # package_dir=({"": "src"}),
     packages=find_namespace_packages(include=["easylabeltool"]),
-    scripts=["easylabeltool/check", "easylabeltool/parse"],
-    install_requires=["colorlog>=4.1.0", "markkk>=0.0.3"],
+    scripts=["easylabeltool/bin/parse", "easylabeltool/bin/qabank"],
+    install_requires=[
+        "colorlog>=4.1.0",
+        "markkk==0.0.7",
+        "orderedset>=2.0.0",
+        "numpy>=1.19.0",
+        "pandas>=1.0.0",
+        "xlrd>=1.0.0",
+    ],
     # extras_require={"dev": ["pytest", "tox", "wheel"]},
     # Classifiers ref: https://pypi.org/classifiers/
     classifiers=[

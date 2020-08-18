@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from my_logger import logger
+from commonutils import logger
 
 
 def main():

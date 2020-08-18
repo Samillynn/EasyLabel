@@ -7,7 +7,7 @@ from collections import abc
 from orderedset import OrderedSet
 from typing import List, Dict, Tuple, Set, Iterable, Union
 
-from commonutils import logger
+from .commonutils import logger
 from markkk.pyutils.check_text_encoding import ensure_no_zh_punctuation
 
 
