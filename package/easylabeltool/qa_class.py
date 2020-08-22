@@ -48,12 +48,12 @@ class QASet:
         self._subtype: str = subtype
 
         if isinstance(qns, str):
-            qns: str = ensure_no_zh_punctuation(qns)
+            qns: str = ensure_no_zh_punctuation(qns.strip())
             self.qns: List[str] = [qns]
         elif isinstance(qns, abc.Sequence):
             qns_lst = []
             for qn in qns:
-                qn = ensure_no_zh_punctuation(qn)
+                qn = ensure_no_zh_punctuation(qn.strip())
                 qns_lst.append(qn)
             self.qns: List[str] = qns_lst
         else:
