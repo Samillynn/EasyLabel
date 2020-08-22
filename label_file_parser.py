@@ -34,7 +34,25 @@ def qa_section_parser(
     option_lst: List = []  # store parsed options
     correct_ans: Set = set()  # store correct answer in complete sentence
     ans_indexes: Set = set()  # store correct answer index
-    qu_identifier_list = ["?", "Are", "Is", "How", "Will", "Judging", "What", "Was", "Did", "Would", "Could", "Which", "Were", "Can", "Do", "Does", "Why"]
+    qu_identifier_list = [
+        "?",
+        "Are",
+        "Is",
+        "How",
+        "Will",
+        "Judging",
+        "What",
+        "Was",
+        "Did",
+        "Would",
+        "Could",
+        "Which",
+        "Were",
+        "Can",
+        "Do",
+        "Does",
+        "Why",
+    ]
 
     for line in qa_section:
         line: str
@@ -103,10 +121,13 @@ def qa_section_parser(
                         ans_indexes.add(ans_map[char])
 
         else:
-            if not q_sub_id and "?" in line: # not using identifier here to flag missing "?" error
+            if not q_sub_id and "?" in line:
+                # not using identifier here to flag missing "?" error
                 # non-empty line with a question mark, this should be the question line
                 q_body = line.strip()
-            elif q_sub_id and any(identifier in line for identifier in qu_identifier_list):
+            elif q_sub_id and any(
+                identifier in line for identifier in qu_identifier_list
+            ):
                 # something is wrong
                 _is_valid = False
                 logger.error(
