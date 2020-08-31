@@ -103,7 +103,7 @@ def migrate_2():
         if file[-4:] != ".mov":
             continue
         new_name = "j_" + file.lower()[5:]
-        video_filepath: Path = folder_path / file
+        video_filepath: Path = joe_video_folder / file
         dst_path: Path = destination_folder / new_name
         logger.debug(f"{video_filepath} -> {dst_path}")
         shutil.copy2(video_filepath, dst_path)
