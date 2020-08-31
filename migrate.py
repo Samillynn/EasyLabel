@@ -102,7 +102,7 @@ def migrate_2():
     for file in os.listdir(joe_video_folder):
         if file[-4:] != ".mov":
             continue
-        new_name = "j_" + file.lower()[5:]
+        new_name = "j_" + file.lower()[4:]
         video_filepath: Path = joe_video_folder / file
         dst_path: Path = destination_folder / new_name
         logger.debug(f"{video_filepath} -> {dst_path}")
