@@ -72,16 +72,19 @@ def migrate_1():
 
 
 def convert_joe_vids_to_mp4():
-    joe_video_folder = Path("/home/UROP/data_urop/unlabelled/joe")
+    joe_video_folder = Path(
+        "/home/UROP/data_urop/Video_Folders_local/joe_videos/traffic_videos"
+    )
+    destination_folder = Path("/home/UROP/data_urop/unlabelled")
     assert joe_video_folder.is_dir()
 
     for file in os.listdir(joe_video_folder):
         if file[-4:] != ".mov":
             continue
 
-        new_name = file[-4:] + ".mp4"
+        new_name = "j_" + file.lower()[4:-4] + ".mp4"
         file_in = str(joe_video_folder / file)
-        file_out = str(joe_video_folder.parent / new_name)
+        file_out = str(destination_folder / new_name)
         logger.debug(f"{file_in} -> {file_out}")
 
         subprocess.run(
@@ -117,6 +120,5 @@ def run_stats():
 
 
 if __name__ == "__main__":
-    migrate_2()
     convert_joe_vids_to_mp4()
     run_stats()
