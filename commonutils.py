@@ -65,7 +65,22 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
     total_num_of_words_in_qn_body = 0
     total_num_qns = 0
     total_num_ops = 0
-    num_ops_per_qn_map: Dict = {}
+    num_ops_per_qn_map: Dict = {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+    }
     num_word_per_qn_body_map: Dict = {}
     q_type_count_map: Dict = {}
     q_body_count_map: Dict = {}
@@ -103,13 +118,13 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
                 else:
                     q_body_count_map[q_body] = 1
 
-                num_ops = len(qa_section.get("option_lst"))
+                num_ops = str(len(qa_section.get("option_lst")))
                 if num_ops in num_ops_per_qn_map:
                     num_ops_per_qn_map[num_ops] += 1
                 else:
                     num_ops_per_qn_map[num_ops] = 1
 
-                total_num_ops += num_ops
+                total_num_ops += int(num_ops)
 
     # derived values
     num_video_labelled = num_video_sections - num_video_ignore
@@ -145,7 +160,7 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
         # "total_num_ops": total_num_ops,
         "Average Num of questions per video        ": average_num_qns_per_video,
         "Average Num of options per question       ": average_num_ops_per_qn,
-        "Number of options per question distribute ": num_ops_per_qn_map,
+        "Number of options per question dist       ": num_ops_per_qn_map,
         "Average Num of characters per question    ": average_num_chars_per_qn,
         "Average Num of words per question         ": average_num_words_per_qn,
         "Number of question types                  ": num_of_q_type,
