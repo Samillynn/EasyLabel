@@ -2,29 +2,7 @@ import os
 from pathlib import Path
 from typing import List, Dict, Set, Tuple
 
-import colorlog
-
-handler = colorlog.StreamHandler()
-handler.setFormatter(
-    colorlog.ColoredFormatter(
-        "%(log_color)s%(levelname)-8s%(reset)s %(log_color)s%(message)s",
-        datefmt=None,
-        reset=True,
-        log_colors={
-            "DEBUG": "green",
-            "INFO": "green",
-            "WARNING": "yellow",
-            "ERROR": "red",
-            "CRITICAL": "red,bg_white",
-        },
-        secondary_log_colors={},
-        style="%",
-    )
-)
-
-logger = colorlog.getLogger()
-logger.addHandler(handler)
-logger.setLevel("DEBUG")
+from markkk.logger import logger
 
 ans_map: Dict[str, int] = {
     "A": 0,
@@ -87,6 +65,23 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
     total_num_of_words_in_qn_body = 0
     total_num_qns = 0
     total_num_ops = 0
+    num_ops_per_qn_map: Dict = {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+    }
+    num_word_per_qn_body_map: Dict = {}
     q_type_count_map: Dict = {}
     q_body_count_map: Dict = {}
 
@@ -111,13 +106,25 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
 
                 q_body = qa_section.get("q_body")
                 total_num_of_chars_in_qn_body += len(q_body)
-                total_num_of_words_in_qn_body += len(q_body.split())
+
+                num_of_words_in_qn_body = len(q_body.split())
+                if num_of_words_in_qn_body in num_word_per_qn_body_map:
+                    num_word_per_qn_body_map[num_of_words_in_qn_body] += 1
+                else:
+                    num_word_per_qn_body_map[num_of_words_in_qn_body] = 1
+                total_num_of_words_in_qn_body += num_of_words_in_qn_body
                 if q_body in q_body_count_map:
                     q_body_count_map[q_body] += 1
                 else:
                     q_body_count_map[q_body] = 1
 
-                total_num_ops += len(qa_section.get("option_lst"))
+                num_ops = str(len(qa_section.get("option_lst")))
+                if num_ops in num_ops_per_qn_map:
+                    num_ops_per_qn_map[num_ops] += 1
+                else:
+                    num_ops_per_qn_map[num_ops] = 1
+
+                total_num_ops += int(num_ops)
 
     # derived values
     num_video_labelled = num_video_sections - num_video_ignore
@@ -153,6 +160,7 @@ def get_stat(qa_label_lst: List[Dict]) -> Dict:
         # "total_num_ops": total_num_ops,
         "Average Num of questions per video        ": average_num_qns_per_video,
         "Average Num of options per question       ": average_num_ops_per_qn,
+        "Number of options per question dist       ": num_ops_per_qn_map,
         "Average Num of characters per question    ": average_num_chars_per_qn,
         "Average Num of words per question         ": average_num_words_per_qn,
         "Number of question types                  ": num_of_q_type,
