@@ -222,9 +222,14 @@ def vid_section_parser(
     vid_info_section: List = vid_section[: qa_section_indexes[0]]
     # temporary data store
     filename = None
+    vid_length = None
     perspective = None
     re_trim_ts = None
     critical_ts = None
+    critical_type = None
+    contains_p_type = False
+    contains_r_type = False
+
     for line in vid_info_section:
         if line.startswith("!~~~~~~~~~~~~~~~~"):
             v_ignore = True
@@ -245,6 +250,12 @@ def vid_section_parser(
             else:
                 print()
                 logger.debug(f"Checking video section: {filename} >>>>")
+        elif line.startswith("<LENGTH>"):
+            vid_length = line.strip("<LENGTH>s ")
+            try:
+                vid_length = float(vid_length)
+            except:
+                logger.warning("Failed to get video length value")
         elif line.startswith("<PERSPECTIVE>"):
             perspective = get_value(line)
             if perspective:
@@ -280,7 +291,7 @@ def vid_section_parser(
                         )
                         start_ts = None
 
-                # validate start time
+                # validate end time
                 if end_ts == "END_TS":
                     end_ts = "END"
                 elif end_ts:
@@ -288,6 +299,8 @@ def vid_section_parser(
                         _is_valid = False
                         logger.error(f"Invalid END_TS Format for <RE_TRIM>: {end_ts}")
                         end_ts = None
+
+                re_trim_ts = [start_ts, end_ts]
 
         elif line.startswith("<CRITICAL_POINT>"):
             critical_ts = get_value(line)
@@ -315,16 +328,38 @@ def vid_section_parser(
             qa_section_data, valid_qa_section = qa_section_parser(
                 qa_section, local_qa_pool=local_qa_pool
             )
+            if not qa_section_data["q_ignore"]:
+                if qa_section_data["q_type"] == "Predictive":
+                    contains_p_type = True
+                elif qa_section_data["q_type"] == "Reverse Inference":
+                    contains_r_type = True
             qa_list.append(qa_section_data)
             if not valid_qa_section:
                 _is_valid = False
 
+    if contains_p_type and contains_r_type:
+        logger.error(
+            "'Predictive' and 'Reverse Inference' cannot co-exist for a video."
+        )
+        _is_valid = False
+
+    if contains_p_type or contains_r_type:
+        if not critical_ts:
+            logger.error("Missing CRITICAL_POINT.")
+            _is_valid = False
+        if contains_p_type:
+            critical_type = "p"
+        else:
+            critical_type = "r"
+
     vid_section_data: Dict = {
         "v_ignore": v_ignore,
         "filename": filename,
+        "vid_length": vid_length,
         "perspective": perspective,
         "re_trim_ts": re_trim_ts,
         "critical_ts": critical_ts,
+        "critical_type": critical_type,
         "qa_list": qa_list,
     }
 
