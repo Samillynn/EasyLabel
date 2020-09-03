@@ -2,7 +2,7 @@ from setuptools import setup, find_packages, find_namespace_packages
 
 MAJOR = 0
 MINOR = 2
-MICRO = 3
+MICRO = 5
 VERSION = "%d.%d.%d" % (MAJOR, MINOR, MICRO)
 
 with open("README.md", "r") as f:

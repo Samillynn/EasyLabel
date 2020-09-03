@@ -5,7 +5,7 @@ from typing import List, Dict, Set, Tuple
 from commonutils import *
 from label_file_parser import parse_qa_label_txt
 
-BASE_DIR = Path("/Volumes/T5-HFS+/UROP/Label_Files")
+BASE_DIR = Path("/Users/mark/Downloads/Label_Files")
 
 
 def main():

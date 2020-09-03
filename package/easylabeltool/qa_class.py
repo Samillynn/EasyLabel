@@ -40,7 +40,7 @@ class QASet:
             )
         self._id: int = id
 
-        type = type.strip().capitalize()
+        type = type.strip().title()
         if type in self.supported_types:
             self._type: str = type
 
