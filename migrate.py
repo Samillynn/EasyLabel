@@ -33,7 +33,7 @@ def safe_copy(src, dest):
 
 def migrate_from_drive_to_local():
     base_path = Path("/home/UROP/data_urop/Video_Folders_local/Trimmed_All_Videos")
-    destination_folder = Path("/home/UROP/data_urop/all_video_local")
+    destination_folder = Path("/home/UROP/data_urop/all_videod_local")
     assert base_path.is_dir()
     assert destination_folder.is_dir()
     migration_list = []
@@ -47,15 +47,16 @@ def migrate_from_drive_to_local():
         logger.debug(folder)
 
         if folder.startswith("bilibili_"):
-            folder_num = int(folder[-3:])
-            if folder_num <= 80:
-                continue
+            # folder_num = int(folder[-3:])
+            # if folder_num <= 80:
+            #     continue
 
             folder_path = base_path / folder
             assert folder_path.is_dir()
 
             for file in os.listdir(folder_path):
                 if file[-4:] != ".mp4":
+                    logger.info(f"Skip {file}")
                     continue
                 new_name = "b_" + file
                 video_filepath: Path = folder_path / file
@@ -64,15 +65,16 @@ def migrate_from_drive_to_local():
                 migration_list.append([video_filepath, dst_path])
 
         elif folder.startswith("youtube_"):
-            folder_num = int(folder[-3:])
-            if folder_num <= 10:
-                continue
+            # folder_num = int(folder[-3:])
+            # if folder_num <= 10:
+            #     continue
 
             folder_path = base_path / folder
             assert folder_path.is_dir()
 
             for file in os.listdir(folder_path):
                 if file[-4:] != ".mp4":
+                    logger.info(f"Skip {file}")
                     continue
                 new_name = "y_" + file
                 video_filepath: Path = folder_path / file
@@ -86,6 +88,7 @@ def migrate_from_drive_to_local():
 
             for file in os.listdir(folder_path):
                 if file[-4:] != ".mp4":
+                    logger.info(f"Skip {file}")
                     continue
                 new_name = ""
                 for i in file.lower():
@@ -102,6 +105,14 @@ def migrate_from_drive_to_local():
                 migration_list.append([video_filepath, dst_path])
 
     logger.debug(f"Number of file to copy: {len(migration_list)}")
+    proceed = input("Proceed? (y/n)")
+    if proceed != "y":
+        logger.warning("Abort")
+        return
+    logger.debug(json.dumps(migration_list, indent=4))
+    if proceed != "y":
+        logger.warning("Abort")
+        return
     pool = multiprocessing.Pool()
     result = pool.map(call_safe_copy, migration_list)
     print(list(result))
