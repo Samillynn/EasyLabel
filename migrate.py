@@ -25,7 +25,8 @@ def safe_copy(src, dest):
         )
         return
     try:
-        subprocess.run(f"cp {str(src)} {str(dest)}")
+        # subprocess.run(["cp", str(src), str(dest)])
+        shutil.copy2(src, dest)
         logger.debug(f"'{src}' has been copied to '{dest}'")
     except Exception as err:
         logger.error(f"Copy operation failed, reason: {err}")
