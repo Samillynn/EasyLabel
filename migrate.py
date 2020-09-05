@@ -33,7 +33,7 @@ def safe_copy(src, dest):
 
 def migrate_from_drive_to_local():
     base_path = Path("/home/UROP/data_urop/Video_Folders_local/Trimmed_All_Videos")
-    destination_folder = Path("/home/UROP/data_urop/all_videod_local")
+    destination_folder = Path("/home/UROP/data_urop/all_videos_local")
     assert base_path.is_dir()
     assert destination_folder.is_dir()
     migration_list = []
