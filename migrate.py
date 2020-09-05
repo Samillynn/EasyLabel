@@ -62,7 +62,7 @@ def migrate_from_drive_to_local():
                 video_filepath: Path = folder_path / file
                 dst_path: Path = destination_folder / new_name
                 logger.debug(f"{video_filepath} -> {dst_path}")
-                migration_list.append([video_filepath, dst_path])
+                migration_list.append([str(video_filepath), str(dst_path)])
 
         elif folder.startswith("youtube_"):
             # folder_num = int(folder[-3:])
@@ -80,7 +80,7 @@ def migrate_from_drive_to_local():
                 video_filepath: Path = folder_path / file
                 dst_path: Path = destination_folder / new_name
                 logger.debug(f"{video_filepath} -> {dst_path}")
-                migration_list.append([video_filepath, dst_path])
+                migration_list.append([str(video_filepath), str(dst_path)])
 
         elif folder.endswith("yutian"):
             folder_path = base_path / folder
@@ -102,7 +102,7 @@ def migrate_from_drive_to_local():
                 video_filepath: Path = folder_path / file
                 dst_path: Path = destination_folder / new_name
                 logger.debug(f"{video_filepath} -> {dst_path}")
-                migration_list.append([video_filepath, dst_path])
+                migration_list.append([str(video_filepath), str(dst_path)])
 
     logger.debug(f"Number of file to copy: {len(migration_list)}")
     proceed = input("Proceed? (y/n)")
@@ -116,7 +116,6 @@ def migrate_from_drive_to_local():
         return
     pool = multiprocessing.Pool()
     result = pool.map(call_safe_copy, migration_list)
-    print(list(result))
 
 
 def migrate_1():
