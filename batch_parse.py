@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Dict, Set, Tuple
 
 from commonutils import *
-from label_file_parser import parse_qa_label_txt
+from label_file_parser2 import parse_qa_label_txt
 
 BASE_DIR = Path("/Users/mark/Downloads/Label_Files")
 
