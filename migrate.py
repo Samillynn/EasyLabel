@@ -5,6 +5,7 @@ import subprocess
 from pathlib import Path
 import multiprocessing
 from markkk.logger import logger
+from typing import List, Dict, Tuple
 
 
 def call_safe_copy(job: List):
