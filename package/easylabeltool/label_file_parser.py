@@ -306,6 +306,8 @@ def vid_section_parser(
             critical_ts = get_value(line)
             if critical_ts == "TS":
                 critical_ts = None
+            elif critical_ts == "END":
+                critical_ts = "END"
             else:
                 if not valid_time_format(critical_ts):
                     _is_valid = False
