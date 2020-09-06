@@ -32,6 +32,44 @@ def safe_copy(src, dest):
         logger.error(f"Copy operation failed, reason: {err}")
 
 
+def migrate_from_unlabelled_to_local():
+    base_path = Path("/home/UROP/data_urop/unlabelled")
+    destination_folder = Path("/home/UROP/data_urop/all_videos_local")
+    assert base_path.is_dir()
+    assert destination_folder.is_dir()
+    migration_list = []
+
+    for video in os.listdir(base_path):
+        video_path = base_path / video
+        if not video_path.is_file():
+            logger.info(f"Unexpected")
+            return
+
+        if video_path[-4:] != ".mp4":
+            logger.info(f"Skip {video_path}")
+            continue
+
+        target_path = destination_folder / video
+        if target_path.is_file():
+            logger.info(f"{target_path} already exist")
+        else:
+            logger.debug(f"{video_path} -> {target_path}")
+            migration_list.append([str(video_path), str(target_path)])
+
+    logger.debug(f"Number of file to copy: {len(migration_list)}")
+    proceed = input("Proceed? (y/n)")
+    if proceed != "y":
+        logger.warning("Abort")
+        return
+    logger.debug(json.dumps(migration_list, indent=4))
+    proceed = input("Proceed? (y/n)")
+    if proceed != "y":
+        logger.warning("Abort")
+        return
+    pool = multiprocessing.Pool()
+    result = pool.map(call_safe_copy, migration_list)
+
+
 def migrate_from_drive_to_local():
     base_path = Path("/home/UROP/shared_drive/Video_Folders/Trimmed_All_Videos")
     destination_folder = Path("/home/UROP/data_urop/all_videos_local")
@@ -278,4 +316,5 @@ if __name__ == "__main__":
     # convert_joe_vids_to_mp4()
     # run_stats()
     # migrate_3()
-    migrate_from_drive_to_local()
+    # migrate_from_drive_to_local()
+    migrate_from_unlabelled_to_local()
