@@ -6,6 +6,8 @@ from typing import List, Dict, Set, Tuple
 from commonutils import *
 from qa_class import QASet, QASetPool, get_qa_pool_from_json
 
+platform_prefix = ""
+
 
 def get_value(line: str) -> str:
     if not isinstance(line, str):
@@ -208,13 +210,15 @@ def valid_time_format(time_string: str) -> bool:
 def vid_section_parser(
     vid_section: List, local_qa_pool: QASetPool = None
 ) -> Tuple[Dict, bool]:
+    global platform_prefix
+
     _is_valid = True
     v_ignore = False
     # traverse thru vid_section line by line
     # and store the indexes where qa_sections starts
     qa_section_indexes = []
     for index, line in enumerate(vid_section):
-        if line.startswith("-------"):
+        if "-------" in line:
             qa_section_indexes.append(index)
 
     ### Parsing of video info
@@ -354,6 +358,12 @@ def vid_section_parser(
         else:
             critical_type = "r"
 
+    if filename:
+        if platform_prefix:
+            filename = platform_prefix + filename
+    else:
+        logger.error("Missing video filename.")
+
     vid_section_data: Dict = {
         "v_ignore": v_ignore,
         "filename": filename,
@@ -373,6 +383,22 @@ def parse_qa_label_txt(
 ) -> List[Dict]:
     """Entry point of parsing of txt file"""
     label_file_is_valid = True
+
+    global platform_prefix
+
+    if str(txt_fp.stem).startswith("bilibili"):
+        platform_prefix = "b_"
+    elif str(txt_fp.stem).startswith("youtube"):
+        platform_prefix = "y_"
+    elif str(txt_fp.stem).startswith("unlabelled"):
+        platform_prefix = ""
+    else:
+        logger.error(f"Unexpected file name: {txt_fp}")
+        logger.error(
+            f"Please rename your label file to the Video Folder Name first before parsing it. (e.g. unlabelled_008, bilibili_020)"
+        )
+        return
+
     # store parsed result
     qa_label_lst: List[Dict] = []
     # ensure txt file path is valid
