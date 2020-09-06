@@ -45,7 +45,7 @@ def migrate_from_unlabelled_to_local():
             logger.info(f"Unexpected")
             return
 
-        if video_path[-4:] != ".mp4":
+        if str(video_path)[-4:] != ".mp4":
             logger.info(f"Skip {video_path}")
             continue
 
