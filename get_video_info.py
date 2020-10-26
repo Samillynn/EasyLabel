@@ -106,5 +106,7 @@ def generate_video_list(video_folder: str):
 
 
 if __name__ == "__main__":
-    single_video_path = "0PgyK_oW1Vg.mp4"
-    get_video_metadata(single_video_path)
+    # single_video_path = "0PgyK_oW1Vg.mp4"
+    # get_video_metadata(single_video_path)
+    VIDEO_FOLDER = "/data/urop/all_videos_final"
+    generate_video_list(VIDEO_FOLDER)
