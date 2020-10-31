@@ -1,5 +1,6 @@
 import os
 import json
+import random
 from pathlib import Path
 from typing import List, Dict, Set
 
@@ -9,22 +10,23 @@ from commonutils import *
 from commonutils import logger
 from qa_class import QASet, QASetPool, get_qa_pool_from_json
 
-# high frequency QASet pool
+# basic high frequency QASet pool
 QA_BANK_JSON_FILEPATH = "qa_bank/7_AUG_high.json"
-hf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
+bhf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 
-# low frequency QASet pool
+# basic low frequency QASet pool
 QA_BANK_JSON_FILEPATH = "qa_bank/7_AUG_low.json"
-lf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
+blf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 
+# advance high frequency QASet pool
+QA_BANK_JSON_FILEPATH = "qa_bank/dummy.json"   
+ahf_qa_pool: QASetPool = get_qa_pool_from_json(QA_BANK_JSON_FILEPATH)
 
 qa_section = """
 --------------------{{  }} # [1-6] or [d|e|p|r|c|i]
 <QASet_ID>: {{ None }}
 <ANS>: {{  }}
-
 """
-
 
 def auto_populated_qa_section(qa_pool: QASetPool, q_num: int, type=None) -> str:
     assert isinstance(qa_pool, QASetPool)
@@ -47,7 +49,10 @@ def auto_populated_qa_section(qa_pool: QASetPool, q_num: int, type=None) -> str:
 
 
 def template_video_section(filename: str, duration: str, dimension: str) -> str:
-    """ Generate the video section string."""
+    """ 
+    Generate the video section string for basic category
+    Including: 5 high-frequecy, 2 low-frequency, 3 blank sections
+    """
     vid_section = ""
     vid_section = f"~~~~~~~~~~~~~~~~~~~~ {filename} "
     vid_section += "~" * (80 - 22 - len(filename)) + "\n"
@@ -56,14 +61,44 @@ def template_video_section(filename: str, duration: str, dimension: str) -> str:
     vid_section += "<PERSPECTIVE>: {{  }}\n"
     vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}\n"
     vid_section += "<CRITICAL_POINT>: {{ TS }}\n\n"
-    vid_section += auto_populated_qa_section(qa_pool=hf_qa_pool, q_num=5)
-    vid_section += auto_populated_qa_section(qa_pool=lf_qa_pool, q_num=2)
+    vid_section += auto_populated_qa_section(qa_pool=bhf_qa_pool, q_num=5)
+    vid_section += auto_populated_qa_section(qa_pool=blf_qa_pool, q_num=2)
     vid_section += qa_section * 3
 
     return vid_section
 
+def adv_template_video_section(filename: str, duration: str, dimension: str) -> str:
+    """ 
+    Generate the video section string for advance category
+    Including: 5 high-frequency, 3 blank section
+    """  
+    adv_types = (        
+        "Predictive",
+        "Reverse Inference",
+        "Counterfactual",
+        "Introspection",
+        )
+    adv_type = random.choice(adv_types)
+    
+    vid_section = ""
+    vid_section = f"~~~~~~~~~~~~~~~~~~~~ {filename} "
+    vid_section += "~" * (80 - 22 - len(filename)) + "\n"
+    vid_section += f"<LENGTH> {duration}\n"
+    vid_section += f"<DIM> {dimension}\n\n"
+    vid_section += "<PERSPECTIVE>: {{  }}\n"
+    vid_section += "<RE_TRIM>: {{ START_TS, END_TS }}\n"
+    vid_section += "<CRITICAL_POINT>: {{ TS }}\n\n"
+    vid_section += auto_populated_qa_section(qa_pool=ahf_qa_pool, q_num=5, type=adv_type)
+    vid_section += qa_section * 3
 
-def generate_template(folder_path: str = None, metadata_lst_filepath: str = None):
+    return vid_section
+
+def generate_template(folder_path: str = None, metadata_lst_filepath: str = None, qu_type = "B"):
+    """
+    Generate the whole .txt template with 2 methods availble.
+    qu_type = "B" will generate basic questions using both its low and high frequency QABANK
+    qu_type = "A" will generate advance questions using only its high frequency QABANK
+    """
     if folder_path and metadata_lst_filepath:
         logger.error(
             "Extra Argument. You should supply either `folder_path` or `metadata_lst_filepath`, not both."
@@ -176,18 +211,31 @@ def generate_template(folder_path: str = None, metadata_lst_filepath: str = None
             )
             return
 
-    export_fp = Path(os.path.join(head, "qa_label_template.txt"))
-    export_fp: Path = bump_version(export_fp)
+    if qu_type == "B":
+        export_fp = Path(os.path.join(head, "qa_label_template.txt"))
+        export_fp: Path = bump_version(export_fp)
+    elif qu_type == "A":
+        export_fp = Path(os.path.join(head, "qa_label_template_advance.txt"))
+        export_fp: Path = bump_version(export_fp)   
 
     string_lst_to_write: List[str] = []
 
-    for video in vid_lst:
-        filename = video.get("filename")
-        duration = f"{video.get('duration', 'NA')}s"
-        dimension = f"(W){video.get('width', 'NA')} x (H){video.get('height', 'NA')}"
-        string_lst_to_write.append(
-            template_video_section(filename, duration, dimension)
-        )
+    if qu_type == "B":
+        for video in vid_lst:
+            filename = video.get("filename")
+            duration = f"{video.get('duration', 'NA')}s"
+            dimension = f"(W){video.get('width', 'NA')} x (H){video.get('height', 'NA')}"
+            string_lst_to_write.append(
+                template_video_section(filename, duration, dimension)
+            )
+    elif qu_type == "A":
+        for video in vid_lst:
+            filename = video.get("filename")
+            duration = f"{video.get('duration', 'NA')}s"
+            dimension = f"(W){video.get('width', 'NA')} x (H){video.get('height', 'NA')}"
+            string_lst_to_write.append(
+                adv_template_video_section(filename, duration, dimension)
+            ) 
 
     with export_fp.open(mode="w") as f:
         to_write = "\n\n".join(string_lst_to_write)
